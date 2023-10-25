@@ -3,6 +3,6 @@ import Image from 'next/image'
 
 export default function Home() {
   return (
-    <Button>test</Button>
+    <Button variant="ghost">Test</Button>
   )
 }
