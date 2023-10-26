@@ -38,7 +38,7 @@ export default function Navbar() {
             </DropdownMenuItem>
             <DropdownMenuItem className="group">
               <CalendarIcon className="mr-3 h-4 w-4 text-muted-foreground group-hover:text-accent-foreground" />
-              Palinsesto
+              Calendario lezioni
             </DropdownMenuItem>
             <DropdownMenuItem className="group">
               <ArchiveIcon className="mr-3 h-4 w-4 text-muted-foreground group-hover:text-accent-foreground" />

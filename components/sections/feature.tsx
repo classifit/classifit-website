@@ -5,6 +5,7 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import { Button } from "../ui/button";
+import { ArrowRightIcon } from "@radix-ui/react-icons";
 
 export default function Feature() {
   return (
@@ -15,38 +16,62 @@ export default function Feature() {
             <AccordionItem value="item-1">
               <AccordionTrigger>Prenotazioni</AccordionTrigger>
               <AccordionContent>
-              Corem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.
-              <Button variant="default" className="block mt-6">Scopri di più</Button>
+                Offri ai tuoi clienti la possibilità di prenotarsi alle lezioni
+                in completa autonomia attraverso un intuitivo e semplice sistema
+                di prenotazione. <br />
+                <Button variant="link" size="zero" className="mt-6">
+                  Scopri come <ArrowRightIcon className="ml-3 h-4 w-4" />
+                </Button>
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-2">
-              <AccordionTrigger>Palinsesto</AccordionTrigger>
+              <AccordionTrigger>Calendario lezioni</AccordionTrigger>
               <AccordionContent>
-              Corem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.
+                Pianifica le lezioni in programma nel tuo calendario personale
+                per garantire una giornata senza intoppi e massimizzare i tuoi
+                guadagni. <br />
+                <Button variant="link" size="zero" className="mt-6">
+                  Scopri come <ArrowRightIcon className="ml-3 h-4 w-4" />
+                </Button>
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-3">
               <AccordionTrigger>Pacchetti a crediti</AccordionTrigger>
               <AccordionContent>
-              Corem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.
+                Monitora con facilità tutti i pacchetti acquistati e tieni
+                traccia del saldo residuo di crediti e della data di scadenza
+                per ciascun cliente. <br />
+                <Button variant="link" size="zero" className="mt-6">
+                  Scopri come <ArrowRightIcon className="ml-3 h-4 w-4" />
+                </Button>
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-4">
               <AccordionTrigger>Sito su misura</AccordionTrigger>
               <AccordionContent>
-              Corem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.
+                Potenzia la tua presenza online e distingui il tuo marchio con
+                un sito web bello e funzionale, su misura per l'identità del tuo
+                studio. <br />
+                <Button variant="link" size="zero" className="mt-6">
+                  Scopri come <ArrowRightIcon className="ml-3 h-4 w-4" />
+                </Button>
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-5">
               <AccordionTrigger>Servizi aggiuntivi</AccordionTrigger>
               <AccordionContent>
-              Corem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.
+                Branding, Graphic Design, Social Media Marketing, materiali
+                promozionali: creiamo insieme tutto il necessario per il
+                successo del tuo studio. <br />
+                <Button variant="link" size="zero" className="mt-6">
+                  Scopri come <ArrowRightIcon className="ml-3 h-4 w-4" />
+                </Button>
               </AccordionContent>
             </AccordionItem>
           </Accordion>
         </div>
         <div className="w-1/2">
-            <div className="bg-secondary h-full w-1/2 absolute top-0 right-0" />
+          <div className="bg-secondary h-full w-1/2 absolute top-0 right-0" />
         </div>
       </div>
     </div>

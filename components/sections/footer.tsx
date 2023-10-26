@@ -23,7 +23,7 @@ export default function Footer() {
           <div className="flex flex-col gap-6">
             <p className="text-sm">Servizi</p>
             <MenuItem link="#" text="Prenotazioni" />
-            <MenuItem link="#" text="Palinsesto" />
+            <MenuItem link="#" text="Calendario lezioni" />
             <MenuItem link="#" text="Pacchetti a crediti" />
             <MenuItem link="#" text="Sito su misura" />
             <MenuItem link="#" text="Servizi aggiuntivi" />

@@ -16,7 +16,7 @@ export default function About() {
             che si incontrano e - quasi inevitabilmente - decidono di creare
             qualcosa insieme. Forti della nostra esperienza lavorativa nel
             settore, il nostro obiettivo principale è portare valore,
-            competenza, qualità e semplicità in ogni studio di pilates con cui
+            competenza, qualità e semplicità in ogni studio con cui
             abbiamo l’onore di collaborare.
           </p>
           <div className="py-10" />
