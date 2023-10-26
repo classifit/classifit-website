@@ -1,3 +1,4 @@
+import About from '@/components/sections/about'
 import Feature from '@/components/sections/feature'
 import Hero from '@/components/sections/hero'
 import Navbar from '@/components/sections/navbar'
@@ -14,6 +15,7 @@ export default function Home() {
     <Feature />
     <Packages />
     <Portfolio cta={true} />
+    <About />
     </>
   )
 }
