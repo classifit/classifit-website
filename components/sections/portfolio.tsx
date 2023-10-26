@@ -7,7 +7,14 @@ type Props = {
 };
 
 export default function Portfolio(props: Props) {
-  const images = ["/guarantee.svg", "/next.svg"];
+  const images = [
+    "/portfolio/sito-web-pilates-1.png",
+    "/portfolio/sito-web-pilates-2.png",
+    "/portfolio/sito-web-pilates-3.png",
+    "/portfolio/sito-web-pilates-4.png",
+    "/portfolio/sito-web-pilates-5.png",
+    "/portfolio/sito-web-pilates-6.png",
+  ];
   return (
     <div className="bg-light text-light-foreground">
       <section className="text-center">
@@ -19,13 +26,18 @@ export default function Portfolio(props: Props) {
             <ArrowRightIcon className="ml-3 h-4 w-4" />
           </Button>
         )}
-        <div className="py-20" />
-        <div className="flex flex-wrap gap-4">
-            {images.map((img) => (
-                <div className="w-1/3" key={img}>
-                    <Image src={img} height="1350" width="1080" alt="Progetto di Classifit" />
-                </div>
-            ))}
+        <div className="py-10" />
+        <div className="grid grid-cols-12 gap-4">
+          {images.map((img) => (
+            <div className="col-span-4" key={img}>
+              <Image
+                src={img}
+                height="1350"
+                width="1080"
+                alt="Classifit - Sito Web per uno studio di Pilates"
+              />
+            </div>
+          ))}
         </div>
       </section>
     </div>
