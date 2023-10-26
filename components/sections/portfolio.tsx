@@ -19,7 +19,7 @@ export default function Portfolio(props: Props) {
             <ArrowRightIcon className="ml-3 h-4 w-4" />
           </Button>
         )}
-        <div className="py-10" />
+        <div className="py-20" />
         <div className="flex flex-wrap gap-4">
             {images.map((img) => (
                 <div className="w-1/3">
