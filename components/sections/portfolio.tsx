@@ -22,7 +22,7 @@ export default function Portfolio(props: Props) {
         <div className="py-20" />
         <div className="flex flex-wrap gap-4">
             {images.map((img) => (
-                <div className="w-1/3">
+                <div className="w-1/3" key={img}>
                     <Image src={img} height="1350" width="1080" alt="Progetto di Classifit" />
                 </div>
             ))}
