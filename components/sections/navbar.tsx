@@ -55,6 +55,21 @@ export default function Navbar() {
           </DropdownMenuContent>
         </DropdownMenu>
         <MenuItem text="Studi" link="#" />
+        <DropdownMenu>
+          <DropdownMenuTrigger className="opacity-60 hover:opacity-100 text-sm">
+            Risorse
+          </DropdownMenuTrigger>
+          <DropdownMenuContent className="mt-1">
+            <DropdownMenuItem className="group">
+              <TimerIcon className="mr-3 h-4 w-4 text-muted-foreground group-hover:text-accent-foreground" />
+              Blog
+            </DropdownMenuItem>
+            <DropdownMenuItem className="group">
+              <CalendarIcon className="mr-3 h-4 w-4 text-muted-foreground group-hover:text-accent-foreground" />
+              Roadmap
+            </DropdownMenuItem>
+          </DropdownMenuContent>
+        </DropdownMenu>
         <MenuItem text="Aiuto" link="#" />
         <MenuItem text="@app.classi.fit" link="#" />
       </div>

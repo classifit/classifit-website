@@ -98,4 +98,7 @@
   p {
     @apply text-lg
   }
+  section {
+    @apply px-12 py-36 max-w-[1280px] mx-auto
+  }
 }
