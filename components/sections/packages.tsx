@@ -1,3 +1,4 @@
+import Image from "next/image";
 import PackageCard from "../ui/package-card";
 
 export default function Packages() {
@@ -54,6 +55,27 @@ export default function Packages() {
               bgColor="bg-light"
               textColor="text-light-foreground"
               mutedColor="text-muted-foreground"
+            />
+          </div>
+        </div>
+        <div className="flex items-center justify-between mt-36">
+          <div className="w-3/5">
+            <h1 className="font-medium">La nostra garanzia ci rende unici</h1>
+            <div className="py-4" />
+            <p className="text-white/60">
+              Siamo talmente sicuri del nostro servizio che siamo gli unici in
+              Italia ad offrire una garanzia di rimborso totale. Nel migliore
+              dei casi porti il tuo studio al livello superiore, nel peggiore
+              non hai perso nulla. Nessun rischio.
+            </p>
+          </div>
+          <div className="w-2/5">
+            <Image
+              src="/guarantee.svg"
+              width="194"
+              height="92"
+              alt="I nostri servizi hanno una garanzia del 100% di rimborso se non soddisfatti del servizio"
+              className="ml-auto"
             />
           </div>
         </div>
