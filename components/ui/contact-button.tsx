@@ -1,6 +1,6 @@
 export default function ContactButton() {
   return (
-    <div className="fixed bottom-8 left-8">
+    <div className="fixed bottom-6 left-6 z-50">
       <svg
         width="102"
         height="102"
