@@ -32,8 +32,8 @@ export default function Packages() {
               ]}
               additions={[
                 "+ Calendario lezioni pubblico",
-                "+Sistema di prenotazione",
-                "+Servizi aggiuntivi a scelta",
+                "+ Sistema di prenotazione",
+                "+ Servizi aggiuntivi a scelta",
               ]}
               bgColor="bg-primary"
               textColor="text-primary-foreground"
@@ -58,18 +58,18 @@ export default function Packages() {
             />
           </div>
         </div>
-        <div className="flex items-center justify-between mt-36">
-          <div className="w-3/5">
+        <div className="flex items-center justify-between mt-36 gap-12">
+          <div className="w-4/5">
             <h1 className="font-medium">La nostra garanzia ci rende unici</h1>
-            <div className="py-4" />
+            <div className="py-2" />
             <p className="text-white/60">
               Siamo talmente sicuri del nostro servizio che siamo gli unici in
               Italia ad offrire una garanzia di rimborso totale. Nel migliore
               dei casi porti il tuo studio al livello superiore, nel peggiore
-              non hai perso nulla. Nessun rischio.
+              non hai perso nulla.
             </p>
           </div>
-          <div className="w-2/5">
+          <div className="w-1/5">
             <Image
               src="/guarantee.svg"
               width="194"
