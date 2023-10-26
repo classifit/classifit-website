@@ -50,7 +50,7 @@ export default function Feature() {
               <AccordionTrigger>Sito su misura</AccordionTrigger>
               <AccordionContent>
                 Potenzia la tua presenza online e distingui il tuo marchio con
-                un sito web bello e funzionale, su misura per l'identità del tuo
+                un sito web bello e funzionale, su misura per l&apos;identità del tuo
                 studio. <br />
                 <Button variant="link" size="zero" className="mt-6">
                   Scopri come <ArrowRightIcon className="ml-3 h-4 w-4" />
