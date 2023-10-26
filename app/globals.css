@@ -101,4 +101,7 @@
   section {
     @apply px-12 py-36 max-w-[1280px] mx-auto
   }
+  ::selection {
+    @apply bg-ring text-dark
+  }
 }
