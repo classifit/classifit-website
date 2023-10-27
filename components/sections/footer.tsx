@@ -30,7 +30,7 @@ export default function Footer() {
           </div>
           <div className="flex flex-col gap-6">
             <p className="text-sm">Risorse</p>
-            <Link className="menu-link" href="#">Blog</Link>
+            <Link className="menu-link" href="/blog">Blog</Link>
             <Link className="menu-link" href="#">Roadmap</Link>
           </div>
           <div className="flex flex-col gap-6">

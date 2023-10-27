@@ -20,7 +20,10 @@ export default function Navbar() {
   return (
     <nav className="flex items-center justify-between max-w-[1280px] px-12 py-6 bg-primary mx-auto">
       <div className="flex items-center gap-12">
-        <Link href="/" className="hover:opacity-80 transition-opacity duration-200 ease-in-out">
+        <Link
+          href="/"
+          className="hover:opacity-80 transition-opacity duration-200 ease-in-out"
+        >
           <Image
             src="/classifit.svg"
             width="101"
@@ -74,10 +77,12 @@ export default function Navbar() {
             Risorse
           </DropdownMenuTrigger>
           <DropdownMenuContent className="mt-1">
-            <DropdownMenuItem className="group">
-              <TimerIcon className="mr-3 h-4 w-4 text-muted-foreground group-hover:text-accent-foreground" />
-              Blog
-            </DropdownMenuItem>
+            <Link href="/blog">
+              <DropdownMenuItem className="group cursor-pointer">
+                <TimerIcon className="mr-3 h-4 w-4 text-muted-foreground group-hover:text-accent-foreground" />
+                Blog
+              </DropdownMenuItem>
+            </Link>
             <DropdownMenuItem className="group">
               <CalendarIcon className="mr-3 h-4 w-4 text-muted-foreground group-hover:text-accent-foreground" />
               Roadmap
