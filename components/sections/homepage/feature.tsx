@@ -13,7 +13,7 @@ export default function Feature() {
     <div className="bg-light text-light-foreground relative">
       <div className="flex max-w-[1280px] px-12 py-[200px] mx-auto gap-72">
         <div className="w-1/2">
-          <Accordion type="single" collapsible>
+          <Accordion type="single" collapsible defaultValue="item-1">
             <AccordionItem value="item-1">
               <AccordionTrigger>Prenotazioni</AccordionTrigger>
               <AccordionContent>
