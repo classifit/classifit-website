@@ -14,7 +14,7 @@ export default function Paragraph(props: Props) {
   return (
     <div className="bg-light text-light-foreground">
       <section>
-        <div className="flex justify-between gap-48">
+        <div className="flex justify-between gap-32">
           <div className="flex flex-col gap-4 w-1/2">
             {props.subtitle && (
               <div className="uppercase text-muted-foreground text-sm">

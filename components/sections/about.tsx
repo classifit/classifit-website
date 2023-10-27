@@ -1,7 +1,12 @@
 import Image from "next/image";
 import { Button } from "../ui/button";
 
-export default function About() {
+type Props = {
+  title: string
+  body: string
+}
+
+export default function About(props: Props) {
   return (
     <div className="bg-card text-dark relative">
       <div className="flex max-w-[1280px] px-12 py-[200px] mx-auto gap-60">
@@ -16,15 +21,10 @@ export default function About() {
           </div>
         </div>
         <div className="w-1/2">
-          <h1 className="font-medium">È un piacere conoscerti</h1>
+          <h1 className="font-medium">{props.title}</h1>
           <div className="py-4" />
           <p className="text-muted-foreground">
-            Siamo Federico e Chiara. Uno sviluppatore e una designer di Brescia
-            che si incontrano e - quasi inevitabilmente - decidono di creare
-            qualcosa insieme. Forti della nostra esperienza lavorativa nel
-            settore, il nostro obiettivo principale è portare valore,
-            competenza, qualità e semplicità in ogni studio con cui abbiamo
-            l’onore di collaborare.
+            {props.body}
           </p>
           <div className="py-10" />
           <Button variant="link" size="zero" className="block">
