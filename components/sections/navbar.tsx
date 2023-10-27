@@ -15,6 +15,8 @@ import {
   StarIcon,
   ArrowRightIcon,
   ChevronDownIcon,
+  Pencil2Icon,
+  RocketIcon,
 } from "@radix-ui/react-icons";
 import { Button } from "../ui/button";
 import Link from "next/link";
@@ -108,13 +110,13 @@ export default function Navbar() {
           <DropdownMenuContent className="mt-1">
             <Link href="/blog">
               <DropdownMenuItem className="group cursor-pointer">
-                <TimerIcon className="mr-3 h-4 w-4 text-muted-foreground group-hover:text-accent-foreground" />
+                <Pencil2Icon className="mr-3 h-4 w-4 text-muted-foreground group-hover:text-accent-foreground" />
                 Blog
               </DropdownMenuItem>
             </Link>
             <Link href="/roadmap">
               <DropdownMenuItem className="group cursor-pointer">
-                <CalendarIcon className="mr-3 h-4 w-4 text-muted-foreground group-hover:text-accent-foreground" />
+                <RocketIcon className="mr-3 h-4 w-4 text-muted-foreground group-hover:text-accent-foreground" />
                 Roadmap
               </DropdownMenuItem>
             </Link>
