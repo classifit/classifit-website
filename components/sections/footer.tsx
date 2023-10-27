@@ -1,5 +1,5 @@
 import Image from "next/image";
-import MenuItem from "../ui/menu-item";
+import Link from "next/link";
 
 export default function Footer() {
   return (
@@ -8,9 +8,9 @@ export default function Footer() {
         <div className="flex justify-between">
           <div>
             <div className="flex flex-col gap-6">
-              <MenuItem link="#" text="Privacy Policy" />
-              <MenuItem link="#" text="Cookie Policy" />
-              <MenuItem link="#" text="classifit.studio@gmail.com" />
+              <Link className="menu-link" href="#" target="_blank">Privacy Policy</Link>
+              <Link className="menu-link" href="#" target="_blank">Cookie Policy</Link>
+              <Link className="menu-link" href="mailto:classifit.studio@gmail.com">classifit.studio@gmail.com</Link>
             </div>
             <div className="py-6" />
             <Image
@@ -22,22 +22,22 @@ export default function Footer() {
           </div>
           <div className="flex flex-col gap-6">
             <p className="text-sm">Servizi</p>
-            <MenuItem link="#" text="Prenotazioni" />
-            <MenuItem link="#" text="Calendario lezioni" />
-            <MenuItem link="#" text="Pacchetti a crediti" />
-            <MenuItem link="#" text="Sito su misura" />
-            <MenuItem link="#" text="Servizi aggiuntivi" />
+            <Link className="menu-link" href="/servizi/prenotazioni">Prenotazioni</Link>
+            <Link className="menu-link" href="/servizi/calendario">Calendario lezioni</Link>
+            <Link className="menu-link" href="/servizi/pacchetti">Pacchetti a crediti</Link>
+            <Link className="menu-link" href="/servizi/sito-su-misura">Sito su misura</Link>
+            <Link className="menu-link" href="/servizi/servizi-aggiuntivi">Servizi aggiuntivi</Link>
           </div>
           <div className="flex flex-col gap-6">
             <p className="text-sm">Risorse</p>
-            <MenuItem link="#" text="Blog" />
-            <MenuItem link="#" text="Roadmap" />
+            <Link className="menu-link" href="#">Blog</Link>
+            <Link className="menu-link" href="#">Roadmap</Link>
           </div>
           <div className="flex flex-col gap-6">
             <p className="text-sm">Link utili</p>
-            <MenuItem link="#" text="Studi" />
-            <MenuItem link="#" text="Aiuto" />
-            <MenuItem link="#" text="@app.classi.fit" />
+            <Link className="menu-link" href="/studi">Studi</Link>
+            <Link className="menu-link" href="/aiuto">Aiuto</Link>
+            <Link className="menu-link" href="https://www.instagram.com/app.classi.fit/" target="_blank">Instagram</Link>
           </div>
         </div>
       </section>
