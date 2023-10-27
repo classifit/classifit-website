@@ -1,6 +1,6 @@
 import About from "@/components/sections/about";
-import Feature from "@/components/sections/feature";
-import Hero from "@/components/sections/hero";
+import Feature from "@/components/sections/homepage/feature";
+import Hero from "@/components/sections/homepage/hero";
 import Packages from "@/components/sections/packages";
 import Portfolio from "@/components/sections/portfolio";
 

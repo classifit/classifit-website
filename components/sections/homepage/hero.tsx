@@ -1,5 +1,5 @@
 import { ArrowRightIcon } from "@radix-ui/react-icons";
-import { Button } from "../ui/button";
+import { Button } from "../../ui/button";
 
 export default function Hero() {
   return (
