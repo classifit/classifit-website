@@ -83,10 +83,12 @@ export default function Navbar() {
                 Blog
               </DropdownMenuItem>
             </Link>
-            <DropdownMenuItem className="group">
-              <CalendarIcon className="mr-3 h-4 w-4 text-muted-foreground group-hover:text-accent-foreground" />
-              Roadmap
-            </DropdownMenuItem>
+            <Link href="/roadmap">
+              <DropdownMenuItem className="group cursor-pointer">
+                <CalendarIcon className="mr-3 h-4 w-4 text-muted-foreground group-hover:text-accent-foreground" />
+                Roadmap
+              </DropdownMenuItem>
+            </Link>
           </DropdownMenuContent>
         </DropdownMenu>
         <Link className="menu-link" href="/aiuto">
