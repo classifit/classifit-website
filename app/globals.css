@@ -84,7 +84,7 @@
     @apply bg-background text-foreground;
   }
   h1 {
-    @apply text-4xl
+    @apply text-4xl leading-tight
   }
   h2 {
     @apply text-3xl

@@ -17,12 +17,13 @@ export default function Help() {
       />
       <Paragraph
         cta={false}
-        subtitle={false}
+        subtitle
+        subtitleText="Domande & Risposte"
         title="Ecco una lista delle domande più frequenti"
         body="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos."
       />
-      <div className="bg-card text-card-foreground">
-        <section>
+      <div className="bg-light text-light-foreground">
+        <div className="px-12 pt-0 pb-36 max-w-[1280px] mx-auto">
           <Accordion type="single" collapsible>
             <AccordionItem value="item-1">
               <AccordionTrigger>Che tipo di servizi offrite?</AccordionTrigger>
@@ -65,7 +66,7 @@ export default function Help() {
               </AccordionContent>
             </AccordionItem>
           </Accordion>
-        </section>
+        </div>
       </div>
       <About title="Non hai trovato le risposte che cercavi?" body="Non esitare a contattarci tramite i DM di Instagram o tramite email - Saremo felici di risponderti!"/>
     </>
