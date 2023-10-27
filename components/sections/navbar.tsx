@@ -20,7 +20,7 @@ export default function Navbar() {
   return (
     <nav className="flex items-center justify-between max-w-[1280px] px-12 py-6 bg-primary mx-auto">
       <div className="flex items-center gap-12">
-        <Link href="/">
+        <Link href="/" className="hover:opacity-80 transition-opacity duration-200 ease-in-out">
           <Image
             src="/classifit.svg"
             width="101"

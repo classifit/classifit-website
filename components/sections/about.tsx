@@ -1,10 +1,11 @@
 import Image from "next/image";
 import { Button } from "../ui/button";
+import Link from "next/link";
 
 type Props = {
-  title: string
-  body: string
-}
+  title: string;
+  body: string;
+};
 
 export default function About(props: Props) {
   return (
@@ -23,17 +24,22 @@ export default function About(props: Props) {
         <div className="w-1/2">
           <h1 className="font-medium">{props.title}</h1>
           <div className="py-4" />
-          <p className="text-muted-foreground">
-            {props.body}
-          </p>
+          <p className="text-muted-foreground">{props.body}</p>
           <div className="py-10" />
-          <Button variant="link" size="zero" className="block">
-            @app.classi.fit
-          </Button>
+          <Link
+            href="https://www.instagram.com/app.classi.fit/"
+            target="_blank"
+          >
+            <Button variant="link" size="zero" className="block">
+              @app.classi.fit
+            </Button>
+          </Link>
           <div className="mt-4" />
-          <Button variant="link" size="zero" className="block">
-            classifit.studio@gmail.com
-          </Button>
+          <Link href="mailto:classifit.studio@gmail.com">
+            <Button variant="link" size="zero" className="block">
+              classifit.studio@gmail.com
+            </Button>
+          </Link>
         </div>
       </div>
     </div>
