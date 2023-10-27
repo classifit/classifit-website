@@ -6,6 +6,7 @@ import {
 } from "@/components/ui/accordion";
 import { Button } from "../../ui/button";
 import { ArrowRightIcon } from "@radix-ui/react-icons";
+import Link from "next/link";
 
 export default function Feature() {
   return (
@@ -19,9 +20,11 @@ export default function Feature() {
                 Offri ai tuoi clienti la possibilità di prenotarsi alle lezioni
                 in completa autonomia attraverso un intuitivo e semplice sistema
                 di prenotazione. <br />
-                <Button variant="link" size="zero" className="mt-6">
-                  Scopri come <ArrowRightIcon className="ml-3 h-4 w-4" />
-                </Button>
+                <Link href="/servizi/prenotazioni">
+                  <Button variant="link" size="zero" className="mt-6">
+                    Scopri come <ArrowRightIcon className="ml-3 h-4 w-4" />
+                  </Button>
+                </Link>
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-2">
@@ -30,9 +33,11 @@ export default function Feature() {
                 Pianifica le lezioni in programma nel tuo calendario personale
                 per garantire una giornata senza intoppi e massimizzare i tuoi
                 guadagni. <br />
-                <Button variant="link" size="zero" className="mt-6">
-                  Scopri come <ArrowRightIcon className="ml-3 h-4 w-4" />
-                </Button>
+                <Link href="/servizi/calendario">
+                  <Button variant="link" size="zero" className="mt-6">
+                    Scopri come <ArrowRightIcon className="ml-3 h-4 w-4" />
+                  </Button>
+                </Link>
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-3">
@@ -41,20 +46,24 @@ export default function Feature() {
                 Monitora con facilità tutti i pacchetti acquistati e tieni
                 traccia del saldo residuo di crediti e della data di scadenza
                 per ciascun cliente. <br />
-                <Button variant="link" size="zero" className="mt-6">
-                  Scopri come <ArrowRightIcon className="ml-3 h-4 w-4" />
-                </Button>
+                <Link href="/servizi/pacchetti">
+                  <Button variant="link" size="zero" className="mt-6">
+                    Scopri come <ArrowRightIcon className="ml-3 h-4 w-4" />
+                  </Button>
+                </Link>
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-4">
               <AccordionTrigger>Sito su misura</AccordionTrigger>
               <AccordionContent>
                 Potenzia la tua presenza online e distingui il tuo marchio con
-                un sito web bello e funzionale, su misura per l&apos;identità del tuo
-                studio. <br />
-                <Button variant="link" size="zero" className="mt-6">
-                  Scopri come <ArrowRightIcon className="ml-3 h-4 w-4" />
-                </Button>
+                un sito web bello e funzionale, su misura per l&apos;identità
+                del tuo studio. <br />
+                <Link href="/servizi/sito-su-misura">
+                  <Button variant="link" size="zero" className="mt-6">
+                    Scopri come <ArrowRightIcon className="ml-3 h-4 w-4" />
+                  </Button>
+                </Link>
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-5">
@@ -63,9 +72,11 @@ export default function Feature() {
                 Branding, Graphic Design, Social Media Marketing, materiali
                 promozionali: creiamo insieme tutto il necessario per il
                 successo del tuo studio. <br />
-                <Button variant="link" size="zero" className="mt-6">
-                  Scopri come <ArrowRightIcon className="ml-3 h-4 w-4" />
-                </Button>
+                <Link href="/servizi/servizi-aggiuntivi">
+                  <Button variant="link" size="zero" className="mt-6">
+                    Scopri come <ArrowRightIcon className="ml-3 h-4 w-4" />
+                  </Button>
+                </Link>
               </AccordionContent>
             </AccordionItem>
           </Accordion>
