@@ -1,3 +1,5 @@
+"use client";
+import { usePathname } from "next/navigation";
 import Image from "next/image";
 import {
   DropdownMenu,
@@ -17,6 +19,7 @@ import { Button } from "../ui/button";
 import Link from "next/link";
 
 export default function Navbar() {
+  const pathname = usePathname();
   return (
     <nav className="flex items-center justify-between max-w-[1280px] px-12 py-6 bg-primary mx-auto">
       <div className="flex items-center gap-12">
@@ -33,7 +36,11 @@ export default function Navbar() {
           />
         </Link>
         <DropdownMenu>
-          <DropdownMenuTrigger className="opacity-60 hover:opacity-100 text-sm">
+          <DropdownMenuTrigger className={
+              pathname == "/servizi/prenotazioni" || pathname == "/servizi/calendario" || pathname == "/servizi/pacchetti" || pathname == "/servizi/sito-su-misura" || pathname == "/servizi/servizi-aggiuntivi"
+                ? "text-sm opacity-100"
+                : "opacity-60 hover:opacity-100 text-sm"
+            }>
             Servizi
           </DropdownMenuTrigger>
           <DropdownMenuContent className="mt-1">
@@ -69,11 +76,22 @@ export default function Navbar() {
             </Link>
           </DropdownMenuContent>
         </DropdownMenu>
-        <Link className="menu-link" href="/studi">
+        <Link
+          href="/studi"
+          className={
+            pathname == "/studi" ? "menu-link opacity-100" : "menu-link"
+          }
+        >
           Studi
         </Link>
         <DropdownMenu>
-          <DropdownMenuTrigger className="opacity-60 hover:opacity-100 text-sm">
+          <DropdownMenuTrigger
+            className={
+              pathname == "/blog" || pathname == "/roadmap"
+                ? "text-sm opacity-100"
+                : "opacity-60 hover:opacity-100 text-sm"
+            }
+          >
             Risorse
           </DropdownMenuTrigger>
           <DropdownMenuContent className="mt-1">
@@ -91,7 +109,12 @@ export default function Navbar() {
             </Link>
           </DropdownMenuContent>
         </DropdownMenu>
-        <Link className="menu-link" href="/aiuto">
+        <Link
+          href="/aiuto"
+          className={
+            pathname == "/aiuto" ? "menu-link opacity-100" : "menu-link"
+          }
+        >
           Aiuto
         </Link>
         <Link
