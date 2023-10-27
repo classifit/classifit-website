@@ -3,7 +3,7 @@ import ServiceAbout from "@/components/sections/services/service-about";
 import ServiceTitle from "@/components/sections/services/service-title";
 import ServiceCard from "@/components/ui/service-card";
 
-export default function Bookings() {
+export default function Calendar() {
   return (
     <>
       <ServiceTitle
