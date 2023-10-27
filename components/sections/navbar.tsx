@@ -14,6 +14,7 @@ import {
   ArchiveIcon,
   StarIcon,
   ArrowRightIcon,
+  ChevronDownIcon,
 } from "@radix-ui/react-icons";
 import { Button } from "../ui/button";
 import Link from "next/link";
@@ -36,12 +37,19 @@ export default function Navbar() {
           />
         </Link>
         <DropdownMenu>
-          <DropdownMenuTrigger className={
-              pathname == "/servizi/prenotazioni" || pathname == "/servizi/calendario" || pathname == "/servizi/pacchetti" || pathname == "/servizi/sito-su-misura" || pathname == "/servizi/servizi-aggiuntivi"
-                ? "text-sm opacity-100"
-                : "opacity-60 hover:opacity-100 text-sm"
-            }>
+          <DropdownMenuTrigger
+            className={
+              pathname == "/servizi/prenotazioni" ||
+              pathname == "/servizi/calendario" ||
+              pathname == "/servizi/pacchetti" ||
+              pathname == "/servizi/sito-su-misura" ||
+              pathname == "/servizi/servizi-aggiuntivi"
+                ? "text-sm opacity-100 flex items-center"
+                : "opacity-60 hover:opacity-100 text-sm flex items-center"
+            }
+          >
             Servizi
+            <ChevronDownIcon className="ml-1 h-4 w-4" />
           </DropdownMenuTrigger>
           <DropdownMenuContent className="mt-1">
             <Link href="/servizi/prenotazioni">
@@ -87,12 +95,15 @@ export default function Navbar() {
         <DropdownMenu>
           <DropdownMenuTrigger
             className={
-              pathname == "/blog" || pathname == "/roadmap"
-                ? "text-sm opacity-100"
-                : "opacity-60 hover:opacity-100 text-sm"
+              pathname == "/blog" ||
+              pathname == "/roadmap" ||
+              pathname == "/blog/building-classifit"
+                ? "text-sm opacity-100 flex items-center"
+                : "opacity-60 hover:opacity-100 text-sm flex items-center"
             }
           >
             Risorse
+            <ChevronDownIcon className="ml-1 h-4 w-4" />
           </DropdownMenuTrigger>
           <DropdownMenuContent className="mt-1">
             <Link href="/blog">
