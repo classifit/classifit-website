@@ -9,13 +9,11 @@ import Portfolio from '@/components/sections/portfolio'
 export default function Home() {
   return (
     <>
-    <Navbar />
     <Hero />
     <Feature />
     <Packages />
     <Portfolio cta={true} />
     <About />
-    <Footer />
     </>
   )
 }
