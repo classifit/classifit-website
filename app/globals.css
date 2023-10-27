@@ -101,6 +101,9 @@
   section {
     @apply px-12 py-36 max-w-[1280px] mx-auto
   }
+  .menu-link {
+    @apply select-none text-primary-foreground opacity-60 hover:opacity-100 text-sm transition-opacity ease-in-out duration-200
+  }
   ::selection {
     @apply bg-ring text-dark
   }

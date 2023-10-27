@@ -1,5 +1,6 @@
 import { ArrowRightIcon } from "@radix-ui/react-icons";
 import { Button } from "../../ui/button";
+import Link from "next/link";
 
 export default function Hero() {
   return (
@@ -14,7 +15,12 @@ export default function Hero() {
           tua presenza online - Tutto con la stessa piattaforma
         </p>
         <div className="py-10" />
-        <Button variant="secondary">Contattaci - Senza impegno<ArrowRightIcon className="ml-3 h-4 w-4" /></Button>
+        <Link href="#">
+          <Button variant="secondary">
+            Contattaci - Senza impegno
+            <ArrowRightIcon className="ml-3 h-4 w-4" />
+          </Button>
+        </Link>
       </div>
     </div>
   );
