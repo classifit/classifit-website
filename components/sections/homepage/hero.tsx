@@ -10,9 +10,10 @@ export default function Hero() {
           Porta il tuo studio al prossimo livello
         </h1>
         <div className="py-4" />
-        <p className="w-2/3">
-          Gestisci lezioni, pacchetti, clienti e potenzia la tua identità e la
-          tua presenza online - Tutto con la stessa piattaforma
+        <p className="w-2/3 text-white/60">
+          Siti web su misura, prenotazioni online, piattaforma di gestione. Come
+          tuoi partner digitali miglioriamo la gestione del tuo studio così che
+          tu possa concentrarti su ciò che ami di più: insegnare e ispirare.
         </p>
         <div className="py-10" />
         <Link href="#">
