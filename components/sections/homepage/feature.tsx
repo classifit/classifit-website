@@ -12,6 +12,7 @@ import { useState } from "react";
 
 export default function Feature() {
   const [active, setActive] = useState("item-1");
+  console.log(active)
   return (
     <div className="bg-light text-light-foreground relative">
       <div className="flex max-w-[1280px] px-12 py-[200px] mx-auto gap-72">
@@ -85,13 +86,29 @@ export default function Feature() {
           </Accordion>
         </div>
         <div className="w-1/2">
-          <div className="bg-secondary h-full w-1/2 absolute top-0 right-0">
+          <div className={`bg-secondary h-full w-1/2 absolute top-0 right-0 ${active == "item-1" ? "block" : "hidden"}` }>
             <div className="flex items-center justify-center h-full w-full">
-              <p className={active == "item-1" ? "block" : "hidden"}>Ciao</p>
-              <p className={active == "item-2" ? "block" : "hidden"}>Come</p>
-              <p className={active == "item-3" ? "block" : "hidden"}>Stai</p>
-              <p className={active == "item-4" ? "block" : "hidden"}>Che</p>
-              <p className={active == "item-5" ? "block" : "hidden"}>Cosa</p>
+              <p>Ciao</p>
+            </div>
+          </div>
+          <div className={`bg-dark h-full w-1/2 absolute top-0 right-0 ${active == "item-2" ? "block" : "hidden"}` }>
+            <div className="flex items-center justify-center h-full w-full">
+              <p>Come</p>
+            </div>
+          </div>
+          <div className={`bg-primary h-full w-1/2 absolute top-0 right-0 ${active == "item-3" ? "block" : "hidden"}` }>
+            <div className="flex items-center justify-center h-full w-full">
+              <p>Stai</p>
+            </div>
+          </div>
+          <div className={`bg-card h-full w-1/2 absolute top-0 right-0 ${active == "item-4" ? "block" : "hidden"}` }>
+            <div className="flex items-center justify-center h-full w-full">
+              <p>Che</p>
+            </div>
+          </div>
+          <div className={`bg-ring h-full w-1/2 absolute top-0 right-0 ${active == "item-5" ? "block" : "hidden"}` }>
+            <div className="flex items-center justify-center h-full w-full">
+              <p>Cosa</p>
             </div>
           </div>
         </div>
