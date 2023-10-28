@@ -9,10 +9,11 @@ import { Button } from "../../ui/button";
 import { ArrowRightIcon } from "@radix-ui/react-icons";
 import Link from "next/link";
 import { useState } from "react";
+import Image from "next/image";
 
 export default function Feature() {
   const [active, setActive] = useState("item-1");
-  console.log(active)
+  console.log(active);
   return (
     <div className="bg-light text-light-foreground relative">
       <div className="flex max-w-[1280px] px-12 py-[200px] mx-auto gap-72">
@@ -86,29 +87,79 @@ export default function Feature() {
           </Accordion>
         </div>
         <div className="w-1/2">
-          <div className={`bg-secondary h-full w-1/2 absolute top-0 right-0 ${active == "item-1" ? "block" : "hidden"}` }>
+          <div
+            className={`bg-secondary h-full w-1/2 absolute top-0 right-0 transition-opacity duration-300 ${
+              active == "item-1" ? "opacity-100" : "opacity-0"
+            }`}
+          >
             <div className="flex items-center justify-center h-full w-full">
-              <p>Ciao</p>
+              <Image
+                src="/services/booking/prenotazioni-cover.png"
+                width="1080"
+                height="1350"
+                alt="Sistema di prenotazioni online per le lezioni del tuo studio"
+                className="w-[450px]"
+              />
             </div>
           </div>
-          <div className={`bg-dark h-full w-1/2 absolute top-0 right-0 ${active == "item-2" ? "block" : "hidden"}` }>
+          <div
+            className={`bg-dark h-full w-1/2 absolute top-0 right-0 transition-opacity duration-300 ${
+              active == "item-2" ? "opacity-100" : "opacity-0"
+            }`}
+          >
             <div className="flex items-center justify-center h-full w-full">
-              <p>Come</p>
+            <Image
+                src="/services/calendar/calendario-cover.png"
+                width="1080"
+                height="1350"
+                alt="Gestione delle lezioni tramite una comoda vista a calendario"
+                className="w-[450px]"
+              />
             </div>
           </div>
-          <div className={`bg-primary h-full w-1/2 absolute top-0 right-0 ${active == "item-3" ? "block" : "hidden"}` }>
+          <div
+            className={`bg-primary h-full w-1/2 absolute top-0 right-0 transition-opacity duration-300 ${
+              active == "item-3" ? "opacity-100" : "opacity-0"
+            }`}
+          >
             <div className="flex items-center justify-center h-full w-full">
-              <p>Stai</p>
+            <Image
+                src="/services/packages/pacchetti-cover.png"
+                width="1080"
+                height="1350"
+                alt="Gestione dei pacchetti a crediti per ogni cliente, con dettaglio dei crediti residui e data di scadenza"
+                className="w-[450px]"
+              />
             </div>
           </div>
-          <div className={`bg-card h-full w-1/2 absolute top-0 right-0 ${active == "item-4" ? "block" : "hidden"}` }>
+          <div
+            className={`bg-card h-full w-1/2 absolute top-0 right-0 transition-opacity duration-300 ${
+              active == "item-4" ? "opacity-100" : "opacity-0"
+            }`}
+          >
             <div className="flex items-center justify-center h-full w-full">
-              <p>Che</p>
+            <Image
+                src="/services/website/sito-cover.png"
+                width="1080"
+                height="1350"
+                alt="Sito web su misura per l'identità del tuo studio"
+                className="w-[450px]"
+              />
             </div>
           </div>
-          <div className={`bg-ring h-full w-1/2 absolute top-0 right-0 ${active == "item-5" ? "block" : "hidden"}` }>
+          <div
+            className={`bg-ring h-full w-1/2 absolute top-0 right-0 transition-opacity duration-300 ${
+              active == "item-5" ? "opacity-100" : "opacity-0"
+            }`}
+          >
             <div className="flex items-center justify-center h-full w-full">
-              <p>Cosa</p>
+            <Image
+                src="/services/additional/servizi-aggiuntivi-cover.png"
+                width="1080"
+                height="1350"
+                alt="Graphic Desing, Social Media Post, Branding, Volantini, Gift Card, Materiali Promozionali - Tutto ciò che è necessario per il successo del tuo studio"
+                className="w-[450px]"
+              />
             </div>
           </div>
         </div>
