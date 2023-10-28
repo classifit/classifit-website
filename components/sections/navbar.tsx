@@ -40,15 +40,15 @@ export default function Navbar() {
         </Link>
         <DropdownMenu>
           <DropdownMenuTrigger
-            className={
+            className={`text-sm flex items-center ${
               pathname == "/servizi/prenotazioni" ||
               pathname == "/servizi/calendario" ||
               pathname == "/servizi/pacchetti" ||
               pathname == "/servizi/sito-su-misura" ||
               pathname == "/servizi/servizi-aggiuntivi"
-                ? "text-sm opacity-100 flex items-center"
-                : "opacity-60 hover:opacity-100 text-sm flex items-center"
-            }
+                ? "opacity-100"
+                : "opacity-60 hover:opacity-100"
+            }`}
           >
             Servizi
             <ChevronDownIcon className="ml-1 h-4 w-4" />
@@ -96,13 +96,13 @@ export default function Navbar() {
         </Link>
         <DropdownMenu>
           <DropdownMenuTrigger
-            className={
+            className={`text-sm flex items-center ${
               pathname == "/blog" ||
               pathname == "/roadmap" ||
               pathname == "/blog/building-classifit"
-                ? "text-sm opacity-100 flex items-center"
-                : "opacity-60 hover:opacity-100 text-sm flex items-center"
-            }
+                ? "opacity-100"
+                : "opacity-60 hover:opacity-100"
+            }`}
           >
             Risorse
             <ChevronDownIcon className="ml-1 h-4 w-4" />
