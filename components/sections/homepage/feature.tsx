@@ -1,4 +1,4 @@
-'use client'
+"use client";
 import {
   Accordion,
   AccordionContent,
@@ -12,16 +12,11 @@ import { useState } from "react";
 
 export default function Feature() {
   const [active, setActive] = useState("item-1");
-  console.log(active)
   return (
     <div className="bg-light text-light-foreground relative">
       <div className="flex max-w-[1280px] px-12 py-[200px] mx-auto gap-72">
         <div className="w-1/2">
-          <Accordion
-            type="single"
-            collapsible
-            defaultValue="item-1"
-          >
+          <Accordion type="single" collapsible defaultValue="item-1">
             <AccordionItem value="item-1" onClick={() => setActive("item-1")}>
               <AccordionTrigger>Prenotazioni</AccordionTrigger>
               <AccordionContent>
@@ -35,7 +30,7 @@ export default function Feature() {
                 </Link>
               </AccordionContent>
             </AccordionItem>
-            <AccordionItem value="item-2" onClick={() => setActive("item-2")} >
+            <AccordionItem value="item-2" onClick={() => setActive("item-2")}>
               <AccordionTrigger>Calendario lezioni</AccordionTrigger>
               <AccordionContent>
                 Pianifica le lezioni in programma nel tuo calendario personale
