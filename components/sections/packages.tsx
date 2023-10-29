@@ -25,6 +25,23 @@ export default function Packages() {
           </div>
           <div className="w-1/3">
             <PackageCard
+              title="Pacchetto Gestionale"
+              services={[
+                "Chiamata conoscitiva",
+                "Gestione calendario",
+                "Gestione pacchetti e clienti",
+                "Trasferimento dati - Anche cartacei",
+                "Account per collaboratori",
+                "Onboarding e tutorial",
+              ]}
+              additions={["+ Servizi aggiuntivi a scelta"]}
+              bgColor="bg-light"
+              textColor="text-light-foreground"
+              mutedColor="text-muted-foreground"
+            />
+          </div>
+          <div className="w-1/3">
+            <PackageCard
               title="Sito Web + Gestionale"
               services={[
                 "Servizi del pacchetto Sito Web",
@@ -40,33 +57,17 @@ export default function Packages() {
               mutedColor="text-white/60"
             />
           </div>
-          <div className="w-1/3">
-            <PackageCard
-              title="Pacchetto Gestionale"
-              services={[
-                "Chiamata conoscitiva",
-                "Creazione credenziali di accesso",
-                "Trasferimento dati - Anche cartacei",
-                "Setup lezioni, pacchetti e clienti",
-                "Accesso per collaboratori",
-                "Onboarding e tutorial",
-              ]}
-              additions={["+ Servizi aggiuntivi a scelta"]}
-              bgColor="bg-light"
-              textColor="text-light-foreground"
-              mutedColor="text-muted-foreground"
-            />
-          </div>
         </div>
         <div className="flex items-center justify-between mt-36 gap-12">
           <div className="w-4/5">
             <h1 className="font-medium">La nostra garanzia ci rende unici</h1>
             <div className="py-2" />
             <p className="text-white/60">
-              Siamo talmente sicuri del nostro servizio che siamo gli unici in
-              Italia ad offrire una garanzia di rimborso totale. Nel migliore
-              dei casi porti il tuo studio al livello superiore, nel peggiore
-              non hai perso nulla.
+              La tua soddisfazione è la nostra priorità. Ecco perché in tutti i
+              pacchetti sono compresi supporto 24/24h per te e per i tuoi
+              clienti, e una garanzia di rimborso al 100%. Nel migliore dei casi
+              porti il tuo studio ad un livello superiore, nel peggiore non hai
+              perso nulla. Nessun rischio.
             </p>
           </div>
           <div className="w-1/5">

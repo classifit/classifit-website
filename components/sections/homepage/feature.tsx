@@ -109,7 +109,7 @@ export default function Feature() {
           >
             <div className="flex items-center justify-center h-full w-full">
             <Image
-                src="/services/calendar/calendario-cover.png"
+                src="/services/calendar/calendario-lezioni-cover.png"
                 width="1080"
                 height="1350"
                 alt="Gestione delle lezioni tramite una comoda vista a calendario"
