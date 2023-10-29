@@ -49,7 +49,7 @@ export default function Packages() {
               ]}
               additions={[
                 "+ Calendario lezioni pubblico",
-                "+ Sistema di prenotazione",
+                "+ Prenotazioni online",
                 "+ Servizi aggiuntivi a scelta",
               ]}
               bgColor="bg-primary"
