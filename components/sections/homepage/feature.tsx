@@ -95,10 +95,9 @@ export default function Feature() {
             <div className="flex items-center justify-center h-full w-full">
               <Image
                 src="/services/booking/prenotazioni-cover.png"
-                width="1080"
-                height="1350"
+                width="450"
+                height="562"
                 alt="Sistema di prenotazioni online per le lezioni del tuo studio"
-                className="w-[450px]"
               />
             </div>
           </div>
@@ -110,10 +109,9 @@ export default function Feature() {
             <div className="flex items-center justify-center h-full w-full">
             <Image
                 src="/services/calendar/calendario-lezioni-cover.png"
-                width="1080"
-                height="1350"
+                width="450"
+                height="562"
                 alt="Gestione delle lezioni tramite una comoda vista a calendario"
-                className="w-[450px]"
               />
             </div>
           </div>
@@ -125,10 +123,9 @@ export default function Feature() {
             <div className="flex items-center justify-center h-full w-full">
             <Image
                 src="/services/packages/pacchetti-cover.png"
-                width="1080"
-                height="1350"
+                width="450"
+                height="562"
                 alt="Gestione dei pacchetti a crediti per ogni cliente, con dettaglio dei crediti residui e data di scadenza"
-                className="w-[450px]"
               />
             </div>
           </div>
@@ -140,10 +137,9 @@ export default function Feature() {
             <div className="flex items-center justify-center h-full w-full">
             <Image
                 src="/services/website/sito-cover.png"
-                width="1080"
-                height="1350"
-                alt="Sito web su misura per l'identità del tuo studio"
-                className="w-[450px]"
+                width="450"
+                height="562"
+                alt="Sito web su misura per l'identità del tuo studio di fitness"
               />
             </div>
           </div>
@@ -155,10 +151,9 @@ export default function Feature() {
             <div className="flex items-center justify-center h-full w-full">
             <Image
                 src="/services/additional/servizi-aggiuntivi-cover.png"
-                width="1080"
-                height="1350"
+                width="450"
+                height="562"
                 alt="Graphic Desing, Social Media Post, Branding, Volantini, Gift Card, Materiali Promozionali - Tutto ciò che è necessario per il successo del tuo studio"
-                className="w-[450px]"
               />
             </div>
           </div>
