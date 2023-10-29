@@ -11,32 +11,32 @@ const projects = [
   {
     id: 1,
     default: "/portfolio/sito-web-pilates-1.png",
-    gif: "/portfolio/sito-web-pilates-1.gif",
+    gif: "/portfolio/sito-web-pilates-1-gif.gif",
   },
   {
     id: 2,
     default: "/portfolio/sito-web-pilates-2.png",
-    gif: "/portfolio/sito-web-pilates-2.gif",
+    gif: "/portfolio/sito-web-pilates-2-gif.gif",
   },
   {
     id: 3,
     default: "/portfolio/sito-web-pilates-3.png",
-    gif: "/portfolio/sito-web-pilates-3.gif",
+    gif: "/portfolio/sito-web-pilates-3-gif.gif",
   },
   {
     id: 4,
     default: "/portfolio/sito-web-pilates-4.png",
-    gif: "/portfolio/sito-web-pilates-4.gif",
+    gif: "/portfolio/sito-web-pilates-4-gif.gif",
   },
   {
     id: 5,
     default: "/portfolio/sito-web-pilates-5.png",
-    gif: "/portfolio/sito-web-pilates-5.gif",
+    gif: "/portfolio/sito-web-pilates-5-gif.gif",
   },
   {
     id: 6,
     default: "/portfolio/sito-web-pilates-6.png",
-    gif: "/portfolio/sito-web-pilates-6.gif",
+    gif: "/portfolio/sito-web-pilates-6-gif.gif",
   },
 ];
 

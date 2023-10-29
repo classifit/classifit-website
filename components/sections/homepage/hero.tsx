@@ -16,7 +16,7 @@ export default function Hero() {
           tu possa concentrarti su ciò che ami di più: insegnare e ispirare.
         </p>
         <div className="py-10" />
-        <Link href="#">
+        <Link href="mailto:classifit.studio@gmail.com">
           <Button variant="secondary">
             Contattaci - Senza impegno
             <ArrowRightIcon className="ml-3 h-4 w-4" />
