@@ -28,7 +28,7 @@ export default function Bookings() {
           <div className="col-span-6">
             <ServiceCard
               title="Monitora gli iscritti ad una lezione"
-              description="In qualunque momento - anche mentre sei in studio - visualizza gli iscritti della prossima lezione."
+              description="Visualizza gli iscritti alla prossima lezione in qualunque momento tramite il nostro gestionale."
             />
           </div>
           <div className="col-span-6">

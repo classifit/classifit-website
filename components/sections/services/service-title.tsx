@@ -36,7 +36,7 @@ export default function ServiceTitle(props: Props) {
               src={props.image}
               width="370"
               height="482"
-              alt="Sistema di prenotazioni online per le lezioni del tuo studio"
+              alt="Prenotazioni online, calendario delle lezioni, pacchetti a crediti e siti web su misura - Porta il tuo studio di fitness al prossimo livello"
             />
           </div>
         </div>
