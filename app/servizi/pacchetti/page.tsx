@@ -10,6 +10,8 @@ export default function PackagesPage() {
         subtitle="Pacchetti a crediti"
         title="Prenotazioni in autonomia per i tuoi clienti"
         description="Un intero sistema che permette ai tuoi clienti di iscriversi in totale auonomia alle lezioni, riducendo il tempo di gestione delle iscrizioni a zero."
+        bgColor="bg-secondary"
+        image="/services/booking/prenotazioni-cover.png"
       />
       <ServiceAbout
         subtitle="La tua agenda personale"

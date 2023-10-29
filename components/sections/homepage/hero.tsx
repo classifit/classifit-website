@@ -12,7 +12,7 @@ export default function Hero() {
         <div className="py-4" />
         <p className="w-2/3">
           Siti web su misura, prenotazioni online, piattaforma di gestione. Come
-          tuoi partner digitali miglioriamo la gestione del tuo studio così che
+          tuoi partner digitali, miglioriamo la gestione del tuo studio così che
           tu possa concentrarti su ciò che ami di più: insegnare e ispirare.
         </p>
         <div className="py-10" />

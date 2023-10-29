@@ -8,31 +8,33 @@ export default function Bookings() {
     <>
       <ServiceTitle
         subtitle="Prenotazioni"
-        title="Prenotazioni in autonomia per i tuoi clienti"
-        description="Un intero sistema che permette ai tuoi clienti di iscriversi in totale auonomia alle lezioni, riducendo il tempo di gestione delle iscrizioni a zero."
+        title="Sistema di prenotazione online per i tuoi clienti"
+        description="Offri la possibilità di prenotarsi alle tue lezioni in completa autonomia attraverso un intuitivo e semplice flusso di prenotazione."
+        bgColor="bg-secondary"
+        image="/services/booking/prenotazioni-cover.png"
       />
       <ServiceAbout
-        subtitle="La tua agenda personale"
-        title="Organizza tutte le tue lezioni e compila la tua agenda personale. Aggiungi, sposta o annulla gli incontri a seconda delle tue esigenze, in qualunque momento e con pochi click, senza stress di gestione."
+        subtitle="Sistema di prenotazione"
+        title="Tramite il flusso di prenotazione online i tuoi clienti possono selezionare le lezioni che preferiscono dal calendario e prenotarsi in autonomia, riducendo il tuo tempo di gestione degli iscritti a zero."
       />
       <div className="bg-light text-light-foreground">
         <div className="px-12 max-w-[1280px] mx-auto pt-10 pb-36 grid grid-cols-12 gap-4">
           <div className="col-span-6">
             <ServiceCard
-              title="Crea, modifica o annulla le lezioni"
-              description="Compila la tua agenda personale e modifica o annulla qualunque lezione, in qualunque momento."
+              title="Inserisci i dettagli delle tue lezioni"
+              description="Personalizza data, orario, numero massimo di iscritti, luogo e termini di cancellazione."
             />
           </div>
           <div className="col-span-6">
             <ServiceCard
-              title="Crea, modifica o annulla le lezioni"
-              description="Compila la tua agenda personale e modifica o annulla qualunque lezione, in qualunque momento."
+              title="Monitora gli iscritti ad una lezione"
+              description="In qualunque momento - anche mentre sei in studio - visualizza gli iscritti della prossima lezione."
             />
           </div>
           <div className="col-span-6">
             <ServiceCard
-              title="Crea, modifica o annulla le lezioni"
-              description="Compila la tua agenda personale e modifica o annulla qualunque lezione, in qualunque momento."
+              title="&quot;Avvisami quando si libera un posto&quot;"
+              description="Possibilità per i clienti di ricevere una notifica quando si libera un posto nelle lezioni al completo."
             />
           </div>
         </div>
