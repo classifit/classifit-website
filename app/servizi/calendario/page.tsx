@@ -8,7 +8,7 @@ export default function Calendar() {
     <>
       <ServiceTitle
         subtitle="Calendario lezioni"
-        title="Pianificazione complessa delle lezioni - Resa semplice"
+        title="Pianificazione complessa - Resa semplice"
         description="Pianifica le lezioni in programma nel tuo calendario personale per garantire una giornata senza intoppi e massimizzare i tuoi guadagni."
         bgColor="bg-dark"
         image="/services/calendar/calendario-lezioni-cover.png"

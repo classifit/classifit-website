@@ -6,7 +6,7 @@ export default function Hero() {
   return (
     <div className="max-w-[1280px] px-12 py-36 mx-auto bg-primary text-primary-foreground">
       <div className="w-3/4">
-        <h1 className="text-7xl font-semibold">
+        <h1 className="text-7xl font-medium">
           Porta il tuo studio al prossimo livello
         </h1>
         <div className="py-4" />

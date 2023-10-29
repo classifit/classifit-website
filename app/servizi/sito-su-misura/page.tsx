@@ -8,33 +8,33 @@ export default function Website() {
     <>
       <ServiceTitle
         subtitle="Sito su misura"
-        title="Prenotazioni in autonomia per i tuoi clienti"
-        description="Un intero sistema che permette ai tuoi clienti di iscriversi in totale auonomia alle lezioni, riducendo il tempo di gestione delle iscrizioni a zero."
-        bgColor="bg-secondary"
-        image="/services/booking/prenotazioni-cover.png"
+        title="Potenzia la tua identità online"
+        description="Potenzia la tua presenza online e distingui il tuo marchio con un sito web bello e funzionale, su misura per l'identità del tuo studio."
+        bgColor="bg-card"
+        image="/services/website/sito-cover.png"
       />
       <ServiceAbout
-        subtitle="La tua agenda personale"
-        title="Organizza tutte le tue lezioni e compila la tua agenda personale. Aggiungi, sposta o annulla gli incontri a seconda delle tue esigenze, in qualunque momento e con pochi click, senza stress di gestione."
+        subtitle="Sito web personalizzato"
+        title="Progettiamo e realizziamo un sito web personalizzato per il tuo studio. Colori, tipografia, immagini, elementi grafici, tutto è studiato e curato nei minimi dettagli, su misura per esprimere la tua identità."
       />
       <div className="bg-light text-light-foreground">
         <div className="px-12 max-w-[1280px] mx-auto pt-10 pb-36 grid grid-cols-12 gap-4">
           <div className="col-span-6">
             <ServiceCard
-              title="Crea, modifica o annulla le lezioni"
-              description="Compila la tua agenda personale e modifica o annulla qualunque lezione, in qualunque momento."
+              title="Creiamo insieme il design perfetto per te"
+              description="Dopo la creazione della grafica del sito web, potrai esaminarla e condividere i tuoi feedback con noi."
             />
           </div>
           <div className="col-span-6">
             <ServiceCard
-              title="Crea, modifica o annulla le lezioni"
-              description="Compila la tua agenda personale e modifica o annulla qualunque lezione, in qualunque momento."
+              title="Modifica in autonomia i contenuti"
+              description="Hai delle nuove fotografie? Non devi dipendere da noi per fare delle modifiche ai contenuti del tuo sito."
             />
           </div>
           <div className="col-span-6">
             <ServiceCard
-              title="Crea, modifica o annulla le lezioni"
-              description="Compila la tua agenda personale e modifica o annulla qualunque lezione, in qualunque momento."
+              title="Calendario pubblico e prenotazioni online"
+              description="Solo con il pacchetto &quot;Sito web + Gestionale&quot;, viene integrato nel sito il calendario pubblico con il sistema di prenotazione online."
             />
           </div>
         </div>
