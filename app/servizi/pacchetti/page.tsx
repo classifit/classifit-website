@@ -8,33 +8,33 @@ export default function PackagesPage() {
     <>
       <ServiceTitle
         subtitle="Pacchetti a crediti"
-        title="Prenotazioni in autonomia per i tuoi clienti"
-        description="Un intero sistema che permette ai tuoi clienti di iscriversi in totale auonomia alle lezioni, riducendo il tempo di gestione delle iscrizioni a zero."
-        bgColor="bg-secondary"
-        image="/services/booking/prenotazioni-cover.png"
+        title="Monitora i pacchetti con facilità"
+        description="Monitora con facilità tutti i pacchetti acquistati e tieni traccia del saldo residuo di crediti e della data di scadenza per ciascun cliente."
+        bgColor="bg-ring"
+        image="/services/packages/pacchetti-cover.png"
       />
       <ServiceAbout
-        subtitle="La tua agenda personale"
-        title="Organizza tutte le tue lezioni e compila la tua agenda personale. Aggiungi, sposta o annulla gli incontri a seconda delle tue esigenze, in qualunque momento e con pochi click, senza stress di gestione."
+        subtitle="Monitora i tuoi pacchetti"
+        title="Definisci nuove categorie di pacchetti specificando la loro durata e il numero di lezioni incluse. Assegna i pacchetti ai clienti che li hanno acquistati e monitorane l’utilizzo in qualunque momento."
       />
       <div className="bg-light text-light-foreground">
         <div className="px-12 max-w-[1280px] mx-auto pt-10 pb-36 grid grid-cols-12 gap-4">
           <div className="col-span-6">
             <ServiceCard
-              title="Crea, modifica o annulla le lezioni"
-              description="Compila la tua agenda personale e modifica o annulla qualunque lezione, in qualunque momento."
+              title="Crea, modifica o elimina pacchetti"
+              description="Crea tutti i pacchetti necessari e specifica durata, data di scadenza e numero di lezioni incluse."
             />
           </div>
           <div className="col-span-6">
             <ServiceCard
-              title="Crea, modifica o annulla le lezioni"
-              description="Compila la tua agenda personale e modifica o annulla qualunque lezione, in qualunque momento."
+              title="Tieni traccia dell'utilizzo dei pacchetti"
+              description="Per ogni cliente visualizza i pacchetti attivi, quante lezioni sono state utilizzate e la data di scadenza."
             />
           </div>
           <div className="col-span-6">
             <ServiceCard
-              title="Crea, modifica o annulla le lezioni"
-              description="Compila la tua agenda personale e modifica o annulla qualunque lezione, in qualunque momento."
+              title="Imposta una data di inizio personalizzata"
+              description="Inizia subito, il prossimo mese o in qualunque data stabilita con il cliente."
             />
           </div>
         </div>
