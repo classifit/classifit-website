@@ -8,33 +8,33 @@ export default function AdditionalServices() {
     <>
       <ServiceTitle
         subtitle="Servizi aggiuntivi"
-        title="Prenotazioni in autonomia per i tuoi clienti"
-        description="Un intero sistema che permette ai tuoi clienti di iscriversi in totale auonomia alle lezioni, riducendo il tempo di gestione delle iscrizioni a zero."
-        bgColor="bg-secondary"
-        image="/services/booking/prenotazioni-cover.png"
+        title="Design, Social Media, Stampa"
+        description="Branding, Graphic Design, Social Media Marketing, materiali promozionali: creiamo insieme tutto il necessario per il successo del tuo studio."
+        bgColor="bg-ring"
+        image="/services/additional/servizi-aggiuntivi-cover.png"
       />
       <ServiceAbout
-        subtitle="La tua agenda personale"
-        title="Organizza tutte le tue lezioni e compila la tua agenda personale. Aggiungi, sposta o annulla gli incontri a seconda delle tue esigenze, in qualunque momento e con pochi click, senza stress di gestione."
+        subtitle="Servizi di design"
+        title="Hai bisogno di ulteriore materiale per la gestione del tuo studio? Possiamo creare per te qualunque materiale grafico di cui puoi aver bisogno - sia digitale che stampato."
       />
       <div className="bg-light text-light-foreground">
         <div className="px-12 max-w-[1280px] mx-auto pt-10 pb-36 grid grid-cols-12 gap-4">
           <div className="col-span-6">
             <ServiceCard
-              title="Crea, modifica o annulla le lezioni"
-              description="Compila la tua agenda personale e modifica o annulla qualunque lezione, in qualunque momento."
+              title="Logo e branding"
+              description="Progettiamo il logo e l'identità che esprimono a pieno il carattere del tuo studio."
             />
           </div>
           <div className="col-span-6">
             <ServiceCard
-              title="Crea, modifica o annulla le lezioni"
-              description="Compila la tua agenda personale e modifica o annulla qualunque lezione, in qualunque momento."
+              title="Graphic Design"
+              description="Volantini, poster, carte regalo, sticker. Possiamo realizzare tutti i materiali che ti vengono in mente."
             />
           </div>
           <div className="col-span-6">
             <ServiceCard
-              title="Crea, modifica o annulla le lezioni"
-              description="Compila la tua agenda personale e modifica o annulla qualunque lezione, in qualunque momento."
+              title="Post social"
+              description="Creiamo la grafica per i post delle tue piattaforme social, in linea con l'identità del tuo studio."
             />
           </div>
         </div>
