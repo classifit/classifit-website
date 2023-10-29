@@ -108,7 +108,7 @@ export default function Feature() {
           >
             <div className="flex items-center justify-center h-full w-full">
             <Image
-                src="/services/calendar/calendario-lezioni-cover.png"
+                src="/services/calendar/lezioni-calendario-cover.png"
                 width="450"
                 height="562"
                 alt="Gestione delle lezioni tramite una comoda vista a calendario"
@@ -116,7 +116,7 @@ export default function Feature() {
             </div>
           </div>
           <div
-            className={`bg-primary h-full w-1/2 absolute top-0 right-0 transition-opacity duration-300 ${
+            className={`bg-[#6058E7] h-full w-1/2 absolute top-0 right-0 transition-opacity duration-300 ${
               active == "item-3" ? "opacity-100" : "opacity-0"
             }`}
           >

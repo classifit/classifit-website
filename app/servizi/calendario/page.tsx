@@ -11,7 +11,7 @@ export default function Calendar() {
         title="Pianificazione complessa - Resa semplice"
         description="Pianifica le lezioni in programma nel tuo calendario personale per garantire una giornata senza intoppi e massimizzare i tuoi guadagni."
         bgColor="bg-dark"
-        image="/services/calendar/calendario-lezioni-cover.png"
+        image="/services/calendar/lezioni-calendario-cover.png"
       />
       <ServiceAbout
         subtitle="Il tuo calendario personale"

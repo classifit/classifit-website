@@ -10,7 +10,7 @@ export default function PackagesPage() {
         subtitle="Pacchetti a crediti"
         title="Monitora i pacchetti con facilità"
         description="Monitora con facilità tutti i pacchetti acquistati e tieni traccia del saldo residuo di crediti e della data di scadenza per ciascun cliente."
-        bgColor="bg-ring"
+        bgColor="bg-[#6058E7]"
         image="/services/packages/pacchetti-cover.png"
       />
       <ServiceAbout

@@ -50,6 +50,7 @@ export default function Packages() {
               additions={[
                 "+ Calendario lezioni pubblico",
                 "+ Prenotazioni online",
+                "+ Area personale del cliente",
                 "+ Servizi aggiuntivi a scelta",
               ]}
               bgColor="bg-primary"

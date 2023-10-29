@@ -33,6 +33,12 @@ export default function Bookings() {
           </div>
           <div className="col-span-6">
             <ServiceCard
+              title="Offri un servizio clienti impeccabile"
+              description="Per i tuoi clienti è presente un'area personale in cui è possibile minitorare le iscrizioni e i pacchetti attivi."
+            />
+          </div>
+          <div className="col-span-6">
+            <ServiceCard
               title="&quot;Avvisami quando si libera un posto&quot;"
               description="Possibilità per i clienti di ricevere una notifica quando si libera un posto nelle lezioni al completo."
             />
