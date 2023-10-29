@@ -1,40 +1,76 @@
 import { ArrowRightIcon } from "@radix-ui/react-icons";
 import { Button } from "../ui/button";
 import Image from "next/image";
+import Link from "next/link";
 
 type Props = {
   cta: boolean;
 };
 
+const projects = [
+  {
+    id: 1,
+    default: "/portfolio/sito-web-pilates-1.png",
+    gif: "/portfolio/sito-web-pilates-1.gif",
+  },
+  {
+    id: 2,
+    default: "/portfolio/sito-web-pilates-2.png",
+    gif: "/portfolio/sito-web-pilates-2.gif",
+  },
+  {
+    id: 3,
+    default: "/portfolio/sito-web-pilates-3.png",
+    gif: "/portfolio/sito-web-pilates-3.gif",
+  },
+  {
+    id: 4,
+    default: "/portfolio/sito-web-pilates-4.png",
+    gif: "/portfolio/sito-web-pilates-4.gif",
+  },
+  {
+    id: 5,
+    default: "/portfolio/sito-web-pilates-5.png",
+    gif: "/portfolio/sito-web-pilates-5.gif",
+  },
+  {
+    id: 6,
+    default: "/portfolio/sito-web-pilates-6.png",
+    gif: "/portfolio/sito-web-pilates-6.gif",
+  },
+];
+
 export default function Portfolio(props: Props) {
-  const images = [
-    "/portfolio/sito-web-pilates-1.png",
-    "/portfolio/sito-web-pilates-2.png",
-    "/portfolio/sito-web-pilates-3.png",
-    "/portfolio/sito-web-pilates-4.png",
-    "/portfolio/sito-web-pilates-5.png",
-    "/portfolio/sito-web-pilates-6.png",
-  ];
   return (
     <div className="bg-light text-light-foreground">
       <section className="text-center">
-        <h1 className="font-medium">Lavori selezionati</h1>
+        <h1 className="font-medium">Progetti selezionati</h1>
         <div className="py-4" />
         {props.cta && (
-          <Button variant="default">
-            Studi
-            <ArrowRightIcon className="ml-3 h-4 w-4" />
-          </Button>
+          <Link href="/studi">
+            <Button variant="default">
+              Tutti gli studi
+              <ArrowRightIcon className="ml-3 h-4 w-4" />
+            </Button>
+          </Link>
         )}
         <div className="py-10" />
         <div className="grid grid-cols-12 gap-4">
-          {images.map((img) => (
-            <div className="col-span-4" key={img}>
+          {projects.map((prj) => (
+            <div className="col-span-4 group" key={prj.id}>
               <Image
-                src={img}
-                height="1350"
+                src={prj.default}
                 width="1080"
-                alt="Classifit - Sito Web per uno studio di Pilates"
+                height="1350"
+                alt="Progetto grafico di Classifit - Siti web per studi di pilates o fitness"
+                className="block group-hover:hidden"
+              />
+              <Image
+                src={prj.gif}
+                width="1080"
+                height="1350"
+                alt="Progetto grafico di Classifit - Siti web per studi di pilates o fitness"
+                className="hidden group-hover:block"
               />
             </div>
           ))}
