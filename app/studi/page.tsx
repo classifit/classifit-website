@@ -8,14 +8,14 @@ export default function Studios() {
     <>
       <PageTitle
         subtitle="studi"
-        title="Qui sotto puoi trovare tantissimi progetti fantastici e meravigliosi"
+        title="Gli studi che si sono affidati a noi"
       />
       <Paragraph
         cta
         ctaText="Vai al sito"
         subtitle
         subtitleText="In evidenza"
-        title="Equilibrio Corpo E Mente"
+        title="Equilibrio Corpo e Mente"
       />
       <DoubleImages />
       <Portfolio cta={false} />

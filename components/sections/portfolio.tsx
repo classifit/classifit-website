@@ -44,7 +44,7 @@ export default function Portfolio(props: Props) {
   return (
     <div className="bg-light text-light-foreground">
       <section className="text-center">
-        <h1 className="font-medium">Progetti selezionati</h1>
+        <h1 className="font-medium">Alcuni progetti selezionati</h1>
         <div className="py-4" />
         {props.cta && (
           <Link href="/studi">
