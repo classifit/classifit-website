@@ -12,12 +12,13 @@ export default function Blog() {
           <div className="grid grid-cols-12">
             <div className="col-span-4 group">
               <Link href="/blog/building-classifit">
-                <div className="flex flex-col gap-4">
+                <div className="flex flex-col gap-4 overflow-hidden">
                   <Image
-                    src="/article-cover.png"
+                    src="/blog/building-classifit-cover.png"
                     width="1920"
                     height="1080"
                     alt="Copertina articolo - Building Classifit"
+                    className="hover:scale-110 transition-all duration-300 ease-in-out rounded-[6px]"
                   />
                   <h3 className="font-medium group-hover:text-primary mt-4">
                     Building Classifit

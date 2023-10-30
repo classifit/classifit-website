@@ -5,13 +5,14 @@ export default function Article() {
   return (
     <>
       <ArticleTitle />
-      <Image
-        src="/article-cover.png"
-        width="1920"
-        height="1080"
-        className="w-full"
-        alt="Copertina articolo Classifit - Building Classifit"
-      />
+      <div className="w-full h-80 overflow-hidden flex items-center justify-center bg-ring relative">
+        <Image
+          src="/blog/building-classifit-cover.png"
+          width="1080"
+          height="1350"
+          alt="Copertina articolo Classifit - Building Classifit"
+        />
+      </div>
       <div className="bg-light text-light-foreground">
         <section>
           <div className="w-3/4 mx-auto">

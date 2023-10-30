@@ -8,7 +8,7 @@ export default function Studios() {
     <>
       <PageTitle
         subtitle="studi"
-        title="Gli studi che si sono affidati a noi"
+        title="Gli studi con cui collaboriamo"
       />
       <Paragraph
         cta

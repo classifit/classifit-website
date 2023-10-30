@@ -139,7 +139,7 @@ export default function Navbar() {
         </Link>
       </div>
       <div className="flex items-center gap-12">
-        <Link className="menu-link" href="#">
+        <Link className="menu-link" href="https://app.classi.fit/" target="_blank">
           Accedi
         </Link>
         <Link href="mailto:classifit.studio@gmail.com">
