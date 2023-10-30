@@ -1,21 +1,13 @@
 import ArticleTitle from "@/components/sections/articles/article-title";
-import Image from "next/image";
 
 export default function Article() {
   return (
     <>
       <ArticleTitle />
-      <div className="w-full h-80 overflow-hidden flex items-center justify-center bg-ring relative">
-        <Image
-          src="/blog/building-classifit-cover.png"
-          width="1080"
-          height="1350"
-          alt="Copertina articolo Classifit - Building Classifit"
-        />
-      </div>
+      <div className="bg-[url('/blog/building-classifit-inside.png')] h-80 bg-fixed bg-center bg-no-repeat bg-cover" />
       <div className="bg-light text-light-foreground">
         <section>
-          <div className="w-3/4 mx-auto">
+          <div className="w-2/3 mx-auto">
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
               fermentum libero aliquam metus fermentum posuere. Aliquam sed
