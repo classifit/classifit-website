@@ -94,14 +94,14 @@ export default function Help() {
             <AccordionItem value="item-7">
               <AccordionTrigger>Come posso iniziare?</AccordionTrigger>
               <AccordionContent>
-                Contattaci via
-                <Link
+                Contattaci via&nbsp;
+                 <Link
                   href="mailto:classifit.studio@gmail.com"
                   className="text-primary hover:underline"
                 >
                   email
                 </Link>
-                o scrivici su
+                &nbsp;o scrivici su&nbsp;
                 <Link
                   href="https://www.instagram.com/app.classi.fit/"
                   className="text-primary hover:underline"
