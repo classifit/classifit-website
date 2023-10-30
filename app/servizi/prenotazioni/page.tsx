@@ -34,18 +34,25 @@ export default function Bookings() {
           <div className="col-span-6">
             <ServiceCard
               title="Offri un servizio clienti impeccabile"
-              description="Per i tuoi clienti è presente un&apos;area personale in cui è possibile monitorare le iscrizioni e i pacchetti attivi."
+              description="Per i tuoi clienti è presente un'area personale in cui è possibile monitorare le iscrizioni e i pacchetti attivi."
             />
           </div>
           <div className="col-span-6">
             <ServiceCard
-              title="&quot;Avvisami quando si libera un posto&quot;"
+              title='"Avvisami quando si libera un posto"'
               description="Possibilità per i clienti di ricevere una notifica quando si libera un posto nelle lezioni al completo."
             />
           </div>
         </div>
       </div>
-      <DoubleImages />
+      <DoubleImages
+        bgColor1="bg-card"
+        image1="/services/booking/booking-image-1.png"
+        alt1="Flusso di prenotazione alle lezioni per i tuoi clienti tramite il calendario di Classifit"
+        bgColor2="bg-secondary"
+        image2="/services/booking/booking-image-2.png"
+        alt2="Flusso di prenotazione alle lezioni per i tuoi clienti tramite il calendario di Classifit"
+      />
     </>
   );
 }

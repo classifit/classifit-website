@@ -9,7 +9,7 @@ export default function Website() {
       <ServiceTitle
         subtitle="Sito su misura"
         title="Potenzia la tua identità online"
-        description="Potenzia la tua presenza online e distingui il tuo marchio con un sito web bello e funzionale, su misura per l&apos;identità del tuo studio."
+        description="Potenzia la tua presenza online e distingui il tuo marchio con un sito web bello e funzionale, su misura per l'identità del tuo studio."
         bgColor="bg-card"
         image="/services/website/sito-cover.png"
       />
@@ -34,12 +34,21 @@ export default function Website() {
           <div className="col-span-6">
             <ServiceCard
               title="Calendario pubblico e prenotazioni online"
-              description="Solo con il pacchetto &quot;Sito web + Gestionale&quot;, viene integrato nel sito il calendario pubblico con il sistema di prenotazione online."
+              description='Solo con il pacchetto "Sito web + Gestionale", viene integrato nel sito il calendario pubblico con il sistema di prenotazione online.'
             />
           </div>
         </div>
       </div>
-      <DoubleImages />
+      <DoubleImages
+        bgColor1="bg-secondary"
+        image1="/services/website/website-img-1.png"
+        alt1="Sito web su misura per il tuo studio"
+        marginLeft="-ml-[10rem]"
+        bgColor2="bg-card"
+        image2="/services/website/website-img-2.png"
+        alt2="Sito web su misura per il tuo studio"
+        marginRight="ml-[10rem]"
+      />
     </>
   );
 }

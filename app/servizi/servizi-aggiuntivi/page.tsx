@@ -39,7 +39,15 @@ export default function AdditionalServices() {
           </div>
         </div>
       </div>
-      <DoubleImages />
+      <DoubleImages
+        bgColor1="bg-card"
+        image1="/services/additional/additional-image-1.png"
+        alt1="branding, graphic design, social media marketing, tutto ciò che è necessario per il successo del tuo studio"
+        marginLeft="-ml-[5rem]"
+        bgColor2="bg-secondary"
+        image2="/services/additional/additional-img-2.png"
+        alt2="branding, graphic design, social media marketing, tutto ciò che è necessario per il tuo studio"
+      />
     </>
   );
 }

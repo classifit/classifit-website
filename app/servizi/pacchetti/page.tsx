@@ -39,7 +39,14 @@ export default function PackagesPage() {
           </div>
         </div>
       </div>
-      <DoubleImages />
+      <DoubleImages
+        bgColor1="bg-secondary"
+        image1="/services/packages/package-image-1.png"
+        alt1="Gestisci i pacchetti a crediti, visualizza il saldo dei crediti residui e la data di scadenza per ciascun cliente"
+        bgColor2="bg-card"
+        image2="/services/packages/package-image-2.png"
+        alt2="Gestisci i pacchetti a crediti, visualizza il saldo dei crediti residui e la data di scadenza per ciascun cliente"
+      />
     </>
   );
 }

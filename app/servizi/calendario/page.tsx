@@ -39,7 +39,15 @@ export default function Calendar() {
           </div>
         </div>
       </div>
-      <DoubleImages />
+      <DoubleImages
+        bgColor1="bg-card"
+        image1="/services/calendar/calendar-image-1.png"
+        alt1="Crea, modifica, annulla tutte le lezioni del tuo studio tramite il calendario di Classifit"
+        bgColor2="bg-secondary"
+        image2="/services/calendar/immagine-calendario-2.png"
+        alt2="Crea, modifica, annulla tutte le lezioni del tuo studio tramite il calendario di Classifit"
+        marginRight="ml-[8rem]"
+      />
     </>
   );
 }
