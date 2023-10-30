@@ -139,7 +139,7 @@ export default function Feature() {
                 src="/services/website/sito-cover.png"
                 width="450"
                 height="562"
-                alt="Sito web su misura per l'identità del tuo studio di fitness"
+                alt="Sito web su misura per l&apos;identità del tuo studio di fitness"
               />
             </div>
           </div>

@@ -21,6 +21,8 @@ export default function Help() {
         subtitleText="Domande & Risposte"
         title="Ecco una lista delle domande più frequenti"
         body="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos."
+        bgColor="bg-light"
+        textColor="text-light-foreground"
       />
       <div className="bg-light text-light-foreground">
         <div className="px-12 pt-0 pb-36 max-w-[1280px] mx-auto">

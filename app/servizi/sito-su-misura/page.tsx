@@ -9,7 +9,7 @@ export default function Website() {
       <ServiceTitle
         subtitle="Sito su misura"
         title="Potenzia la tua identità online"
-        description="Potenzia la tua presenza online e distingui il tuo marchio con un sito web bello e funzionale, su misura per l'identità del tuo studio."
+        description="Potenzia la tua presenza online e distingui il tuo marchio con un sito web bello e funzionale, su misura per l&apos;identità del tuo studio."
         bgColor="bg-card"
         image="/services/website/sito-cover.png"
       />

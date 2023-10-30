@@ -34,7 +34,7 @@ export default function Bookings() {
           <div className="col-span-6">
             <ServiceCard
               title="Offri un servizio clienti impeccabile"
-              description="Per i tuoi clienti è presente un'area personale in cui è possibile monitorare le iscrizioni e i pacchetti attivi."
+              description="Per i tuoi clienti è presente un&apos;area personale in cui è possibile monitorare le iscrizioni e i pacchetti attivi."
             />
           </div>
           <div className="col-span-6">

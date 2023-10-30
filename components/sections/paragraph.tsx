@@ -8,11 +8,13 @@ type Props = {
   subtitleText?: string;
   title: string;
   body?: string;
+  bgColor: string;
+  textColor: string;
 };
 
 export default function Paragraph(props: Props) {
   return (
-    <div className="bg-light text-light-foreground">
+    <div className={`${props.bgColor} ${props.textColor}`}>
       <section>
         <div className="flex justify-between gap-48">
           <div className="flex flex-col gap-4 w-1/2">

@@ -22,7 +22,7 @@ export default function AdditionalServices() {
           <div className="col-span-6">
             <ServiceCard
               title="Logo e branding"
-              description="Progettiamo il logo e l'identità che esprimono a pieno il carattere del tuo studio."
+              description="Progettiamo il logo e l&apos;identità che esprimono a pieno il carattere del tuo studio."
             />
           </div>
           <div className="col-span-6">
@@ -34,7 +34,7 @@ export default function AdditionalServices() {
           <div className="col-span-6">
             <ServiceCard
               title="Post social"
-              description="Creiamo la grafica per i post delle tue piattaforme social, in linea con l'identità del tuo studio."
+              description="Creiamo la grafica per i post delle tue piattaforme social, in linea con l&apos;identità del tuo studio."
             />
           </div>
         </div>

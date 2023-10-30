@@ -16,6 +16,8 @@ export default function Studios() {
         subtitle
         subtitleText="In evidenza"
         title="Equilibrio Corpo e Mente"
+        bgColor="bg-light"
+        textColor="text-light-foreground"
       />
       <DoubleImages />
       <Portfolio cta={false} />
