@@ -34,8 +34,8 @@ export default function Help() {
                 completamente su misura, un servizio di prenotazione online con
                 area riservata per i tuoi clienti e una piattaforma di gestione
                 per il calendario delle lezioni, pacchetti a crediti e gestione
-                iscritti. Naviga la sezione "Servizi" del nostro sito per
-                approfondire.
+                iscritti. Naviga la sezione &quot;Servizi&quot; del nostro sito
+                per approfondire.
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-2">
@@ -67,8 +67,8 @@ export default function Help() {
               <AccordionContent>
                 Per il sito web, dovrai solo raccontarci del tuo studio e
                 fornirci testi e immagini che desideri includere. Per il
-                gestionale, ci serviranno un indirizzo email per l&apos;accesso e, se
-                hai dati pre-esistenti, le informazioni necessarie per il
+                gestionale, ci serviranno un indirizzo email per l&apos;accesso
+                e, se hai dati pre-esistenti, le informazioni necessarie per il
                 trasferimento su Classifit. Il nostro team di supporto sarà a
                 tua disposizione per guidarti attraverso il processo e
                 assicurarsi che tutto sia configurato in modo efficiente.
@@ -94,14 +94,14 @@ export default function Help() {
             <AccordionItem value="item-7">
               <AccordionTrigger>Come posso iniziare?</AccordionTrigger>
               <AccordionContent>
-                Contattaci via{" "}
+                Contattaci via
                 <Link
                   href="mailto:classifit.studio@gmail.com"
                   className="text-primary hover:underline"
                 >
                   email
-                </Link>{" "}
-                o scrivici su{" "}
+                </Link>
+                o scrivici su
                 <Link
                   href="https://www.instagram.com/app.classi.fit/"
                   className="text-primary hover:underline"
