@@ -7,70 +7,118 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
+import { Button } from "@/components/ui/button";
+import Link from "next/link";
 
 export default function Help() {
   return (
     <>
-      <PageTitle
-        subtitle="Aiuto"
-        title="Esplora le risposte che ti servono oppure contattaci"
-      />
+      <PageTitle subtitle="Aiuto" title="Trova le risposte che cerchi" />
       <Paragraph
         cta={false}
         subtitle
         subtitleText="Domande & Risposte"
-        title="Ecco una lista delle domande più frequenti"
-        body="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos."
+        title="Le domande più frequenti"
+        body="Non ci sono domande stupide - qualunque sia il tuo dubbio, siamo a tua disposizione per chiarirlo. Qui sotto trovi una lista delle domande più frequenti per capire se Classifit è adatto a te e al tuo studio."
         bgColor="bg-light"
         textColor="text-light-foreground"
       />
       <div className="bg-light text-light-foreground">
         <div className="px-12 pt-0 pb-36 max-w-[1280px] mx-auto">
-          <Accordion type="single" collapsible>
+          <Accordion type="multiple">
             <AccordionItem value="item-1">
               <AccordionTrigger>Che tipo di servizi offrite?</AccordionTrigger>
               <AccordionContent>
-                Offri ai tuoi clienti la possibilità di prenotarsi alle lezioni
-                in completa autonomia attraverso un intuitivo e semplice sistema
-                di prenotazione.
+                Classifit è la soluzione completa per il tuo studio. Nei nostri
+                servizi sono compresi la realizzazione di un sito web
+                completamente su misura, un servizio di prenotazione online con
+                area riservata per i tuoi clienti e una piattaforma di gestione
+                per il calendario delle lezioni, pacchetti a crediti e gestione
+                iscritti. Naviga la sezione "Servizi" del nostro sito per
+                approfondire.
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-2">
-              <AccordionTrigger>Quali sono le tempistiche?</AccordionTrigger>
+              <AccordionTrigger>Il servizio è ad abbonamento?</AccordionTrigger>
               <AccordionContent>
-                Pianifica le lezioni in programma nel tuo calendario personale
-                per garantire una giornata senza intoppi e massimizzare i tuoi
-                guadagni.
+                No, i nostri servizi non richiedono abbonamenti mensili o
+                annuali. Sono disponibili attraverso pacchetti componibili con
+                un unico costo iniziale. Una volta effettuato il pagamento, non
+                ci saranno ulteriori spese e avrai accesso a tutti i nostri
+                prodotti e a qualsiasi nuova funzionalità futura senza costi
+                aggiuntivi. Per ulteriori informazioni e una stima
+                personalizzata, ti invitiamo a contattarci.
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-3">
-              <AccordionTrigger>Che cosa dovrò fare io?</AccordionTrigger>
+              <AccordionTrigger>
+                Quali sono le tempistiche di consegna?
+              </AccordionTrigger>
               <AccordionContent>
-                Monitora con facilità tutti i pacchetti acquistati e tieni
-                traccia del saldo residuo di crediti e della data di scadenza
-                per ciascun cliente.
+                Le tempistiche di consegna dei nostri servizi possono variare in
+                base alle specifiche richieste e alle esigenze del tuo studio.
+                Tuttavia, in genere consegnamo il tuo sito web su misura e il
+                sistema di gestione nel giro di una/due settimane dalla conferma
+                dell'ordine.
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-4">
-              <AccordionTrigger>Come posso iniziare?</AccordionTrigger>
+              <AccordionTrigger>Che cosa dovrò fare io?</AccordionTrigger>
               <AccordionContent>
-                Potenzia la tua presenza online e distingui il tuo marchio con
-                un sito web bello e funzionale, su misura per l&apos;identità
-                del tuo studio.
+                Per il sito web, dovrai solo raccontarci del tuo studio e
+                fornirci testi e immagini che desideri includere. Per il
+                gestionale, ci serviranno un indirizzo email per l'accesso e, se
+                hai dati pre-esistenti, le informazioni necessarie per il
+                trasferimento su Classifit. Il nostro team di supporto sarà a
+                tua disposizione per guidarti attraverso il processo e
+                assicurarsi che tutto sia configurato in modo efficiente.
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-5">
-              <AccordionTrigger>Hai ancora domande?</AccordionTrigger>
+              <AccordionTrigger>E se ho già un sito web?</AccordionTrigger>
               <AccordionContent>
-                Branding, Graphic Design, Social Media Marketing, materiali
-                promozionali: creiamo insieme tutto il necessario per il
-                successo del tuo studio.
+                Con il nostro Pacchetto Gestionale puoi comunque usufruire della
+                piattaforma di gestione e - se lo desideri - delle prenotazioni
+                online integrando il calendario Classifit nel tuo sito web.
+              </AccordionContent>
+            </AccordionItem>
+            <AccordionItem value="item-6">
+              <AccordionTrigger>E se non sono soddisfatto?</AccordionTrigger>
+              <AccordionContent>
+                Nessun problema. Con tutti i nostri pacchetti è compresa una
+                garanzia di rimborso al 100%. Nel migliore dei casi porti il tuo
+                studio ad un livello superiore, nel peggiore non hai perso
+                nulla. Nessun rischio.
+              </AccordionContent>
+            </AccordionItem>
+            <AccordionItem value="item-7">
+              <AccordionTrigger>Come posso iniziare?</AccordionTrigger>
+              <AccordionContent>
+                Contattaci via{" "}
+                <Link
+                  href="mailto:classifit.studio@gmail.com"
+                  className="text-primary hover:underline"
+                >
+                  email
+                </Link>{" "}
+                o scrivici su{" "}
+                <Link
+                  href="https://www.instagram.com/app.classi.fit/"
+                  className="text-primary hover:underline"
+                  target="_blank"
+                >
+                  Instagram
+                </Link>
+                , verrai ricontattato nel giro di qualche ora.
               </AccordionContent>
             </AccordionItem>
           </Accordion>
         </div>
       </div>
-      <About title="Non hai trovato le risposte che cercavi?" body="Non esitare a contattarci tramite i DM di Instagram o tramite email - Saremo felici di risponderti!"/>
+      <About
+        title="Hai ancora domande?"
+        body="Siamo disponibili 24/24h per chiarire qualunque dubbio. Non esitare a contattarci tramite Instagram o email - Saremo felici di risponderti!"
+      />
     </>
   );
 }
