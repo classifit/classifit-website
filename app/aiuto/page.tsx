@@ -59,7 +59,7 @@ export default function Help() {
                 base alle specifiche richieste e alle esigenze del tuo studio.
                 Tuttavia, in genere consegnamo il tuo sito web su misura e il
                 sistema di gestione nel giro di una/due settimane dalla conferma
-                dell'ordine.
+                dell&apos;ordine.
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-4">
@@ -67,7 +67,7 @@ export default function Help() {
               <AccordionContent>
                 Per il sito web, dovrai solo raccontarci del tuo studio e
                 fornirci testi e immagini che desideri includere. Per il
-                gestionale, ci serviranno un indirizzo email per l'accesso e, se
+                gestionale, ci serviranno un indirizzo email per l&apos;accesso e, se
                 hai dati pre-esistenti, le informazioni necessarie per il
                 trasferimento su Classifit. Il nostro team di supporto sarà a
                 tua disposizione per guidarti attraverso il processo e
