@@ -1,8 +1,16 @@
+import type { Metadata } from "next";
 import About from "@/components/sections/about";
 import Feature from "@/components/sections/homepage/feature";
 import Hero from "@/components/sections/homepage/hero";
 import Packages from "@/components/sections/packages";
 import Portfolio from "@/components/sections/portfolio";
+
+export const metadata: Metadata = {
+  title:
+    "Classifit - Siti web su misura, prenotazioni online alle lezioni, gestionale per studio di Pilates e Yoga",
+  description:
+    "Siti web su misura, prenotazioni online alle lezioni, gestionale per studio di Pilates e Yoga. Come tuoi partner digitali, miglioriamo la gestione del tuo studio così che tu possa concentrarti su ciò che ami di più: insegnare e ispirare.",
+};
 
 export default function Home() {
   return (

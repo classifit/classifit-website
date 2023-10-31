@@ -11,9 +11,10 @@ export default function Hero() {
         </h1>
         <div className="py-4" />
         <p className="w-2/3">
-          Siti web su misura, prenotazioni online, piattaforma di gestione. Come
-          tuoi partner digitali, miglioriamo la gestione del tuo studio così che
-          tu possa concentrarti su ciò che ami di più: insegnare e ispirare.
+          Siti web su misura, prenotazioni online, gestionale per studi di
+          pilates. Come tuoi partner digitali, miglioriamo la gestione del tuo
+          studio così che tu possa concentrarti su ciò che ami di più: insegnare
+          e ispirare.
         </p>
         <div className="py-10" />
         <Link href="mailto:classifit.studio@gmail.com">

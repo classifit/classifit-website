@@ -1,7 +1,15 @@
+import type { Metadata } from "next";
 import DoubleImages from "@/components/sections/double-img";
 import ServiceAbout from "@/components/sections/services/service-about";
 import ServiceTitle from "@/components/sections/services/service-title";
 import ServiceCard from "@/components/ui/service-card";
+
+export const metadata: Metadata = {
+  title:
+    "Pacchetti a crediti - Gestisci i pacchetti del tuo studio con il gestionale per il tuo studio di Pilates o Yoga",
+  description:
+    "Monitora con facilità tutti i pacchetti acquistati e tieni traccia del saldo residuo di crediti e della data di scadenza per ciascun cliente.",
+};
 
 export default function PackagesPage() {
   return (
@@ -27,7 +35,7 @@ export default function PackagesPage() {
           </div>
           <div className="col-span-6">
             <ServiceCard
-              title="Tieni traccia dell&apos;utilizzo dei pacchetti"
+              title="Tieni traccia dell'utilizzo dei pacchetti"
               description="Per ogni cliente visualizza i pacchetti attivi, quante lezioni sono state utilizzate e la data di scadenza."
             />
           </div>

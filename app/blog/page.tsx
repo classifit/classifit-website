@@ -1,7 +1,15 @@
+import type { Metadata } from "next";
 import About from "@/components/sections/about";
 import PageTitle from "@/components/sections/page-title";
 import Image from "next/image";
 import Link from "next/link";
+
+export const metadata: Metadata = {
+  title:
+    "Blog - Dietro le quinte della costruzione del gestionale per studio di Pilates o Yoga",
+  description:
+    "Tutti gli articoli di Classifit - Gestionale per studio di Pilates o Yoga",
+};
 
 export default function Blog() {
   return (

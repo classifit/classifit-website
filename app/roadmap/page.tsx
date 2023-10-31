@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import About from "@/components/sections/about";
 import PageTitle from "@/components/sections/page-title";
 import Paragraph from "@/components/sections/paragraph";
@@ -7,6 +8,13 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
+
+export const metadata: Metadata = {
+  title:
+    "Roadmap - Le funzionalità su cui stiamo lavorando per il gestionale di studi di Pilates o Yoga",
+  description:
+    "Una lista delle attività in programma e su cui stiamo lavorando attivamente per il gestionale di studi di Pilates o Yoga",
+};
 
 export default function Roadmap() {
   return (

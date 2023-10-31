@@ -1,7 +1,15 @@
+import type { Metadata } from "next";
 import DoubleImages from "@/components/sections/double-img";
 import ServiceAbout from "@/components/sections/services/service-about";
 import ServiceTitle from "@/components/sections/services/service-title";
 import ServiceCard from "@/components/ui/service-card";
+
+export const metadata: Metadata = {
+  title:
+    "Prenotazioni online - Flusso di prenotazione online alle lezioni per i clienti del tuo studio di Pilates o Yoga",
+  description:
+    "Offri la possibilità di prenotarsi alle tue lezioni in completa autonomia attraverso un intuitivo e semplice flusso di prenotazione.",
+};
 
 export default function Bookings() {
   return (

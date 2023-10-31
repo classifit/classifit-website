@@ -44,8 +44,8 @@ export default function Packages() {
             <PackageCard
               title="Sito Web + Gestionale"
               services={[
-                "Servizi del pacchetto Sito Web",
-                "Servizi del pacchetto gestionale",
+                "Servizi del Pacchetto Sito Web",
+                "Servizi del Pacchetto Gestionale",
               ]}
               additions={[
                 "+ Calendario lezioni pubblico",

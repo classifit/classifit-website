@@ -1,7 +1,15 @@
+import type { Metadata } from "next";
 import DoubleImages from "@/components/sections/double-img";
 import ServiceAbout from "@/components/sections/services/service-about";
 import ServiceTitle from "@/components/sections/services/service-title";
 import ServiceCard from "@/components/ui/service-card";
+
+export const metadata: Metadata = {
+  title:
+    "Calendario lezioni - Gestisci le lezioni del tuo studio con il gestionale per il tuo studio Pilates o Yoga",
+  description:
+    "Pianifica le lezioni in programma nel tuo calendario personale per garantire una giornata senza intoppi e massimizzare i tuoi guadagni.",
+};
 
 export default function Calendar() {
   return (

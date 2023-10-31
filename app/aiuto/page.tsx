@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import About from "@/components/sections/about";
 import PageTitle from "@/components/sections/page-title";
 import Paragraph from "@/components/sections/paragraph";
@@ -8,6 +9,13 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import Link from "next/link";
+
+export const metadata: Metadata = {
+  title:
+    "Aiuto - Domande e Risposte su Classifit - Gestionale per studio di Pilates o Yoga",
+  description:
+    "Trova le risposte ai dubbi sul gestionale di studi di Pilates o Yoga, oppure contattaci via email o Instagram",
+};
 
 export default function Help() {
   return (

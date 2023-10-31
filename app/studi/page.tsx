@@ -1,7 +1,15 @@
+import type { Metadata } from "next";
 import DoubleImages from "@/components/sections/double-img";
 import PageTitle from "@/components/sections/page-title";
 import Paragraph from "@/components/sections/paragraph";
 import Portfolio from "@/components/sections/portfolio";
+
+export const metadata: Metadata = {
+  title:
+    "Studi - Gli studi di Pilates o Yoga con cui abbiamo collaborato",
+  description:
+    "Una lista di tutti i progetti e tutti gli studi di Pilates o Yoga con cui abbiamo collaborato",
+};
 
 export default function Studios() {
   return (

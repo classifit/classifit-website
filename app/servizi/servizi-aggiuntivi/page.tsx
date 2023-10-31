@@ -1,7 +1,15 @@
+import type { Metadata } from "next";
 import DoubleImages from "@/components/sections/double-img";
 import ServiceAbout from "@/components/sections/services/service-about";
 import ServiceTitle from "@/components/sections/services/service-title";
 import ServiceCard from "@/components/ui/service-card";
+
+export const metadata: Metadata = {
+  title:
+    "Servizi aggiuntivi - Branding, Graphic Design, Social Media Marketing, materiali promozionali per il tuo studio di Pilates o Yoga",
+  description:
+    "Branding, Graphic Design, Social Media Marketing, materiali promozionali: creiamo insieme tutto il necessario per il successo del tuo studio.",
+};
 
 export default function AdditionalServices() {
   return (

@@ -1,7 +1,15 @@
+import type { Metadata } from "next";
 import DoubleImages from "@/components/sections/double-img";
 import ServiceAbout from "@/components/sections/services/service-about";
 import ServiceTitle from "@/components/sections/services/service-title";
 import ServiceCard from "@/components/ui/service-card";
+
+export const metadata: Metadata = {
+  title:
+    "Sito Web su misura - Progettazione di un sito web su misura per il tuo studio di pilates o yoga",
+  description:
+    "Potenzia la tua presenza online e distingui il tuo marchio con un sito web bello e funzionale, su misura per l'identità del tuo studio.",
+};
 
 export default function Website() {
   return (
