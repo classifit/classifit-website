@@ -96,7 +96,7 @@ export default function Feature() {
               <Image
                 src="/services/booking/prenotazioni-cover.png"
                 width="450"
-                height="562"
+                height="630"
                 alt="Sistema di prenotazioni online per le lezioni del tuo studio"
               />
             </div>
@@ -110,7 +110,7 @@ export default function Feature() {
               <Image
                 src="/services/calendar/lezioni-calendario-cover.png"
                 width="450"
-                height="562"
+                height="630"
                 alt="Gestione delle lezioni tramite una comoda vista a calendario"
               />
             </div>
@@ -124,7 +124,7 @@ export default function Feature() {
               <Image
                 src="/services/packages/pacchetti-cover.png"
                 width="450"
-                height="562"
+                height="630"
                 alt="Gestione dei pacchetti a crediti per ogni cliente, con dettaglio dei crediti residui e data di scadenza"
               />
             </div>
@@ -138,7 +138,7 @@ export default function Feature() {
               <Image
                 src="/services/website/sito-cover.png"
                 width="450"
-                height="562"
+                height="630"
                 alt="Sito web su misura per l'identità del tuo studio di fitness"
               />
             </div>
@@ -152,7 +152,7 @@ export default function Feature() {
               <Image
                 src="/services/additional/servizi-aggiuntivi-cover.png"
                 width="450"
-                height="562"
+                height="630"
                 alt="Graphic Desing, Social Media Post, Branding, Volantini, Gift Card, Materiali Promozionali - Tutto ciò che è necessario per il successo del tuo studio"
               />
             </div>
