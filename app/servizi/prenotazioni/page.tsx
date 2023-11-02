@@ -26,7 +26,7 @@ export default function Bookings() {
         title="Tramite il flusso di prenotazione online i tuoi clienti possono selezionare le lezioni che preferiscono dal calendario e prenotarsi in autonomia, riducendo il tuo tempo di gestione degli iscritti a zero."
       />
       <div className="bg-light text-light-foreground">
-        <div className="px-4 lg:px-12 max-w-[1280px] mx-auto pt-10 pb-24 lg:pb-36 grid grid-cols-12 gap-4">
+        <div className="px-6 lg:px-12 max-w-[1280px] mx-auto pt-10 pb-24 lg:pb-36 grid grid-cols-12 gap-4">
           <div className="col-span-12 lg:col-span-6">
             <ServiceCard
               title="Inserisci i dettagli delle tue lezioni"

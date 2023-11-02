@@ -26,7 +26,7 @@ export default function Website() {
         title="Progettiamo e realizziamo un sito web personalizzato per il tuo studio. Colori, tipografia, immagini, elementi grafici, tutto è studiato e curato nei minimi dettagli, su misura per esprimere la tua identità."
       />
       <div className="bg-light text-light-foreground">
-        <div className="px-4 lg:px-12 max-w-[1280px] mx-auto pt-10 pb-24 lg:pb-36 grid grid-cols-12 gap-4">
+        <div className="px-6 lg:px-12 max-w-[1280px] mx-auto pt-10 pb-24 lg:pb-36 grid grid-cols-12 gap-4">
           <div className="col-span-12 lg:col-span-6">
             <ServiceCard
               title="Creiamo insieme il design perfetto per te"

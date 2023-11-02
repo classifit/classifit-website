@@ -26,7 +26,7 @@ export default function PackagesPage() {
         title="Definisci nuove categorie di pacchetti specificando la loro durata e il numero di lezioni incluse. Assegna i pacchetti ai clienti che li hanno acquistati e monitorane l’utilizzo in qualunque momento."
       />
       <div className="bg-light text-light-foreground">
-        <div className="px-4 lg:px-12 max-w-[1280px] mx-auto pt-10 pb-24 lg:pb-36 grid grid-cols-12 gap-4">
+        <div className="px-6 lg:px-12 max-w-[1280px] mx-auto pt-10 pb-24 lg:pb-36 grid grid-cols-12 gap-4">
           <div className="col-span-12 lg:col-span-6">
             <ServiceCard
               title="Crea, modifica o elimina pacchetti"

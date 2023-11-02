@@ -13,7 +13,6 @@ import Image from "next/image";
 
 export default function Feature() {
   const [active, setActive] = useState("item-1");
-  console.log(active);
   return (
     <div className="bg-light text-light-foreground relative">
       {/* Desktop */}

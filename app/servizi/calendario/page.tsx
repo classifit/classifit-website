@@ -26,7 +26,7 @@ export default function Calendar() {
         title="Organizza tutte le tue lezioni e compila il tuo calendario personale. Aggiungi, sposta o annulla gli incontri a seconda delle tue esigenze, in qualunque momento e con pochi click, senza stress di gestione."
       />
       <div className="bg-light text-light-foreground">
-        <div className="px-4 lg:px-12 max-w-[1280px] mx-auto pt-10 pb-24 lg:pb-36 grid grid-cols-12 gap-4">
+        <div className="px-6 lg:px-12 max-w-[1280px] mx-auto pt-10 pb-24 lg:pb-36 grid grid-cols-12 gap-4">
           <div className="col-span-12 lg:col-span-6">
             <ServiceCard
               title="Crea, modifica o annulla le lezioni"
