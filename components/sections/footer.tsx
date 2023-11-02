@@ -34,7 +34,7 @@ export default function Footer() {
             <Link className="menu-link" href="/roadmap">Roadmap</Link>
           </div>
           <div className="flex flex-col gap-6 mt-16 lg:mt-0">
-            <p className="text-sm">Link utili</p>
+            <p className="text-sm">Classifit</p>
             <Link className="menu-link" href="/studi">Studi</Link>
             <Link className="menu-link" href="/aiuto">Aiuto</Link>
             <Link className="menu-link" href="https://www.instagram.com/app.classi.fit/" target="_blank">Instagram</Link>

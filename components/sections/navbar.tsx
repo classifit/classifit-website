@@ -18,16 +18,22 @@ import {
   Pencil2Icon,
   RocketIcon,
   HamburgerMenuIcon,
-  Cross1Icon,
-  ChevronRightIcon,
 } from "@radix-ui/react-icons";
+import {
+  Sheet,
+  SheetClose,
+  SheetContent,
+  SheetDescription,
+  SheetFooter,
+  SheetHeader,
+  SheetTitle,
+  SheetTrigger,
+} from "@/components/ui/sheet";
+import { ScrollArea } from "@/components/ui/scroll-area";
 import { Button } from "../ui/button";
 import Link from "next/link";
-import { useState } from "react";
 
 export default function Navbar() {
-  const [mobileMenu, setMobileMenu] = useState(false);
-  const [servicesMenu, setServicesMenu] = useState(false);
   const pathname = usePathname();
   return (
     <>
@@ -181,59 +187,102 @@ export default function Navbar() {
           <Link href="mailto:classifit.studio@gmail.com">
             <Button variant="secondary">Contattaci</Button>
           </Link>
-          <div onClick={() => setMobileMenu(true)}>
-            <HamburgerMenuIcon className="h-6 w-6" />
-          </div>
-        </div>
-        <div
-          className={`h-screen w-full top-0 left-0 bg-primary text-primary-foreground z-50 transition-all duration-200 ease-in-out ${
-            mobileMenu ? "fixed" : "hidden"
-          }`}
-        >
-          <div className="px-6 py-6">
-            <div className="flex justify-between items-center">
-              <Link
-                href="/"
-                className="hover:opacity-80 transition-opacity duration-200 ease-in-out"
-              >
-                <Image
-                  src="/classifit.svg"
-                  width="101"
-                  height="24"
-                  alt="Logo orizzontale di Classifit"
-                  priority
-                />
-              </Link>
-              <div className="flex gap-8 items-center">
-                <Link href="mailto:classifit.studio@gmail.com">
-                  <Button variant="secondary">Contattaci</Button>
-                </Link>
-                <div onClick={() => setMobileMenu(false)}>
-                  <Cross1Icon className="h-6 w-6" />
-                </div>
-              </div>
-            </div>
-            <div className="py-10" />
-            <div className="flex flex-col gap-6">
-              <div className="flex justify-between items-center">
-                <h3>Servizi</h3>
-                <ChevronRightIcon className="h-6 w-6 text-white/60" />
-              </div>
-              <hr className="opacity-60" />
-              <Link href="/studi" className="text-2xl" onClick={() => setMobileMenu(false)}>
-                Studi
-              </Link>
-              <hr className="opacity-60" />
-              <div className="flex justify-between items-center">
-                <h3>Risorse</h3>
-                <ChevronRightIcon className="h-6 w-6 text-white/60" />
-              </div>
-              <hr className="opacity-60" />
-              <Link href="/aiuto" className="text-2xl" onClick={() => setMobileMenu(false)}>
-                Aiuto
-              </Link>
-            </div>
-          </div>
+          <Sheet>
+            <SheetTrigger asChild>
+              <HamburgerMenuIcon className="h-6 w-6" />
+            </SheetTrigger>
+            <SheetContent>
+              <ScrollArea className="w-full h-screen">
+                <SheetHeader>
+                  <Link
+                    href="/"
+                    className="hover:opacity-80 transition-opacity duration-200 ease-in-out"
+                  >
+                    <Image
+                      src="/classifit.svg"
+                      width="101"
+                      height="24"
+                      alt="Logo orizzontale di Classifit"
+                      priority
+                    />
+                  </Link>
+                  <SheetDescription>
+                    <div className="flex flex-col gap-6 mt-16">
+                      <Link href="mailto:classifit.studio@gmail.com">
+                        Contattaci
+                      </Link>
+                      <Link href="https://app.classi.fit/">
+                        Accedi
+                      </Link>
+                    </div>
+                    <div className="flex flex-col gap-6 mt-16 lg:mt-0">
+                      <p className="text-sm">Servizi</p>
+                      <SheetClose asChild>
+                        <Link
+                          href="/servizi/prenotazioni"
+                          className="menu-link"
+                        >
+                          Prenotazioni
+                        </Link>
+                      </SheetClose>
+                      <SheetClose asChild>
+                        <Link href="/servizi/calendario" className="menu-link">
+                          Calendario lezioni
+                        </Link>
+                      </SheetClose>
+                      <SheetClose asChild>
+                        <Link href="/servizi/pacchetti" className="menu-link">
+                          Pacchetti a crediti
+                        </Link>
+                      </SheetClose>
+                      <SheetClose asChild>
+                        <Link
+                          href="/servizi/sito-su-misura"
+                          className="menu-link"
+                        >
+                          Sito su misura
+                        </Link>
+                      </SheetClose>
+                      <SheetClose asChild>
+                        <Link
+                          href="/servizi/servizi-aggiuntivi"
+                          className="menu-link"
+                        >
+                          Servizi aggiuntivi
+                        </Link>
+                      </SheetClose>
+                    </div>
+                    <div className="flex flex-col gap-6 mt-16 lg:mt-0">
+                      <p className="text-sm">Risorse</p>
+                      <SheetClose asChild>
+                        <Link href="/blog" className="menu-link">
+                          Blog
+                        </Link>
+                      </SheetClose>
+                      <SheetClose asChild>
+                        <Link href="/roadmap" className="menu-link">
+                          Roadmap
+                        </Link>
+                      </SheetClose>
+                    </div>
+                    <div className="flex flex-col gap-6 mt-16 lg:mt-0">
+                      <p className="text-sm">Classifit</p>
+                      <SheetClose asChild>
+                        <Link href="/studi" className="menu-link">
+                          Studi
+                        </Link>
+                      </SheetClose>
+                      <SheetClose asChild>
+                        <Link href="/aiuto" className="menu-link">
+                          Aiuto
+                        </Link>
+                      </SheetClose>
+                    </div>
+                  </SheetDescription>
+                </SheetHeader>
+              </ScrollArea>
+            </SheetContent>
+          </Sheet>
         </div>
       </nav>
     </>
