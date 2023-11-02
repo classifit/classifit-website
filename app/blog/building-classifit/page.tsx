@@ -12,10 +12,10 @@ export default function Article() {
   return (
     <>
       <ArticleTitle />
-      <div className="bg-[url('/blog/building-classifit-inside.png')] h-72 bg-fixed bg-center bg-no-repeat bg-cover" />
+      <div className="bg-[url('/blog/building-classifit-inside.png')] h-36 lg:h-72 lg:bg-fixed bg-center bg-no-repeat bg-cover" />
       <div className="bg-light text-light-foreground">
         <section>
-          <div className="w-2/3 mx-auto">
+          <div className="lg:w-2/3 mx-auto">
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
               fermentum libero aliquam metus fermentum posuere. Aliquam sed

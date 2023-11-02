@@ -29,7 +29,7 @@ export default function Roadmap() {
           bgColor="bg-card"
           textColor="text-card-foreground"
         />
-        <div className="px-12 pb-36 max-w-[1280px] mx-auto">
+        <div className="px-4 lg:px-12 pb-24 lg:pb-36 max-w-[1280px] mx-auto">
           <Accordion type="multiple">
             <AccordionItem value="item-1">
               <AccordionTrigger>Gestione contenuti</AccordionTrigger>
@@ -73,7 +73,7 @@ export default function Roadmap() {
           bgColor="bg-light"
           textColor="text-light-foreground"
         />
-        <div className="px-12 pb-36 max-w-[1280px] mx-auto">
+        <div className="px-4 lg:px-12 pb-24 lg:pb-36 max-w-[1280px] mx-auto">
           <Accordion type="multiple">
             <AccordionItem value="item-1">
               <AccordionTrigger>Pagamenti</AccordionTrigger>

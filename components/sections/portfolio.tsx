@@ -54,7 +54,7 @@ export default function Portfolio(props: Props) {
             </Button>
           </Link>
         )}
-        <div className="py-10" />
+        <div className="py-4 lg:py-10" />
         <div className="lg:grid grid-cols-12 gap-4">
           {projects.map((prj) => (
             <div className="lg:col-span-4 group mt-4 lg:mt-0" key={prj.id}>
@@ -63,14 +63,14 @@ export default function Portfolio(props: Props) {
                 width="1080"
                 height="1350"
                 alt="Progetto grafico di Classifit - Siti web per studi di pilates o fitness"
-                className="block group-hover:hidden"
+                className="block lg:group-hover:hidden"
               />
               <Image
                 src={prj.gif}
                 width="1080"
                 height="1350"
                 alt="Progetto grafico di Classifit - Siti web per studi di pilates o fitness"
-                className="hidden group-hover:block"
+                className="hidden lg:group-hover:block"
               />
             </div>
           ))}

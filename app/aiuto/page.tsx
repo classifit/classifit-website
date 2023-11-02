@@ -31,7 +31,7 @@ export default function Help() {
         textColor="text-light-foreground"
       />
       <div className="bg-light text-light-foreground">
-        <div className="px-12 pt-0 pb-36 max-w-[1280px] mx-auto">
+        <div className="px-4 lg:px-12 pt-0 pb-24 lg:pb-36 max-w-[1280px] mx-auto">
           <Accordion type="multiple">
             <AccordionItem value="item-1">
               <AccordionTrigger>Che tipo di servizi offrite?</AccordionTrigger>

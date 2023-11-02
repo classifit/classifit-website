@@ -18,7 +18,7 @@ export default function Blog() {
       <div className="bg-light text-light-foreground">
         <section>
           <div className="grid grid-cols-12">
-            <div className="col-span-4 group">
+            <div className="col-span-12 lg:col-span-4 group">
               <Link href="/blog/building-classifit">
                 <div className="flex flex-col gap-4 overflow-hidden">
                   <Image

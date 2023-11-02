@@ -31,7 +31,7 @@ export default function Studios() {
         bgColor2="bg-secondary"
         image2="/services/website/website-img-2.png"
         alt2="Sito web su misura per il tuo studio"
-        marginRight="ml-[10rem]"
+        marginRight="lg:ml-[10rem]"
       />
       <Portfolio cta={false} />
     </>
