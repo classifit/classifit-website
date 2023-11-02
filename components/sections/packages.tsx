@@ -5,8 +5,8 @@ export default function Packages() {
   return (
     <div className="bg-dark text-dark-foreground">
       <section>
-        <div className="flex gap-4">
-          <div className="w-1/3">
+        <div className="lg:flex gap-4">
+          <div className="w-full lg:w-1/3">
             <PackageCard
               title="Pacchetto Sito Web"
               services={[
@@ -23,7 +23,7 @@ export default function Packages() {
               mutedColor="text-muted-foreground"
             />
           </div>
-          <div className="w-1/3">
+          <div className="w-full lg:w-1/3 mt-4 lg:mt-0">
             <PackageCard
               title="Pacchetto Gestionale"
               services={[
@@ -40,7 +40,7 @@ export default function Packages() {
               mutedColor="text-muted-foreground"
             />
           </div>
-          <div className="w-1/3">
+          <div className="w-full lg:w-1/3 mt-4 lg:mt-0">
             <PackageCard
               title="Sito Web + Gestionale"
               services={[
@@ -59,8 +59,8 @@ export default function Packages() {
             />
           </div>
         </div>
-        <div className="flex items-center justify-between mt-36 gap-12">
-          <div className="w-4/5">
+        <div className="lg:flex items-center justify-between mt-24 lg:mt-36 gap-12">
+          <div className="w-full lg:w-4/5">
             <h1 className="font-medium">La nostra garanzia ci rende unici</h1>
             <div className="py-2" />
             <p className="text-white/60">
@@ -71,13 +71,13 @@ export default function Packages() {
               perso nulla. Nessun rischio.
             </p>
           </div>
-          <div className="w-1/5">
+          <div className="w-full lg:w-1/5">
             <Image
               src="/guarantee.svg"
               width="194"
               height="92"
               alt="I nostri servizi hanno una garanzia del 100% di rimborso se non soddisfatti del servizio"
-              className="ml-auto"
+              className="lg:ml-auto mt-8 lg:mt-0"
             />
           </div>
         </div>

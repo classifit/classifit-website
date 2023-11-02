@@ -10,9 +10,9 @@ type Props = {
 export default function About(props: Props) {
   return (
     <div className="bg-card text-dark relative">
-      <div className="flex max-w-[1280px] px-12 py-[200px] mx-auto gap-60">
-        <div className="w-1/2 flex items-center justify-center">
-          <div className="bg-secondary absolute w-1/2 h-full top-0 left-0 flex items-center justify-center">
+      <div className="lg:flex max-w-[1280px] px-4 lg:px-12 py-24 lg:py-[200px] mx-auto gap-60">
+        <div className="w-full lg:w-1/2 flex items-center justify-center">
+          <div className="bg-secondary lg:absolute w-full lg:w-1/2 h-full top-0 left-0 flex items-center justify-center">
             <Image
               src="/classifit-sticker.png"
               width="418"
@@ -21,7 +21,7 @@ export default function About(props: Props) {
             />
           </div>
         </div>
-        <div className="w-1/2">
+        <div className="w-full lg:w-1/2 mt-16 lg:mt-0">
           <h1 className="font-medium">{props.title}</h1>
           <div className="py-4" />
           <p className="text-muted-foreground">{props.body}</p>

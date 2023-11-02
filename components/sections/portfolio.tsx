@@ -55,9 +55,9 @@ export default function Portfolio(props: Props) {
           </Link>
         )}
         <div className="py-10" />
-        <div className="grid grid-cols-12 gap-4">
+        <div className="lg:grid grid-cols-12 gap-4">
           {projects.map((prj) => (
-            <div className="col-span-4 group" key={prj.id}>
+            <div className="lg:col-span-4 group mt-4 lg:mt-0" key={prj.id}>
               <Image
                 src={prj.default}
                 width="1080"

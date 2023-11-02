@@ -9,7 +9,7 @@ type Props = {
 
 export default function PackageCard(props: Props) {
   return (
-    <div className={`w-full h-full px-12 py-20 ` + props.bgColor + ` ` + props.textColor}>
+    <div className={`w-full h-full px-8 lg:px-12 py-16 lg:py-20 ` + props.bgColor + ` ` + props.textColor}>
       <div className="flex flex-col gap-12">
         <h3 className="font-medium">{props.title}</h3>
         <div className={`flex flex-col gap-1 text-base ` + props.mutedColor}>

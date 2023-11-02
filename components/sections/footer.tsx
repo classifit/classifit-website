@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <footer className="bg-primary text-primary-foreground">
       <section>
-        <div className="flex justify-between">
+        <div className="lg:flex justify-between">
           <div>
             <div className="flex flex-col gap-6">
               <Link className="menu-link" href="#" target="_blank">Privacy Policy</Link>
@@ -20,7 +20,7 @@ export default function Footer() {
               alt="Logo orizzontale di Classifit"
             />
           </div>
-          <div className="flex flex-col gap-6">
+          <div className="flex flex-col gap-6 mt-16 lg:mt-0">
             <p className="text-sm">Servizi</p>
             <Link className="menu-link" href="/servizi/prenotazioni">Prenotazioni</Link>
             <Link className="menu-link" href="/servizi/calendario">Calendario lezioni</Link>
@@ -28,12 +28,12 @@ export default function Footer() {
             <Link className="menu-link" href="/servizi/sito-su-misura">Sito su misura</Link>
             <Link className="menu-link" href="/servizi/servizi-aggiuntivi">Servizi aggiuntivi</Link>
           </div>
-          <div className="flex flex-col gap-6">
+          <div className="flex flex-col gap-6 mt-16 lg:mt-0">
             <p className="text-sm">Risorse</p>
             <Link className="menu-link" href="/blog">Blog</Link>
             <Link className="menu-link" href="/roadmap">Roadmap</Link>
           </div>
-          <div className="flex flex-col gap-6">
+          <div className="flex flex-col gap-6 mt-16 lg:mt-0">
             <p className="text-sm">Link utili</p>
             <Link className="menu-link" href="/studi">Studi</Link>
             <Link className="menu-link" href="/aiuto">Aiuto</Link>

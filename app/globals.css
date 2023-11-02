@@ -78,7 +78,7 @@
  
 @layer base {
   * {
-    @apply border-border;
+    @apply border-border overflow-x-hidden;
   }
   body {
     @apply bg-background text-foreground;
@@ -99,7 +99,7 @@
     @apply text-lg
   }
   section {
-    @apply px-12 py-36 max-w-[1280px] mx-auto
+    @apply px-4 lg:px-12 py-24 lg:py-36 max-w-[1280px] mx-auto
   }
   .menu-link {
     @apply select-none text-primary-foreground opacity-60 hover:opacity-100 text-sm transition-opacity ease-in-out duration-200

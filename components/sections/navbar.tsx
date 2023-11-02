@@ -24,7 +24,7 @@ import Link from "next/link";
 export default function Navbar() {
   const pathname = usePathname();
   return (
-    <nav className="flex items-center justify-between max-w-[1280px] px-12 py-6 bg-primary mx-auto">
+    <nav className="hidden lg:flex items-center justify-between max-w-[1280px] px-12 py-6 bg-primary mx-auto">
       <div className="flex items-center gap-12">
         <Link
           href="/"
