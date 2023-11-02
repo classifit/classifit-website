@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function ContactButton() {
   return (
     <div className="fixed bottom-6 left-6 z-50">
-      <Link href="mailto:classifit.studio@gmail.com">
+      <Link href="mailto:classifit.studio@gmail.com" aria-label="Clicca qui per contattarci via email">
         <svg
           width="102"
           height="102"
