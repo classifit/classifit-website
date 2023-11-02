@@ -26,8 +26,8 @@ import Link from "next/link";
 import { useState } from "react";
 
 export default function Navbar() {
-  const [open, setOpen] = useState(false);
-  console.log(open);
+  const [mobileMenu, setMobileMenu] = useState(false);
+  const [servicesMenu, setServicesMenu] = useState(false);
   const pathname = usePathname();
   return (
     <>
@@ -181,13 +181,13 @@ export default function Navbar() {
           <Link href="mailto:classifit.studio@gmail.com">
             <Button variant="secondary">Contattaci</Button>
           </Link>
-          <div onClick={() => setOpen(true)}>
+          <div onClick={() => setMobileMenu(true)}>
             <HamburgerMenuIcon className="h-6 w-6" />
           </div>
         </div>
         <div
-          className={`fixed h-screen w-full top-0 left-0 bg-primary text-primary-foreground z-50 ${
-            open ? "opacity-100" : "opacity-0"
+          className={`h-screen w-full top-0 left-0 bg-primary text-primary-foreground z-50 transition-all duration-200 ease-in-out ${
+            mobileMenu ? "fixed" : "hidden"
           }`}
         >
           <div className="px-6 py-6">
@@ -208,7 +208,9 @@ export default function Navbar() {
                 <Link href="mailto:classifit.studio@gmail.com">
                   <Button variant="secondary">Contattaci</Button>
                 </Link>
-                <Cross1Icon className="h-6 w-6" />
+                <div onClick={() => setMobileMenu(false)}>
+                  <Cross1Icon className="h-6 w-6" />
+                </div>
               </div>
             </div>
             <div className="py-10" />
@@ -218,7 +220,7 @@ export default function Navbar() {
                 <ChevronRightIcon className="h-6 w-6 text-white/60" />
               </div>
               <hr className="opacity-60" />
-              <Link href="/studi" className="text-2xl">
+              <Link href="/studi" className="text-2xl" onClick={() => setMobileMenu(false)}>
                 Studi
               </Link>
               <hr className="opacity-60" />
@@ -227,7 +229,7 @@ export default function Navbar() {
                 <ChevronRightIcon className="h-6 w-6 text-white/60" />
               </div>
               <hr className="opacity-60" />
-              <Link href="/aiuto" className="text-2xl">
+              <Link href="/aiuto" className="text-2xl" onClick={() => setMobileMenu(false)}>
                 Aiuto
               </Link>
             </div>

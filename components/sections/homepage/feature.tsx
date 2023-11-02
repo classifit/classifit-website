@@ -162,7 +162,7 @@ export default function Feature() {
       {/* Mobile */}
       <section className="block lg:hidden">
         <Accordion type="single" collapsible defaultValue="item-1">
-          <AccordionItem value="item-1" onClick={() => setActive("item-1")}>
+          <AccordionItem value="item-1">
             <AccordionTrigger>Prenotazioni</AccordionTrigger>
             <AccordionContent>
               Offri ai tuoi clienti la possibilità di prenotarsi alle lezioni in
@@ -185,7 +185,7 @@ export default function Feature() {
               </div>
             </AccordionContent>
           </AccordionItem>
-          <AccordionItem value="item-2" onClick={() => setActive("item-2")}>
+          <AccordionItem value="item-2">
             <AccordionTrigger>Calendario lezioni</AccordionTrigger>
             <AccordionContent>
               Pianifica le lezioni in programma nel tuo calendario personale per
@@ -208,7 +208,7 @@ export default function Feature() {
               </div>
             </AccordionContent>
           </AccordionItem>
-          <AccordionItem value="item-3" onClick={() => setActive("item-3")}>
+          <AccordionItem value="item-3">
             <AccordionTrigger>Pacchetti a crediti</AccordionTrigger>
             <AccordionContent>
               Monitora con facilità tutti i pacchetti acquistati e tieni traccia
@@ -231,7 +231,7 @@ export default function Feature() {
               </div>
             </AccordionContent>
           </AccordionItem>
-          <AccordionItem value="item-4" onClick={() => setActive("item-4")}>
+          <AccordionItem value="item-4">
             <AccordionTrigger>Sito su misura</AccordionTrigger>
             <AccordionContent>
               Potenzia la tua presenza online e distingui il tuo marchio con un
@@ -254,7 +254,7 @@ export default function Feature() {
               </div>
             </AccordionContent>
           </AccordionItem>
-          <AccordionItem value="item-5" onClick={() => setActive("item-5")}>
+          <AccordionItem value="item-5">
             <AccordionTrigger>Servizi aggiuntivi</AccordionTrigger>
             <AccordionContent>
               Branding, Graphic Design, Social Media Marketing, materiali
