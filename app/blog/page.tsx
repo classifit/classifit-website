@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title:
     "Blog - Dietro le quinte della costruzione del gestionale per studio di Pilates o Yoga",
   description:
-    "Tutti gli articoli di Classifit - Gestionale per studio di Pilates o Yoga",
+    "Dietro le quinte di Classifit - Gestionale per studio di Pilates o Yoga",
 };
 
 export default function Blog() {

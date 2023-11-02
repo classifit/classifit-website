@@ -6,7 +6,7 @@ import Portfolio from "@/components/sections/portfolio";
 
 export const metadata: Metadata = {
   title:
-    "Studi - Gli studi di Pilates o Yoga con cui abbiamo collaborato",
+    "Studi - Gli studi di Pilates o Yoga con cui abbiamo collaborato e le loro recensioni",
   description:
     "Una lista di tutti i progetti e tutti gli studi di Pilates o Yoga con cui abbiamo collaborato",
 };

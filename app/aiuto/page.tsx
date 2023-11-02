@@ -12,7 +12,7 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title:
-    "Aiuto - Domande e Risposte su Classifit - Gestionale per studio di Pilates o Yoga",
+    "Aiuto - Domande e Risposte su Classifit, il gestionale per studio di Pilates o Yoga",
   description:
     "Trova le risposte ai dubbi sul gestionale di studi di Pilates o Yoga, oppure contattaci via email o Instagram",
 };
