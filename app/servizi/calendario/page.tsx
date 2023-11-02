@@ -26,20 +26,20 @@ export default function Calendar() {
         title="Organizza tutte le tue lezioni e compila il tuo calendario personale. Aggiungi, sposta o annulla gli incontri a seconda delle tue esigenze, in qualunque momento e con pochi click, senza stress di gestione."
       />
       <div className="bg-light text-light-foreground">
-        <div className="px-12 max-w-[1280px] mx-auto pt-10 pb-36 grid grid-cols-12 gap-4">
-          <div className="col-span-6">
+        <div className="px-4 lg:px-12 max-w-[1280px] mx-auto pt-10 pb-24 lg:pb-36 grid grid-cols-12 gap-4">
+          <div className="col-span-12 lg:col-span-6">
             <ServiceCard
               title="Crea, modifica o annulla le lezioni"
               description="Compila il tuo calendario personale e modifica o annulla qualunque lezione, in qualunque momento."
             />
           </div>
-          <div className="col-span-6">
+          <div className="col-span-12 lg:col-span-6">
             <ServiceCard
               title="Email e notifiche automatiche"
               description="Mantieni informati i tuoi clienti di eventuali modifiche al programma con messaggi automatizzati."
             />
           </div>
-          <div className="col-span-6">
+          <div className="col-span-12 lg:col-span-6">
             <ServiceCard
               title="Crea lezioni ricorrenti"
               description="Alle 10:00 ogni ultimo venerdì del mese per i prossimi quattro mesi? Facile."
@@ -54,7 +54,7 @@ export default function Calendar() {
         bgColor2="bg-secondary"
         image2="/services/calendar/immagine-calendario-2.png"
         alt2="Crea, modifica, annulla tutte le lezioni del tuo studio tramite il calendario di Classifit"
-        marginRight="ml-[8rem]"
+        marginRight="lg:ml-[8rem]"
       />
     </>
   );

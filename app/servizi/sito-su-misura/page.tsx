@@ -26,20 +26,20 @@ export default function Website() {
         title="Progettiamo e realizziamo un sito web personalizzato per il tuo studio. Colori, tipografia, immagini, elementi grafici, tutto è studiato e curato nei minimi dettagli, su misura per esprimere la tua identità."
       />
       <div className="bg-light text-light-foreground">
-        <div className="px-12 max-w-[1280px] mx-auto pt-10 pb-36 grid grid-cols-12 gap-4">
-          <div className="col-span-6">
+        <div className="px-4 lg:px-12 max-w-[1280px] mx-auto pt-10 pb-24 lg:pb-36 grid grid-cols-12 gap-4">
+          <div className="col-span-12 lg:col-span-6">
             <ServiceCard
               title="Creiamo insieme il design perfetto per te"
               description="Dopo la creazione della grafica del sito web, potrai esaminarla e condividere i tuoi feedback con noi."
             />
           </div>
-          <div className="col-span-6">
+          <div className="col-span-12 lg:col-span-6">
             <ServiceCard
               title="Modifica in autonomia i contenuti"
               description="Hai delle nuove fotografie? Non devi dipendere da noi per fare delle modifiche ai contenuti del tuo sito."
             />
           </div>
-          <div className="col-span-6">
+          <div className="col-span-12 lg:col-span-6">
             <ServiceCard
               title="Calendario pubblico e prenotazioni online"
               description='Solo con il pacchetto "Sito web + Gestionale", viene integrato nel sito il calendario pubblico con il sistema di prenotazione online.'
@@ -51,11 +51,11 @@ export default function Website() {
         bgColor1="bg-secondary"
         image1="/services/website/website-img-1.png"
         alt1="Sito web su misura per il tuo studio"
-        marginLeft="-ml-[10rem]"
+        marginLeft="lg:-ml-[10rem]"
         bgColor2="bg-card"
         image2="/services/website/website-img-2.png"
         alt2="Sito web su misura per il tuo studio"
-        marginRight="ml-[10rem]"
+        marginRight="lg:ml-[10rem]"
       />
     </>
   );

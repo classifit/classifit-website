@@ -26,20 +26,20 @@ export default function AdditionalServices() {
         title="Hai bisogno di ulteriore materiale per la gestione del tuo studio? Possiamo creare per te qualunque materiale grafico di cui puoi aver bisogno - sia digitale che stampato."
       />
       <div className="bg-light text-light-foreground">
-        <div className="px-12 max-w-[1280px] mx-auto pt-10 pb-36 grid grid-cols-12 gap-4">
-          <div className="col-span-6">
+        <div className="px-4 lg:px-12 max-w-[1280px] mx-auto pt-10 pb-24 lg:pb-36 grid grid-cols-12 gap-4">
+          <div className="col-span-12 lg:col-span-6">
             <ServiceCard
               title="Logo e branding"
               description="Progettiamo il logo e l&apos;identità che esprimono a pieno il carattere del tuo studio."
             />
           </div>
-          <div className="col-span-6">
+          <div className="col-span-12 lg:col-span-6">
             <ServiceCard
               title="Graphic Design"
               description="Volantini, poster, carte regalo, sticker. Possiamo realizzare tutti i materiali che ti vengono in mente."
             />
           </div>
-          <div className="col-span-6">
+          <div className="col-span-12 lg:col-span-6">
             <ServiceCard
               title="Post social"
               description="Creiamo la grafica per i post delle tue piattaforme social, in linea con l&apos;identità del tuo studio."
@@ -51,7 +51,7 @@ export default function AdditionalServices() {
         bgColor1="bg-card"
         image1="/services/additional/additional-image-1.png"
         alt1="branding, graphic design, social media marketing, tutto ciò che è necessario per il successo del tuo studio"
-        marginLeft="-ml-[5rem]"
+        marginLeft="lg:-ml-[5rem]"
         bgColor2="bg-secondary"
         image2="/services/additional/additional-img-2.png"
         alt2="branding, graphic design, social media marketing, tutto ciò che è necessario per il tuo studio"
