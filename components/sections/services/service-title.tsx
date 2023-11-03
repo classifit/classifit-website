@@ -42,6 +42,7 @@ export default function ServiceTitle(props: Props) {
               width="370"
               height="482"
               alt="Prenotazioni online, calendario delle lezioni, pacchetti a crediti e siti web su misura - Porta il tuo studio di fitness al prossimo livello"
+              priority
             />
           </div>
         </div>
