@@ -6,37 +6,37 @@ export default function sitemap(): MetadataRoute.Sitemap {
       url: 'https://www.classi.fit',
       lastModified: new Date(),
       changeFrequency: 'yearly',
-      priority: 1,
+      priority: 1.0,
     },
     {
       url: 'https://www.classi.fit/servizi/prenotazioni',
       lastModified: new Date(),
       changeFrequency: 'yearly',
-      priority: 0.8,
+      priority: 0.9,
     },
     {
       url: 'https://www.classi.fit/servizi/calendario',
       lastModified: new Date(),
       changeFrequency: 'yearly',
-      priority: 0.8,
+      priority: 0.9,
     },
     {
         url: 'https://www.classi.fit/servizi/pacchetti',
         lastModified: new Date(),
         changeFrequency: 'yearly',
-        priority: 0.8,
+        priority: 0.9,
       },
       {
         url: 'https://www.classi.fit/servizi/sito-su-misura',
         lastModified: new Date(),
         changeFrequency: 'yearly',
-        priority: 0.8,
+        priority: 0.9,
       },
       {
         url: 'https://www.classi.fit/servizi/servizi-aggiuntivi',
         lastModified: new Date(),
         changeFrequency: 'yearly',
-        priority: 0.8,
+        priority: 0.9,
       },
       {
         url: 'https://www.classi.fit/studi',
@@ -60,7 +60,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
         url: 'https://www.classi.fit/aiuto',
         lastModified: new Date(),
         changeFrequency: 'yearly',
-        priority: 0.8,
+        priority: 0.5,
       },
   ]
 }
