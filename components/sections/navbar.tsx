@@ -67,7 +67,6 @@ export default function Navbar() {
   return (
     <>
       {/* // Desktop */}
-      {console.log(isTopScrolled)}
       <nav
         className={`fixed w-full bg-primary text-primary-foreground z-50 ${
           scrolledUpwoards ? "translate-y-0" : "-translate-y-24"
