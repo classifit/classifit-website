@@ -40,7 +40,7 @@ export default function Navbar() {
     let prevScrollPos = window.scrollY;
     window.addEventListener("scroll", function () {
       const currentScrollPos = window.scrollY;
-      if (prevScrollPos > currentScrollPos) {
+      if (prevScrollPos >= currentScrollPos) {
         setScrolledUpwoards(true);
       } else {
         setScrolledUpwoards(false);
