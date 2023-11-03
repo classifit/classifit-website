@@ -14,7 +14,7 @@ type Props = {
 export default function ServiceTitle(props: Props) {
   return (
     <div className="bg-primary text-primary-foreground">
-      <section>
+      <div className="px-6 lg:px-12 pb-24 pt-36 lg:pb-36 pt-40 max-w-[1280px] mx-auto">
         <div className="lg:flex justify-between items-center gap-32">
           <div className="w-full lg:w-1/2">
             <p className="uppercase text-white/60 text-sm font-medium">
@@ -45,7 +45,7 @@ export default function ServiceTitle(props: Props) {
             />
           </div>
         </div>
-      </section>
+      </div>
     </div>
   );
 }

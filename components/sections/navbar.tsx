@@ -210,124 +210,137 @@ export default function Navbar() {
       </nav>
 
       {/* // Mobile */}
-      <nav className="flex lg:hidden justify-between items-center max-w-[1280px] px-6 py-6 bg-primary mx-auto">
-        <Link
-          href="/"
-          className="hover:opacity-80 transition-opacity duration-200 ease-in-out"
+      <nav
+        className={`fixed w-full bg-primary text-primary-foreground z-50 ${
+          scrolledUpwoards ? "translate-y-0" : "-translate-y-24"
+        } transition-all duration-300 ease-in-out`}
+      >
+        <div
+          className={`flex lg:hidden items-center justify-between max-w-[1280px] px-6 ${
+            isTopScrolled ? "py-6" : "py-4"
+          } mx-auto transition-all duration-300 ease-in-out`}
         >
-          <Image
-            src="/classifit.svg"
-            width="101"
-            height="24"
-            alt="Logo orizzontale di Classifit"
-            priority
-          />
-        </Link>
-        <div className="flex gap-8 items-center">
-          <Link href="mailto:classifit.studio@gmail.com">
-            <Button variant="secondary">Contattaci</Button>
+          <Link
+            href="/"
+            className="hover:opacity-80 transition-opacity duration-200 ease-in-out"
+          >
+            <Image
+              src="/classifit.svg"
+              width="101"
+              height="24"
+              alt="Logo orizzontale di Classifit"
+              priority
+            />
           </Link>
-          <Sheet>
-            <SheetTrigger asChild>
-              <HamburgerMenuIcon className="h-6 w-6" />
-            </SheetTrigger>
-            <SheetContent>
-              <SheetHeader>
-                <Link
-                  href="/"
-                  className="hover:opacity-80 transition-opacity duration-200 ease-in-out"
-                >
-                  <Image
-                    src="/classifit.svg"
-                    width="101"
-                    height="24"
-                    alt="Logo orizzontale di Classifit"
-                    priority
-                  />
-                </Link>
-                <SheetDescription>
-                  <div className="flex flex-col gap-6 mt-16">
-                    <Link href="mailto:classifit.studio@gmail.com">
-                      Contattaci
-                    </Link>
-                    <Link href="https://app.classi.fit/">Accedi</Link>
-                  </div>
-                  <div className="flex">
-                    <div className="w-2/3">
-                      <div className="flex flex-col gap-8 mt-16">
-                        <p className="text-sm">Servizi</p>
-                        <SheetClose asChild>
-                          <Link
-                            href="/servizi/prenotazioni"
-                            className="menu-link"
-                          >
-                            Prenotazioni
-                          </Link>
-                        </SheetClose>
-                        <SheetClose asChild>
-                          <Link
-                            href="/servizi/calendario"
-                            className="menu-link"
-                          >
-                            Calendario lezioni
-                          </Link>
-                        </SheetClose>
-                        <SheetClose asChild>
-                          <Link href="/servizi/pacchetti" className="menu-link">
-                            Pacchetti a crediti
-                          </Link>
-                        </SheetClose>
-                        <SheetClose asChild>
-                          <Link
-                            href="/servizi/sito-su-misura"
-                            className="menu-link"
-                          >
-                            Sito su misura
-                          </Link>
-                        </SheetClose>
-                        <SheetClose asChild>
-                          <Link
-                            href="/servizi/servizi-aggiuntivi"
-                            className="menu-link"
-                          >
-                            Servizi aggiuntivi
-                          </Link>
-                        </SheetClose>
+          <div className="flex gap-8 items-center">
+            <Link href="mailto:classifit.studio@gmail.com">
+              <Button variant="secondary">Contattaci</Button>
+            </Link>
+            <Sheet>
+              <SheetTrigger asChild>
+                <HamburgerMenuIcon className="h-6 w-6" />
+              </SheetTrigger>
+              <SheetContent>
+                <SheetHeader>
+                  <Link
+                    href="/"
+                    className="hover:opacity-80 transition-opacity duration-200 ease-in-out"
+                  >
+                    <Image
+                      src="/classifit.svg"
+                      width="101"
+                      height="24"
+                      alt="Logo orizzontale di Classifit"
+                      priority
+                    />
+                  </Link>
+                  <SheetDescription>
+                    <div className="flex flex-col gap-6 mt-16">
+                      <Link href="mailto:classifit.studio@gmail.com">
+                        Contattaci
+                      </Link>
+                      <Link href="https://app.classi.fit/">Accedi</Link>
+                    </div>
+                    <div className="flex">
+                      <div className="w-2/3">
+                        <div className="flex flex-col gap-8 mt-16">
+                          <p className="text-sm">Servizi</p>
+                          <SheetClose asChild>
+                            <Link
+                              href="/servizi/prenotazioni"
+                              className="menu-link"
+                            >
+                              Prenotazioni
+                            </Link>
+                          </SheetClose>
+                          <SheetClose asChild>
+                            <Link
+                              href="/servizi/calendario"
+                              className="menu-link"
+                            >
+                              Calendario lezioni
+                            </Link>
+                          </SheetClose>
+                          <SheetClose asChild>
+                            <Link
+                              href="/servizi/pacchetti"
+                              className="menu-link"
+                            >
+                              Pacchetti a crediti
+                            </Link>
+                          </SheetClose>
+                          <SheetClose asChild>
+                            <Link
+                              href="/servizi/sito-su-misura"
+                              className="menu-link"
+                            >
+                              Sito su misura
+                            </Link>
+                          </SheetClose>
+                          <SheetClose asChild>
+                            <Link
+                              href="/servizi/servizi-aggiuntivi"
+                              className="menu-link"
+                            >
+                              Servizi aggiuntivi
+                            </Link>
+                          </SheetClose>
+                        </div>
+                      </div>
+                      <div className="grow">
+                        <div className="flex flex-col gap-8 mt-16">
+                          <p className="text-sm">Risorse</p>
+                          <SheetClose asChild>
+                            <Link href="/blog" className="menu-link">
+                              Blog
+                            </Link>
+                          </SheetClose>
+                          <SheetClose asChild>
+                            <Link href="/roadmap" className="menu-link">
+                              Roadmap
+                            </Link>
+                          </SheetClose>
+                        </div>
+                        <div className="flex flex-col gap-8 mt-8">
+                          <p className="text-sm">Classifit</p>
+                          <SheetClose asChild>
+                            <Link href="/studi" className="menu-link">
+                              Studi
+                            </Link>
+                          </SheetClose>
+                          <SheetClose asChild>
+                            <Link href="/aiuto" className="menu-link">
+                              Aiuto
+                            </Link>
+                          </SheetClose>
+                        </div>
                       </div>
                     </div>
-                    <div className="grow">
-                      <div className="flex flex-col gap-8 mt-16">
-                        <p className="text-sm">Risorse</p>
-                        <SheetClose asChild>
-                          <Link href="/blog" className="menu-link">
-                            Blog
-                          </Link>
-                        </SheetClose>
-                        <SheetClose asChild>
-                          <Link href="/roadmap" className="menu-link">
-                            Roadmap
-                          </Link>
-                        </SheetClose>
-                      </div>
-                      <div className="flex flex-col gap-8 mt-8">
-                        <p className="text-sm">Classifit</p>
-                        <SheetClose asChild>
-                          <Link href="/studi" className="menu-link">
-                            Studi
-                          </Link>
-                        </SheetClose>
-                        <SheetClose asChild>
-                          <Link href="/aiuto" className="menu-link">
-                            Aiuto
-                          </Link>
-                        </SheetClose>
-                      </div>
-                    </div>
-                  </div>
-                </SheetDescription>
-              </SheetHeader>
-            </SheetContent>
-          </Sheet>
+                  </SheetDescription>
+                </SheetHeader>
+              </SheetContent>
+            </Sheet>
+          </div>
         </div>
       </nav>
     </>
