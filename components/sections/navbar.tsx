@@ -210,11 +210,7 @@ export default function Navbar() {
       </nav>
 
       {/* // Mobile */}
-      <nav
-        className={`fixed w-full bg-primary text-primary-foreground z-50 ${
-          scrolledUpwoards ? "translate-y-0" : "-translate-y-24"
-        } transition-all duration-300 ease-in-out`}
-      >
+      <nav className="bg-primary text-primary-foreground">
         <div
           className={`flex lg:hidden items-center justify-between max-w-[1280px] px-6 ${
             isTopScrolled ? "py-6" : "py-4"
