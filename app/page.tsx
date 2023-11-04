@@ -7,7 +7,7 @@ import Portfolio from "@/components/sections/portfolio";
 
 export const metadata: Metadata = {
   title:
-    "Siti web, prenotazioni, gestionale per studio di Pilates e Yoga · Classifit",
+    "Siti web, prenotazioni, gestionale per studio di Pilates · Classifit",
   description:
     "Come tuoi partner digitali, miglioriamo la gestione del tuo studio così che tu possa concentrarti su ciò che ami di più: insegnare e ispirare.",
 };
