@@ -33,6 +33,11 @@ export default function RootLayout({
           gtag('config', 'G-K5BCRCHP85');
         `}
         </Script>
+        <Script
+          id="cookieyes"
+          type="text/javascript"
+          src="https://cdn-cookieyes.com/client_data/e65e08f9954f75984d70ecce/script.js"
+        />
       </body>
     </html>
   );
