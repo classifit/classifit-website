@@ -6,7 +6,7 @@ import ServiceCard from "@/components/ui/service-card";
 
 export const metadata: Metadata = {
   title:
-    "Pacchetti a crediti - Gestisci i pacchetti del tuo studio con il gestionale per studio di Pilates o Yoga",
+    "Pacchetti a crediti · Gestionale per studio di Pilates",
   description:
     "Monitora con facilità tutti i pacchetti acquistati e tieni traccia del saldo residuo di crediti e della data di scadenza per ciascun cliente.",
 };

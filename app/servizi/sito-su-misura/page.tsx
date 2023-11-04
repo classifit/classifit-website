@@ -6,7 +6,7 @@ import ServiceCard from "@/components/ui/service-card";
 
 export const metadata: Metadata = {
   title:
-    "Sito Web su misura - Progettazione di un sito web su misura per studio di Pilates o Yoga",
+    "Sito su misura · Gestionale per studio di Pilates",
   description:
     "Potenzia la tua presenza online e distingui il tuo marchio con un sito web bello e funzionale, su misura per l'identità del tuo studio.",
 };

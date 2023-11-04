@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title:
-    "Blog - Dietro le quinte della costruzione del gestionale per studio di Pilates o Yoga",
+    "Blog · Dietro le quinte del gestionale per studio di Pilates",
   description:
     "Dietro le quinte di Classifit - Gestionale per studio di Pilates o Yoga",
 };

@@ -6,7 +6,7 @@ import ServiceCard from "@/components/ui/service-card";
 
 export const metadata: Metadata = {
   title:
-    "Servizi aggiuntivi - Branding, Graphic Design, Social Media Marketing, materiali promozionali per studio di Pilates o Yoga",
+    "Servizi aggiuntivi · Gestionale per studio di Pilates",
   description:
     "Branding, Graphic Design, Social Media Marketing, materiali promozionali: creiamo insieme tutto il necessario per il successo del tuo studio.",
 };

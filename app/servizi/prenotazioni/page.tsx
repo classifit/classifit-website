@@ -6,7 +6,7 @@ import ServiceCard from "@/components/ui/service-card";
 
 export const metadata: Metadata = {
   title:
-    "Prenotazioni online - Flusso di prenotazione online alle lezioni per i clienti del tuo studio di Pilates o Yoga",
+    "Prenotazioni online · Gestionale per studio di Pilates",
   description:
     "Offri la possibilità di prenotarsi alle tue lezioni in completa autonomia attraverso un intuitivo e semplice flusso di prenotazione.",
 };

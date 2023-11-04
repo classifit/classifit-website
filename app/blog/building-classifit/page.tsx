@@ -3,7 +3,7 @@ import ArticleTitle from "@/components/sections/articles/article-title";
 
 export const metadata: Metadata = {
   title:
-    "Building Classifit - Come e perché uno sviluppatore e una designer hanno deciso di costruire un gestionale per studi di Pilates o Yoga",
+    "Building Classifit · Gestionale per studio di Pilates",
   description:
     "Come e perché uno sviluppatore e una designer hanno deciso di costruire un gestionale per studi di Pilates o Yoga",
 };

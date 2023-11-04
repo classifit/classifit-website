@@ -6,7 +6,7 @@ import ServiceCard from "@/components/ui/service-card";
 
 export const metadata: Metadata = {
   title:
-    "Calendario lezioni - Gestisci le lezioni del tuo studio con il gestionale per studio di Pilates o Yoga",
+    "Calendario lezioni · Gestionale per studio di Pilates",
   description:
     "Pianifica le lezioni in programma nel tuo calendario personale per garantire una giornata senza intoppi e massimizzare i tuoi guadagni.",
 };

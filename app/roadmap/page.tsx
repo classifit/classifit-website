@@ -11,7 +11,7 @@ import {
 
 export const metadata: Metadata = {
   title:
-    "Roadmap - Le funzionalità su cui stiamo lavorando per il gestionale di studi di Pilates o Yoga",
+    "Roadmap · Funzionalità del gestionale per studio di Pilates",
   description:
     "Una lista delle attività in programma e su cui stiamo lavorando attivamente per il gestionale di studi di Pilates o Yoga",
 };
