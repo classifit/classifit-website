@@ -16,8 +16,7 @@ export default function Studios() {
     <>
       <PageTitle subtitle="studi" title="Sei in buona compagnia" />
       <Paragraph
-        cta
-        ctaText="Vai al sito"
+        cta={false}
         subtitle
         subtitleText="In evidenza"
         title="InFLOWer Pilates Studio"
