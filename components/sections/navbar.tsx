@@ -210,11 +210,7 @@ export default function Navbar() {
 
       {/* // Mobile */}
       <nav className="bg-primary text-primary-foreground">
-        <div
-          className={`flex lg:hidden items-center justify-between max-w-[1280px] px-6 ${
-            isTopScrolled ? "py-6" : "py-4"
-          } mx-auto transition-all duration-300 ease-in-out`}
-        >
+        <div className="flex lg:hidden items-center justify-between max-w-[1280px] px-6 py-6 mx-auto">
           <Link
             href="/"
             className="hover:opacity-80 transition-opacity duration-200 ease-in-out"
@@ -237,20 +233,22 @@ export default function Navbar() {
               </SheetTrigger>
               <SheetContent>
                 <SheetHeader>
-                  <Link
-                    href="/"
-                    className="hover:opacity-80 transition-opacity duration-200 ease-in-out"
-                  >
-                    <Image
-                      src="/classifit.svg"
-                      width="101"
-                      height="24"
-                      alt="Logo orizzontale di Classifit"
-                      priority
-                    />
-                  </Link>
+                  <SheetClose asChild>
+                    <Link
+                      href="/"
+                      className="hover:opacity-80 transition-opacity duration-200 ease-in-out"
+                    >
+                      <Image
+                        src="/classifit.svg"
+                        width="101"
+                        height="24"
+                        alt="Logo orizzontale di Classifit"
+                        priority
+                      />
+                    </Link>
+                  </SheetClose>
                   <SheetDescription>
-                    <div className="flex flex-col gap-6 mt-16">
+                    <div className="flex flex-col gap-4 mt-20">
                       <Link href="mailto:classifit.studio@gmail.com">
                         Contattaci
                       </Link>
@@ -258,12 +256,11 @@ export default function Navbar() {
                     </div>
                     <div className="flex">
                       <div className="w-2/3">
-                        <div className="flex flex-col gap-8 mt-16">
-                          <p className="text-sm">Servizi</p>
+                        <div className="flex flex-col gap-6 mt-20">
                           <SheetClose asChild>
                             <Link
                               href="/servizi/prenotazioni"
-                              className="menu-link"
+                              className="text-base"
                             >
                               Prenotazioni
                             </Link>
@@ -271,7 +268,7 @@ export default function Navbar() {
                           <SheetClose asChild>
                             <Link
                               href="/servizi/calendario"
-                              className="menu-link"
+                              className="text-base"
                             >
                               Calendario lezioni
                             </Link>
@@ -279,7 +276,7 @@ export default function Navbar() {
                           <SheetClose asChild>
                             <Link
                               href="/servizi/pacchetti"
-                              className="menu-link"
+                              className="text-base"
                             >
                               Pacchetti a crediti
                             </Link>
@@ -287,7 +284,7 @@ export default function Navbar() {
                           <SheetClose asChild>
                             <Link
                               href="/servizi/sito-su-misura"
-                              className="menu-link"
+                              className="text-base"
                             >
                               Sito su misura
                             </Link>
@@ -295,7 +292,7 @@ export default function Navbar() {
                           <SheetClose asChild>
                             <Link
                               href="/servizi/servizi-aggiuntivi"
-                              className="menu-link"
+                              className="text-base"
                             >
                               Servizi aggiuntivi
                             </Link>
@@ -303,33 +300,40 @@ export default function Navbar() {
                         </div>
                       </div>
                       <div className="grow">
-                        <div className="flex flex-col gap-8 mt-16">
-                          <p className="text-sm">Risorse</p>
+                        <div className="flex flex-col gap-6 mt-20">
                           <SheetClose asChild>
-                            <Link href="/blog" className="menu-link">
-                              Blog
-                            </Link>
-                          </SheetClose>
-                          <SheetClose asChild>
-                            <Link href="/roadmap" className="menu-link">
-                              Roadmap
-                            </Link>
-                          </SheetClose>
-                        </div>
-                        <div className="flex flex-col gap-8 mt-8">
-                          <p className="text-sm">Classifit</p>
-                          <SheetClose asChild>
-                            <Link href="/studi" className="menu-link">
+                            <Link href="/studi" className="text-base">
                               Studi
                             </Link>
                           </SheetClose>
                           <SheetClose asChild>
-                            <Link href="/aiuto" className="menu-link">
+                            <Link href="/blog" className="text-base">
+                              Blog
+                            </Link>
+                          </SheetClose>
+                          <SheetClose asChild>
+                            <Link href="/roadmap" className="text-base">
+                              Roadmap
+                            </Link>
+                          </SheetClose>
+                          <SheetClose asChild>
+                            <Link href="/aiuto" className="text-base">
                               Aiuto
                             </Link>
                           </SheetClose>
                         </div>
                       </div>
+                    </div>
+                    <div className="mt-20">
+                      <SheetClose asChild>
+                        <Link
+                          href="https://www.instagram.com/app.classi.fit/"
+                          className="text-base"
+                          target="_blank"
+                        >
+                          @app.classi.fit
+                        </Link>
+                      </SheetClose>
                     </div>
                   </SheetDescription>
                 </SheetHeader>
