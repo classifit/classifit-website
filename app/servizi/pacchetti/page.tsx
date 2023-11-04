@@ -35,7 +35,7 @@ export default function PackagesPage() {
           </div>
           <div className="col-span-12 lg:col-span-6">
             <ServiceCard
-              title="Tieni traccia dell'utilizzo dei pacchetti"
+              title="Tieni traccia dell&apos;utilizzo dei pacchetti"
               description="Per ogni cliente visualizza i pacchetti attivi, quante lezioni sono state utilizzate e la data di scadenza."
             />
           </div>

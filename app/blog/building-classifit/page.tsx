@@ -107,7 +107,7 @@ export default function Article() {
             </p>
             <hr className="my-16" />
             <h2 className="font-medium">
-              Perché non c'è ancora una soluzione?
+              Perché non c&apos;è ancora una soluzione?
             </h2>
             <div className="py-6" />
             <p className="leading-8">

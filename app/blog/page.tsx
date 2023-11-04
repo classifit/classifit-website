@@ -32,8 +32,8 @@ export default function Blog() {
                     Building Classifit
                   </h3>
                   <p className="text-muted-foreground text-base">
-                    Come e perché uno sviluppatore e una designer hanno deciso
-                    di costruire Classifit
+                    Perché uno sviluppatore e una designer hanno deciso
+                    di costruire un gestionale per studi di pilates
                   </p>
                 </div>
               </Link>

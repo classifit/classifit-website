@@ -5,8 +5,8 @@ export default function ArticleTitle() {
         <h1 className="text-4xl lg:text-7xl font-medium">Building Classifit</h1>
         <div className="py-4" />
         <p className="text-white/60 lg:w-1/2">
-          Come e perché uno sviluppatore e una designer hanno deciso di
-          costruire Classifit
+          Perché uno sviluppatore e una designer hanno deciso di
+          costruire un gestionale per studi di pilates
         </p>
         <div className="py-6 lg:py-10" />
         <div className="flex justify-between items-center text-white/60">
