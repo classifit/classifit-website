@@ -107,4 +107,8 @@
   ::selection {
     @apply bg-ring text-dark
   }
+
+  .cky-btn-revisit-wrapper {
+    @apply hidden
+  }
 }
