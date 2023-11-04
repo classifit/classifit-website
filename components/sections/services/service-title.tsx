@@ -16,12 +16,12 @@ export default function ServiceTitle(props: Props) {
     <div className="bg-primary text-primary-foreground">
       <div className="px-6 lg:px-12 py-20 lg:pb-36 lg:pt-40 max-w-[1280px] mx-auto">
         <div className="lg:flex justify-between items-center gap-32">
-          <div className="w-full lg:w-1/2">
+          <div className="w-full md:w-3/4 lg:w-1/2">
             <p className="uppercase text-white/60 text-sm font-medium">
               {props.subtitle}
             </p>
             <div className="py-3" />
-            <h1 className="text-4xl lg:text-7xl font-medium leading-[1.1]">
+            <h1 className="text-5xl lg:text-7xl font-medium leading-[1.1]">
               {props.title}
             </h1>
             <div className="py-4" />
@@ -35,7 +35,7 @@ export default function ServiceTitle(props: Props) {
             </Link>
           </div>
           <div
-            className={`lg:flex items-center justify-center lg:h-[650px] p-16 w-full lg:w-1/2 mt-16 lg:mt-0 rounded-[6px] ${props.bgColor}`}
+            className={`flex items-center justify-center lg:h-[650px] p-16 w-full lg:w-1/2 mt-16 lg:mt-0 rounded-[6px] ${props.bgColor}`}
           >
             <Image
               src={props.image}

@@ -13,7 +13,7 @@ type Props = {
 
 export default function DoubleImages(props: Props) {
   return (
-    <div className="lg:flex overflow-x-hidden">
+    <div className="md:flex overflow-x-hidden">
       <div
         className={`h-[500px] lg:h-[750px] w-full lg:w-1/2 ${props.bgColor1} flex items-center jutify-center py-10`}
       >
