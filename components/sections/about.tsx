@@ -22,7 +22,7 @@ export default function About(props: Props) {
           </div>
         </div>
         <div className="w-full lg:w-1/2 mt-16 lg:mt-0">
-          <h1 className="font-medium">{props.title}</h1>
+          <p className="font-medium text-4xl leading-tight">{props.title}</p>
           <div className="py-4" />
           <p className="text-muted-foreground">{props.body}</p>
           <div className="py-10" />

@@ -23,7 +23,7 @@ export default function Paragraph(props: Props) {
                 {props.subtitleText}
               </div>
             )}
-            <h1 className="font-medium">{props.title}</h1>
+            <p className="font-medium text-4xl leading-tight">{props.title}</p>
           </div>
           {props.cta ? (
             <Button variant="default" className="mt-10 lg:mt-0">

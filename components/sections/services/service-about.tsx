@@ -11,9 +11,9 @@ export default function ServiceAbout(props: Props) {
           {props.subtitle}
         </p>
         <div className="py-4" />
-        <h1>
+        <p className="text-4xl leading-tight">
           {props.title}
-        </h1>
+        </p>
       </div>
     </div>
   );

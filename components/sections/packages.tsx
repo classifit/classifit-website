@@ -61,7 +61,7 @@ export default function Packages() {
         </div>
         <div className="lg:flex items-center justify-between mt-24 lg:mt-36 gap-12">
           <div className="w-full lg:w-4/5">
-            <h1 className="font-medium">La nostra garanzia ci rende unici</h1>
+            <p className="font-medium text-4xl leading-tight">La nostra garanzia ci rende unici</p>
             <div className="py-2" />
             <p className="text-white/60">
               La tua soddisfazione è la nostra priorità. Ecco perché in tutti i

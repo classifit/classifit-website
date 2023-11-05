@@ -182,7 +182,7 @@ export default function Article() {
               />
             </div>
             <hr className="my-16" />
-            <h1 className="font-medium">Vuoi maggiori informazioni?</h1>
+            <p className="font-medium text-4xl leading-tight">Vuoi maggiori informazioni?</p>
             <div className="py-6" />
             <Link href="mailto:classifit.studio@gmail.com">
               <Button variant="default">
