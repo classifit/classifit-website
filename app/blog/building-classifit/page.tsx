@@ -145,7 +145,7 @@ export default function Article() {
               moderno sistema di gestione che risolve i problemi attuali del
               settore. Vogliamo lavorare a stretto contatto con te per fornirti
               una piattaforma che semplifichi la tua vita da istruttore, offra
-              un servizio clienti impeccabili e ti distingua dagli altri studi:
+              un servizio clienti impeccabile e ti distingua dagli altri studi:
               creiamo siti web personalizzati con servizi di prenotazione online
               e un’area riservata per i tuoi clienti, e offriamo un gestionale
               intuitivo e su misura per i bisogni di uno studio di pilates.
