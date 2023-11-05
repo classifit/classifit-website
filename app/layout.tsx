@@ -33,10 +33,22 @@ export default function RootLayout({
           gtag('config', 'G-K5BCRCHP85');
         `}
         </Script>
+
+        <Script type="text/javascript">
+          {`
+          var _iub = _iub || [];
+          _iub.csConfiguration = {"askConsentAtCookiePolicyUpdate":true,"cookiePolicyInOtherWindow":true,"floatingPreferencesButtonCaptionColor":"#FFFFFF00","floatingPreferencesButtonColor":"#FFFFFF","floatingPreferencesButtonDisplay":"anchored-bottom-right","perPurposeConsent":true,"siteId":3181733,"whitelabel":false,"cookiePolicyId":40888749,"lang":"it", "banner":{ "acceptButtonDisplay":true,"closeButtonRejects":true,"customizeButtonDisplay":true,"explicitWithdrawal":true,"listPurposes":true,"position":"float-bottom-right" }};
+        `}
+        </Script>
         <Script
-          id="cookieyes"
           type="text/javascript"
-          src="https://cdn-cookieyes.com/client_data/e65e08f9954f75984d70ecce/script.js"
+          src="https://cs.iubenda.com/autoblocking/3181733.js"
+        />
+        <Script
+          type="text/javascript"
+          src="//cdn.iubenda.com/cs/iubenda_cs.js"
+          charSet="UTF-8"
+          async
         />
       </body>
     </html>
