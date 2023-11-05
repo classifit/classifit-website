@@ -107,8 +107,4 @@
   ::selection {
     @apply bg-ring text-dark
   }
-
-  .iubenda-tp-alert-btn:not([data-tp-nostyle]), .iubenda-tp-btn:not([data-tp-nostyle]), .iubenda-uspr-btn:not([data-tp-nostyle]) {
-    @apply !opacity-0 !hidden !invisible
-  }
 }
