@@ -5,10 +5,19 @@ import ServiceTitle from "@/components/sections/services/service-title";
 import ServiceCard from "@/components/ui/service-card";
 
 export const metadata: Metadata = {
-  title:
-    "Servizi aggiuntivi · Gestionale per studio di Pilates",
+  title: "Servizi aggiuntivi · Gestionale per studio di Pilates",
   description:
     "Branding, Graphic Design, Social Media Marketing, materiali promozionali: creiamo insieme tutto il necessario per il successo del tuo studio.",
+  alternates: {
+    canonical: "https://www.classi.fit/servizi/servizi-aggiuntivi",
+  },
+  openGraph: {
+    title: "Servizi aggiuntivi · Gestionale per studio di Pilates",
+    description:
+      "Branding, Graphic Design, Social Media Marketing, materiali promozionali: creiamo insieme tutto il necessario per il successo del tuo studio.",
+    type: "website",
+    url: "https://www.classi.fit/servizi/servizi-aggiuntivi",
+  },
 };
 
 export default function AdditionalServices() {
@@ -30,7 +39,7 @@ export default function AdditionalServices() {
           <div className="col-span-12 lg:col-span-6">
             <ServiceCard
               title="Logo e branding"
-              description="Progettiamo il logo e l&apos;identità che esprimono a pieno il carattere del tuo studio."
+              description="Progettiamo il logo e l'identità che esprimono a pieno il carattere del tuo studio."
             />
           </div>
           <div className="col-span-12 lg:col-span-6">
@@ -42,7 +51,7 @@ export default function AdditionalServices() {
           <div className="col-span-12 lg:col-span-6">
             <ServiceCard
               title="Post social"
-              description="Creiamo la grafica per i post delle tue piattaforme social, in linea con l&apos;identità del tuo studio."
+              description="Creiamo la grafica per i post delle tue piattaforme social, in linea con l'identità del tuo studio."
             />
           </div>
         </div>

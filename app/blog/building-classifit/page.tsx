@@ -9,6 +9,16 @@ export const metadata: Metadata = {
   title: "Building Classifit · Gestionale per studio di Pilates",
   description:
     "Come e perché uno sviluppatore e una designer hanno deciso di costruire un gestionale per studi di Pilates o Yoga",
+  alternates: {
+    canonical: "https://www.classi.fit/blog/building-classifit",
+  },
+  openGraph: {
+    title: "Building Classifit · Gestionale per studio di Pilates",
+    description:
+      "Come e perché uno sviluppatore e una designer hanno deciso di costruire un gestionale per studi di Pilates o Yoga",
+    type: "article",
+    url: "https://www.classi.fit/blog/building-classifit",
+  },
 };
 
 export default function Article() {

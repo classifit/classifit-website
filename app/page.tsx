@@ -10,6 +10,15 @@ export const metadata: Metadata = {
     "Siti web, prenotazioni, gestionale per studio di Pilates · Classifit",
   description:
     "Come tuoi partner digitali, miglioriamo la gestione del tuo studio così che tu possa concentrarti su ciò che ami di più: insegnare e ispirare.",
+  alternates: {
+    canonical: 'https://www.classi.fit/'
+  },
+  openGraph: {
+    title: "Siti web, prenotazioni, gestionale per studio di Pilates · Classifit",
+    description: "Come tuoi partner digitali, miglioriamo la gestione del tuo studio così che tu possa concentrarti su ciò che ami di più: insegnare e ispirare.",
+    type: "website",
+    url: "https://www.classi.fit/"
+  }
 };
 
 export default function Home() {

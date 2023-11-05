@@ -5,10 +5,19 @@ import Image from "next/image";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title:
-    "Blog · Dietro le quinte del gestionale per studio di Pilates",
+  title: "Blog · Dietro le quinte del gestionale per studio di Pilates",
   description:
     "Dietro le quinte di Classifit - Gestionale per studio di Pilates o Yoga",
+  alternates: {
+    canonical: "https://www.classi.fit/blog",
+  },
+  openGraph: {
+    title: "Blog · Dietro le quinte del gestionale per studio di Pilates",
+    description:
+      "Dietro le quinte di Classifit - Gestionale per studio di Pilates o Yoga",
+    type: "website",
+    url: "https://www.classi.fit/blog",
+  },
 };
 
 export default function Blog() {
@@ -32,8 +41,8 @@ export default function Blog() {
                     Building Classifit
                   </h3>
                   <p className="text-muted-foreground text-base">
-                    Perché uno sviluppatore e una designer hanno deciso
-                    di costruire un gestionale per studi di pilates
+                    Perché uno sviluppatore e una designer hanno deciso di
+                    costruire un gestionale per studi di pilates
                   </p>
                 </div>
               </Link>

@@ -5,10 +5,19 @@ import ServiceTitle from "@/components/sections/services/service-title";
 import ServiceCard from "@/components/ui/service-card";
 
 export const metadata: Metadata = {
-  title:
-    "Prenotazioni online · Gestionale per studio di Pilates",
+  title: "Prenotazioni online · Gestionale per studio di Pilates",
   description:
     "Offri la possibilità di prenotarsi alle tue lezioni in completa autonomia attraverso un intuitivo e semplice flusso di prenotazione.",
+  alternates: {
+    canonical: "https://www.classi.fit/servizi/prenotazioni",
+  },
+  openGraph: {
+    title: "Prenotazioni online · Gestionale per studio di Pilates",
+    description:
+      "Offri la possibilità di prenotarsi alle tue lezioni in completa autonomia attraverso un intuitivo e semplice flusso di prenotazione.",
+    type: "website",
+    url: "https://www.classi.fit/servizi/prenotazioni",
+  },
 };
 
 export default function Bookings() {

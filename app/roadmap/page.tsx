@@ -10,10 +10,19 @@ import {
 } from "@/components/ui/accordion";
 
 export const metadata: Metadata = {
-  title:
-    "Roadmap · Funzionalità del gestionale per studio di Pilates",
+  title: "Roadmap · Funzionalità del gestionale per studio di Pilates",
   description:
     "Una lista delle attività in programma e su cui stiamo lavorando attivamente per il gestionale di studi di Pilates o Yoga",
+  alternates: {
+    canonical: "https://www.classi.fit/roadmap",
+  },
+  openGraph: {
+    title: "Roadmap · Funzionalità del gestionale per studio di Pilates",
+    description:
+      "Una lista delle attività in programma e su cui stiamo lavorando attivamente per il gestionale di studi di Pilates o Yoga",
+    type: "website",
+    url: "https://www.classi.fit/roadmap",
+  },
 };
 
 export default function Roadmap() {

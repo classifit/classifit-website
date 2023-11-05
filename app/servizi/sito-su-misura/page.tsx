@@ -5,10 +5,19 @@ import ServiceTitle from "@/components/sections/services/service-title";
 import ServiceCard from "@/components/ui/service-card";
 
 export const metadata: Metadata = {
-  title:
-    "Sito su misura · Gestionale per studio di Pilates",
+  title: "Sito su misura · Gestionale per studio di Pilates",
   description:
     "Potenzia la tua presenza online e distingui il tuo marchio con un sito web bello e funzionale, su misura per l'identità del tuo studio.",
+  alternates: {
+    canonical: "https://www.classi.fit/servizi/sito-su-misura",
+  },
+  openGraph: {
+    title: "Sito su misura · Gestionale per studio di Pilates",
+    description:
+      "Potenzia la tua presenza online e distingui il tuo marchio con un sito web bello e funzionale, su misura per l'identità del tuo studio.",
+    type: "website",
+    url: "https://www.classi.fit/servizi/sito-su-misura",
+  },
 };
 
 export default function Website() {

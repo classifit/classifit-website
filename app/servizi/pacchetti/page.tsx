@@ -5,10 +5,19 @@ import ServiceTitle from "@/components/sections/services/service-title";
 import ServiceCard from "@/components/ui/service-card";
 
 export const metadata: Metadata = {
-  title:
-    "Pacchetti a crediti · Gestionale per studio di Pilates",
+  title: "Pacchetti a crediti · Gestionale per studio di Pilates",
   description:
     "Monitora con facilità tutti i pacchetti acquistati e tieni traccia del saldo residuo di crediti e della data di scadenza per ciascun cliente.",
+  alternates: {
+    canonical: "https://www.classi.fit/servizi/pacchetti",
+  },
+  openGraph: {
+    title: "Pacchetti a crediti · Gestionale per studio di Pilates",
+    description:
+      "Monitora con facilità tutti i pacchetti acquistati e tieni traccia del saldo residuo di crediti e della data di scadenza per ciascun cliente.",
+    type: "website",
+    url: "https://www.classi.fit/servizi/pacchetti",
+  },
 };
 
 export default function PackagesPage() {
@@ -35,7 +44,7 @@ export default function PackagesPage() {
           </div>
           <div className="col-span-12 lg:col-span-6">
             <ServiceCard
-              title="Tieni traccia dell&apos;utilizzo dei pacchetti"
+              title="Tieni traccia dell'utilizzo dei pacchetti"
               description="Per ogni cliente visualizza i pacchetti attivi, quante lezioni sono state utilizzate e la data di scadenza."
             />
           </div>

@@ -5,10 +5,19 @@ import ServiceTitle from "@/components/sections/services/service-title";
 import ServiceCard from "@/components/ui/service-card";
 
 export const metadata: Metadata = {
-  title:
-    "Calendario lezioni · Gestionale per studio di Pilates",
+  title: "Calendario lezioni · Gestionale per studio di Pilates",
   description:
     "Pianifica le lezioni in programma nel tuo calendario personale per garantire una giornata senza intoppi e massimizzare i tuoi guadagni.",
+  alternates: {
+    canonical: "https://www.classi.fit/servizi/calendario",
+  },
+  openGraph: {
+    title: "Calendario lezioni · Gestionale per studio di Pilates",
+    description:
+      "Pianifica le lezioni in programma nel tuo calendario personale per garantire una giornata senza intoppi e massimizzare i tuoi guadagni.",
+    type: "website",
+    url: "https://www.classi.fit/servizi/calendario",
+  },
 };
 
 export default function Calendar() {

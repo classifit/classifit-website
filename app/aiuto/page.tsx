@@ -15,6 +15,16 @@ export const metadata: Metadata = {
     "Aiuto · Domande e risposte sul gestionale per studio di Pilates",
   description:
     "Trova le risposte ai dubbi sul gestionale di studi di Pilates o Yoga, oppure contattaci via email o Instagram",
+    alternates: {
+      canonical: "https://www.classi.fit/aiuto",
+    },
+    openGraph: {
+      title: "Aiuto · Domande e risposte sul gestionale per studio di Pilates",
+      description:
+        "Trova le risposte ai dubbi sul gestionale di studi di Pilates o Yoga, oppure contattaci via email o Instagram",
+      type: "website",
+      url: "https://www.classi.fit/aiuto",
+    },
 };
 
 export default function Help() {

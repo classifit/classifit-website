@@ -5,10 +5,19 @@ import Paragraph from "@/components/sections/paragraph";
 import Portfolio from "@/components/sections/portfolio";
 
 export const metadata: Metadata = {
-  title:
-    "Studi · Gli studi di Pilates con cui abbiamo collaborato",
+  title: "Studi · Gli studi di Pilates con cui abbiamo collaborato",
   description:
     "Una lista di tutti i progetti e tutti gli studi di Pilates o Yoga con cui abbiamo collaborato",
+  alternates: {
+    canonical: "https://www.classi.fit/studi",
+  },
+  openGraph: {
+    title: "Studi · Gli studi di Pilates con cui abbiamo collaborato",
+    description:
+      "Una lista di tutti i progetti e tutti gli studi di Pilates o Yoga con cui abbiamo collaborato",
+    type: "website",
+    url: "https://www.classi.fit/studi",
+  },
 };
 
 export default function Studios() {
