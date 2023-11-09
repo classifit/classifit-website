@@ -21,7 +21,7 @@ export default function ServiceTitle(props: Props) {
               {props.subtitle}
             </p>
             <div className="py-3" />
-            <h1 className="text-5xl lg:text-7xl font-medium leading-[1.1]">
+            <h1 className="text-5xl lg:text-7xl font-medium leading-[1.1] overflow-y-hidden">
               {props.title}
             </h1>
             <div className="py-4" />
