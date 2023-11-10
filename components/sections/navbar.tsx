@@ -212,7 +212,9 @@ export default function Navbar() {
           scrolledUpwoards ? "translate-y-0" : "-translate-y-24"
         } transition-all duration-300 ease-in-out`}
       >
-        <div className="flex lg:hidden items-center justify-between max-w-[1280px] px-6 py-6 mx-auto">
+        <div className={`flex lg:hidden items-center justify-between max-w-[1280px] px-6 mx-auto ${
+            isTopScrolled ? "py-6" : "py-4"
+          } mx-auto transition-all duration-300 ease-in-out`}>
           <Link
             href="/"
             className="hover:opacity-80 transition-opacity duration-200 ease-in-out"
