@@ -40,7 +40,9 @@ export default function Navbar() {
     let prevScrollPos = window.scrollY;
     window.addEventListener("scroll", function () {
       const currentScrollPos = window.scrollY;
-      setScrolledUpwoards(prevScrollPos >= currentScrollPos || currentScrollPos <= 10);
+      setScrolledUpwoards(
+        prevScrollPos >= currentScrollPos || currentScrollPos <= 10
+      );
       prevScrollPos = currentScrollPos;
     });
   });
@@ -205,7 +207,11 @@ export default function Navbar() {
       </nav>
 
       {/* // Mobile */}
-      <nav className="bg-primary text-primary-foreground">
+      <nav
+        className={`fixed w-full bg-primary text-primary-foreground z-50 ${
+          scrolledUpwoards ? "translate-y-0" : "-translate-y-24"
+        } transition-all duration-300 ease-in-out`}
+      >
         <div className="flex lg:hidden items-center justify-between max-w-[1280px] px-6 py-6 mx-auto">
           <Link
             href="/"

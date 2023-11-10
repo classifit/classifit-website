@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function Hero() {
   return (
-    <div className="max-w-[1280px] px-6 lg:px-12 py-20 lg:pt-48 lg:pb-36 mx-auto bg-primary text-primary-foreground">
+    <div className="max-w-[1280px] px-6 lg:px-12 pt-36 pb-20 lg:pt-48 lg:pb-36 mx-auto bg-primary text-primary-foreground">
       <div className="md:w-3/4">
         <h1 className="text-5xl lg:text-7xl font-medium overflow-y-hidden">
           Porta il tuo studio al prossimo livello
