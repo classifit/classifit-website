@@ -39,19 +39,25 @@ export default function Website() {
           <div className="col-span-12 lg:col-span-6">
             <ServiceCard
               title="Creiamo insieme il design perfetto per te"
-              description="Dopo la creazione della grafica del sito web, potrai esaminarla e condividere i tuoi feedback con noi."
+              description="Color palette, caratteri tipografici, contenuti. Progettiamo insieme tutto ciò che rende tuo il tuo sito."
             />
           </div>
           <div className="col-span-12 lg:col-span-6">
             <ServiceCard
-              title="Modifica in autonomia i contenuti"
+              title="Sviluppo veloce e performante"
+              description="Sviluppiamo il tuo sito con le migliori tecnologie, in meno di qualche giorno."
+            />
+          </div>
+          <div className="col-span-12 lg:col-span-6">
+            <ServiceCard
+              title="Modifica in autonomia i tuoi contenuti"
               description="Hai delle nuove fotografie? Non devi dipendere da noi per fare delle modifiche ai contenuti del tuo sito."
             />
           </div>
           <div className="col-span-12 lg:col-span-6">
             <ServiceCard
-              title="Calendario pubblico e prenotazioni online"
-              description='Solo con il pacchetto "Sito web + Gestionale", viene integrato nel sito il calendario pubblico con il sistema di prenotazione online.'
+              title="Integrazione con il servizio di prenotazione"
+              description='Se presente nel tuo pacchetto, viene integrato nel sito il calendario pubblico con il sistema di prenotazione online.'
             />
           </div>
         </div>
