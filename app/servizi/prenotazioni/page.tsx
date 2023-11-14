@@ -31,27 +31,27 @@ export default function Bookings() {
         image="/services/booking/prenotazioni-cover.png"
       />
       <ServiceAbout
-        subtitle="Sistema di prenotazione"
-        title="Tramite il flusso di prenotazione online i tuoi clienti possono selezionare le lezioni che preferiscono dal calendario e prenotarsi in autonomia, riducendo il tuo tempo di gestione degli iscritti a zero."
+        subtitle="Sistema di prenotazione e area riservata"
+        title="Tramite il flusso di prenotazione online i tuoi clienti possono selezionare le lezioni che preferiscono dal calendario e prenotarsi in autonomia, riducendo il tempo di gestione degli iscritti a zero."
       />
       <div className="bg-light text-light-foreground">
         <div className="px-6 lg:px-12 max-w-[1280px] mx-auto pt-10 pb-24 lg:pb-36 grid grid-cols-12 gap-4">
-          <div className="col-span-12 lg:col-span-6">
-            <ServiceCard
-              title="Inserisci i dettagli delle tue lezioni"
-              description="Personalizza data, orario, numero massimo di iscritti, luogo e termini di cancellazione."
-            />
-          </div>
-          <div className="col-span-12 lg:col-span-6">
-            <ServiceCard
-              title="Monitora gli iscritti ad una lezione"
-              description="Visualizza gli iscritti alla prossima lezione in qualunque momento tramite il nostro gestionale."
-            />
-          </div>
-          <div className="col-span-12 lg:col-span-6">
+        <div className="col-span-12 lg:col-span-6">
             <ServiceCard
               title="Offri un servizio clienti impeccabile"
+              description="Aumenta il valore del tuo studio offrendo ai tuoi clienti una piattaforma di gestione online personale."
+            />
+          </div>
+          <div className="col-span-12 lg:col-span-6">
+            <ServiceCard
+              title="Account e area riservata"
               description="Per i tuoi clienti è presente un'area personale in cui è possibile monitorare le iscrizioni e i pacchetti attivi."
+            />
+          </div>
+          <div className="col-span-12 lg:col-span-6">
+            <ServiceCard
+              title="Sincronizzazione automatica"
+              description="Clienti, lezioni e iscritti sono sincronizzati automaticamente con il tuo gestionale."
             />
           </div>
           <div className="col-span-12 lg:col-span-6">
