@@ -18,6 +18,7 @@ import {
   Pencil2Icon,
   RocketIcon,
   HamburgerMenuIcon,
+  CodeIcon,
 } from "@radix-ui/react-icons";
 import {
   Sheet,
@@ -126,6 +127,12 @@ export default function Navbar() {
                   <DropdownMenuItem className="group cursor-pointer">
                     <DesktopIcon className="mr-3 h-4 w-4 text-muted-foreground group-hover:text-accent-foreground" />
                     Sito su misura
+                  </DropdownMenuItem>
+                </Link>
+                <Link href="/servizi/supporto-tecnico">
+                  <DropdownMenuItem className="group cursor-pointer">
+                    <CodeIcon className="mr-3 h-4 w-4 text-muted-foreground group-hover:text-accent-foreground" />
+                    Supporto Tecnico
                   </DropdownMenuItem>
                 </Link>
                 <Link href="/servizi/servizi-aggiuntivi">
@@ -291,6 +298,14 @@ export default function Navbar() {
                               className="text-base"
                             >
                               Sito su misura
+                            </Link>
+                          </SheetClose>
+                          <SheetClose asChild>
+                            <Link
+                              href="/servizi/supporto-tecnico"
+                              className="text-base"
+                            >
+                              Supporto tecnico
                             </Link>
                           </SheetClose>
                           <SheetClose asChild>

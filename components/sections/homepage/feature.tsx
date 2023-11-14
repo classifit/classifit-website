@@ -72,6 +72,19 @@ export default function Feature() {
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-5" onClick={() => setActive("item-5")}>
+              <AccordionTrigger>Supporto tecnico</AccordionTrigger>
+              <AccordionContent>
+                Lascia fare a noi: digitalizziamo o trasferiamo i tuoi dati
+                attuali, e ti affianchiamo durante tutta l&apos;implementazione dei
+                nuovi servizi. <br />
+                <Link href="/servizi/supporto-tecnico">
+                  <Button variant="link" size="zero" className="mt-6">
+                    Scopri come <ArrowRightIcon className="ml-3 h-4 w-4" />
+                  </Button>
+                </Link>
+              </AccordionContent>
+            </AccordionItem>
+            <AccordionItem value="item-6" onClick={() => setActive("item-6")}>
               <AccordionTrigger>Servizi aggiuntivi</AccordionTrigger>
               <AccordionContent>
                 Branding, Graphic Design, Social Media Marketing, materiali
@@ -144,8 +157,22 @@ export default function Feature() {
             </div>
           </div>
           <div
-            className={`bg-ring h-full w-1/2 absolute top-0 right-0 transition-opacity duration-300 ${
+            className={`bg-dark h-full w-1/2 absolute top-0 right-0 transition-opacity duration-300 ${
               active == "item-5" ? "opacity-100" : "opacity-0"
+            }`}
+          >
+            <div className="flex items-center justify-center h-full w-full">
+              <Image
+                src="/services/support/cover-supporto-tecnico.png"
+                width="450"
+                height="630"
+                alt="Supporto tecnico per il trasferimento o la digitalizzazione dei dati del tuo studio di pilates"
+              />
+            </div>
+          </div>
+          <div
+            className={`bg-ring h-full w-1/2 absolute top-0 right-0 transition-opacity duration-300 ${
+              active == "item-6" ? "opacity-100" : "opacity-0"
             }`}
           >
             <div className="flex items-center justify-center h-full w-full">
@@ -255,6 +282,29 @@ export default function Feature() {
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-5">
+            <AccordionTrigger>Supporto tecnico</AccordionTrigger>
+            <AccordionContent>
+              Lascia fare a noi: digitalizziamo o trasferiamo i tuoi dati
+              attuali, e ti affianchiamo durante tutta l&apos;implementazione
+              dei nuovi servizi.
+              <div className="py-6" />
+              <Link href="/servizi/supporto-tecnico">
+                <Button variant="default">
+                  Scopri come <ArrowRightIcon className="ml-3 h-4 w-4" />
+                </Button>
+              </Link>
+              <div className="py-6" />
+              <div className="bg-dark flex items-center justify-center py-12 px-6">
+                <Image
+                  src="/services/support/cover-supporto-tecnico.png"
+                  width="450"
+                  height="562"
+                  alt="Supporto tecnico per il trasferimento o la digitalizzazione dei dati del tuo studio di pilates"
+                />
+              </div>
+            </AccordionContent>
+          </AccordionItem>
+          <AccordionItem value="item-6">
             <AccordionTrigger>Servizi aggiuntivi</AccordionTrigger>
             <AccordionContent>
               Branding, Graphic Design, Social Media Marketing, materiali
