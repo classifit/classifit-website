@@ -42,14 +42,14 @@ export default function Footer() {
             <Link className="menu-link" href="/servizi/prenotazioni">
               Prenotazioni
             </Link>
-            <Link className="menu-link" href="/servizi/calendario">
-              Calendario lezioni
-            </Link>
-            <Link className="menu-link" href="/servizi/pacchetti">
-              Pacchetti a crediti
+            <Link className="menu-link" href="/servizi/gestionale">
+              Gestionale
             </Link>
             <Link className="menu-link" href="/servizi/sito-su-misura">
               Sito su misura
+            </Link>
+            <Link className="menu-link" href="/servizi/supporto-tecnico">
+              Supporto tecnico
             </Link>
             <Link className="menu-link" href="/servizi/servizi-aggiuntivi">
               Servizi aggiuntivi

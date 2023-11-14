@@ -33,12 +33,12 @@ export default function Feature() {
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-2" onClick={() => setActive("item-2")}>
-              <AccordionTrigger>Calendario lezioni</AccordionTrigger>
+              <AccordionTrigger>Gestionale</AccordionTrigger>
               <AccordionContent>
-                Pianifica le lezioni in programma nel tuo calendario personale
-                per garantire una giornata senza intoppi e massimizzare i tuoi
-                guadagni. <br />
-                <Link href="/servizi/calendario">
+                Tieni sotto controllo tutto ciò che riguarda il tuo studio con
+                il portale web che ti permette di gestire clienti, lezioni,
+                iscritti e pacchetti. <br />
+                <Link href="/servizi/gestionale">
                   <Button variant="link" size="zero" className="mt-6">
                     Scopri come <ArrowRightIcon className="ml-3 h-4 w-4" />
                   </Button>
@@ -46,19 +46,6 @@ export default function Feature() {
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-3" onClick={() => setActive("item-3")}>
-              <AccordionTrigger>Pacchetti a crediti</AccordionTrigger>
-              <AccordionContent>
-                Monitora con facilità tutti i pacchetti acquistati e tieni
-                traccia del saldo residuo di crediti e della data di scadenza
-                per ciascun cliente. <br />
-                <Link href="/servizi/pacchetti">
-                  <Button variant="link" size="zero" className="mt-6">
-                    Scopri come <ArrowRightIcon className="ml-3 h-4 w-4" />
-                  </Button>
-                </Link>
-              </AccordionContent>
-            </AccordionItem>
-            <AccordionItem value="item-4" onClick={() => setActive("item-4")}>
               <AccordionTrigger>Sito su misura</AccordionTrigger>
               <AccordionContent>
                 Potenzia la tua presenza online e distingui il tuo marchio con
@@ -71,12 +58,12 @@ export default function Feature() {
                 </Link>
               </AccordionContent>
             </AccordionItem>
-            <AccordionItem value="item-5" onClick={() => setActive("item-5")}>
+            <AccordionItem value="item-4" onClick={() => setActive("item-4")}>
               <AccordionTrigger>Supporto tecnico</AccordionTrigger>
               <AccordionContent>
                 Lascia fare a noi: digitalizziamo o trasferiamo i tuoi dati
-                attuali, e ti affianchiamo durante tutta l&apos;implementazione dei
-                nuovi servizi. <br />
+                attuali, e ti affianchiamo durante tutta l&apos;implementazione
+                dei nuovi servizi. <br />
                 <Link href="/servizi/supporto-tecnico">
                   <Button variant="link" size="zero" className="mt-6">
                     Scopri come <ArrowRightIcon className="ml-3 h-4 w-4" />
@@ -84,7 +71,7 @@ export default function Feature() {
                 </Link>
               </AccordionContent>
             </AccordionItem>
-            <AccordionItem value="item-6" onClick={() => setActive("item-6")}>
+            <AccordionItem value="item-5" onClick={() => setActive("item-5")}>
               <AccordionTrigger>Servizi aggiuntivi</AccordionTrigger>
               <AccordionContent>
                 Branding, Graphic Design, Social Media Marketing, materiali
@@ -115,36 +102,22 @@ export default function Feature() {
             </div>
           </div>
           <div
-            className={`bg-dark h-full w-1/2 absolute top-0 right-0 transition-opacity duration-300 ${
+            className={`bg-[#6058E7] h-full w-1/2 absolute top-0 right-0 transition-opacity duration-300 ${
               active == "item-2" ? "opacity-100" : "opacity-0"
             }`}
           >
             <div className="flex items-center justify-center h-full w-full">
               <Image
-                src="/services/calendar/lezioni-calendario-cover.png"
+                src="/services/erp/erp-cover.png"
                 width="450"
                 height="630"
-                alt="Gestione delle lezioni tramite una comoda vista a calendario"
-              />
-            </div>
-          </div>
-          <div
-            className={`bg-[#6058E7] h-full w-1/2 absolute top-0 right-0 transition-opacity duration-300 ${
-              active == "item-3" ? "opacity-100" : "opacity-0"
-            }`}
-          >
-            <div className="flex items-center justify-center h-full w-full">
-              <Image
-                src="/services/packages/pacchetti-cover.png"
-                width="450"
-                height="630"
-                alt="Gestione dei pacchetti a crediti per ogni cliente, con dettaglio dei crediti residui e data di scadenza"
+                alt="Tieni sotto controllo tutto ciò che riguarda il tuo studio con il portale web che ti permette di gestire clienti, lezioni, iscritti e pacchetti."
               />
             </div>
           </div>
           <div
             className={`bg-card h-full w-1/2 absolute top-0 right-0 transition-opacity duration-300 ${
-              active == "item-4" ? "opacity-100" : "opacity-0"
+              active == "item-3" ? "opacity-100" : "opacity-0"
             }`}
           >
             <div className="flex items-center justify-center h-full w-full">
@@ -158,7 +131,7 @@ export default function Feature() {
           </div>
           <div
             className={`bg-dark h-full w-1/2 absolute top-0 right-0 transition-opacity duration-300 ${
-              active == "item-5" ? "opacity-100" : "opacity-0"
+              active == "item-4" ? "opacity-100" : "opacity-0"
             }`}
           >
             <div className="flex items-center justify-center h-full w-full">
@@ -172,7 +145,7 @@ export default function Feature() {
           </div>
           <div
             className={`bg-ring h-full w-1/2 absolute top-0 right-0 transition-opacity duration-300 ${
-              active == "item-6" ? "opacity-100" : "opacity-0"
+              active == "item-5" ? "opacity-100" : "opacity-0"
             }`}
           >
             <div className="flex items-center justify-center h-full w-full">
@@ -213,36 +186,13 @@ export default function Feature() {
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-2">
-            <AccordionTrigger>Calendario lezioni</AccordionTrigger>
+            <AccordionTrigger>Gestionale</AccordionTrigger>
             <AccordionContent>
-              Pianifica le lezioni in programma nel tuo calendario personale per
-              garantire una giornata senza intoppi e massimizzare i tuoi
-              guadagni.
+              Tieni sotto controllo tutto ciò che riguarda il tuo studio con il
+              portale web che ti permette di gestire clienti, lezioni, iscritti
+              e pacchetti.
               <div className="py-6" />
-              <Link href="/servizi/calendario">
-                <Button variant="default">
-                  Scopri come <ArrowRightIcon className="ml-3 h-4 w-4" />
-                </Button>
-              </Link>
-              <div className="py-6" />
-              <div className="bg-dark flex items-center justify-center py-12 px-6">
-                <Image
-                  src="/services/calendar/lezioni-calendario-cover.png"
-                  width="450"
-                  height="562"
-                  alt="Gestione delle lezioni tramite una comoda vista a calendario"
-                />
-              </div>
-            </AccordionContent>
-          </AccordionItem>
-          <AccordionItem value="item-3">
-            <AccordionTrigger>Pacchetti a crediti</AccordionTrigger>
-            <AccordionContent>
-              Monitora con facilità tutti i pacchetti acquistati e tieni traccia
-              del saldo residuo di crediti e della data di scadenza per ciascun
-              cliente.
-              <div className="py-6" />
-              <Link href="/servizi/pacchetti">
+              <Link href="/servizi/gestionale">
                 <Button variant="default">
                   Scopri come <ArrowRightIcon className="ml-3 h-4 w-4" />
                 </Button>
@@ -250,15 +200,15 @@ export default function Feature() {
               <div className="py-6" />
               <div className="bg-[#6058E7] flex items-center justify-center py-12 px-6">
                 <Image
-                  src="/services/packages/pacchetti-cover.png"
+                  src="/services/erp/erp-cover.png"
                   width="450"
                   height="562"
-                  alt="Gestione dei pacchetti a crediti per ogni cliente, con dettaglio dei crediti residui e data di scadenza"
+                  alt="Tieni sotto controllo tutto ciò che riguarda il tuo studio con il portale web che ti permette di gestire clienti, lezioni, iscritti e pacchetti."
                 />
               </div>
             </AccordionContent>
           </AccordionItem>
-          <AccordionItem value="item-4">
+          <AccordionItem value="item-3">
             <AccordionTrigger>Sito su misura</AccordionTrigger>
             <AccordionContent>
               Potenzia la tua presenza online e distingui il tuo marchio con un
@@ -281,7 +231,7 @@ export default function Feature() {
               </div>
             </AccordionContent>
           </AccordionItem>
-          <AccordionItem value="item-5">
+          <AccordionItem value="item-4">
             <AccordionTrigger>Supporto tecnico</AccordionTrigger>
             <AccordionContent>
               Lascia fare a noi: digitalizziamo o trasferiamo i tuoi dati
@@ -304,7 +254,7 @@ export default function Feature() {
               </div>
             </AccordionContent>
           </AccordionItem>
-          <AccordionItem value="item-6">
+          <AccordionItem value="item-5">
             <AccordionTrigger>Servizi aggiuntivi</AccordionTrigger>
             <AccordionContent>
               Branding, Graphic Design, Social Media Marketing, materiali

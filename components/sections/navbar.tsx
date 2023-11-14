@@ -8,10 +8,8 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 import {
-  CalendarIcon,
   DesktopIcon,
   TimerIcon,
-  ArchiveIcon,
   StarIcon,
   ArrowRightIcon,
   ChevronDownIcon,
@@ -19,6 +17,7 @@ import {
   RocketIcon,
   HamburgerMenuIcon,
   CodeIcon,
+  CardStackIcon,
 } from "@radix-ui/react-icons";
 import {
   Sheet,
@@ -111,16 +110,10 @@ export default function Navbar() {
                     Prenotazioni
                   </DropdownMenuItem>
                 </Link>
-                <Link href="/servizi/calendario">
+                <Link href="/servizi/gestionale">
                   <DropdownMenuItem className="group cursor-pointer">
-                    <CalendarIcon className="mr-3 h-4 w-4 text-muted-foreground group-hover:text-accent-foreground" />
-                    Calendario lezioni
-                  </DropdownMenuItem>
-                </Link>
-                <Link href="/servizi/pacchetti">
-                  <DropdownMenuItem className="group cursor-pointer">
-                    <ArchiveIcon className="mr-3 h-4 w-4 text-muted-foreground group-hover:text-accent-foreground" />
-                    Pacchetti a crediti
+                    <CardStackIcon className="mr-3 h-4 w-4 text-muted-foreground group-hover:text-accent-foreground" />
+                    Gestionale
                   </DropdownMenuItem>
                 </Link>
                 <Link href="/servizi/sito-su-misura">
@@ -219,9 +212,11 @@ export default function Navbar() {
           scrolledUpwoards ? "translate-y-0" : "-translate-y-24"
         } transition-all duration-300 ease-in-out`}
       >
-        <div className={`flex lg:hidden items-center justify-between max-w-[1280px] px-6 mx-auto ${
+        <div
+          className={`flex lg:hidden items-center justify-between max-w-[1280px] px-6 mx-auto ${
             isTopScrolled ? "py-6" : "py-4"
-          } mx-auto transition-all duration-300 ease-in-out`}>
+          } mx-auto transition-all duration-300 ease-in-out`}
+        >
           <Link
             href="/"
             className="hover:opacity-80 transition-opacity duration-200 ease-in-out"
@@ -278,18 +273,10 @@ export default function Navbar() {
                           </SheetClose>
                           <SheetClose asChild>
                             <Link
-                              href="/servizi/calendario"
+                              href="/servizi/gestionale"
                               className="text-base"
                             >
-                              Calendario lezioni
-                            </Link>
-                          </SheetClose>
-                          <SheetClose asChild>
-                            <Link
-                              href="/servizi/pacchetti"
-                              className="text-base"
-                            >
-                              Pacchetti a crediti
+                              Gestionale
                             </Link>
                           </SheetClose>
                           <SheetClose asChild>
