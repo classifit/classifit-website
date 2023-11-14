@@ -11,20 +11,19 @@ import {
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title:
-    "Aiuto · Domande e risposte sul gestionale per studio di Pilates",
+  title: "Aiuto · Domande e risposte sul gestionale per studio di Pilates",
   description:
     "Trova le risposte ai dubbi sul gestionale di studi di Pilates o Yoga, oppure contattaci via email o Instagram",
-    alternates: {
-      canonical: "https://www.classi.fit/aiuto",
-    },
-    openGraph: {
-      title: "Aiuto · Domande e risposte sul gestionale per studio di Pilates",
-      description:
-        "Trova le risposte ai dubbi sul gestionale di studi di Pilates o Yoga, oppure contattaci via email o Instagram",
-      type: "website",
-      url: "https://www.classi.fit/aiuto",
-    },
+  alternates: {
+    canonical: "https://www.classi.fit/aiuto",
+  },
+  openGraph: {
+    title: "Aiuto · Domande e risposte sul gestionale per studio di Pilates",
+    description:
+      "Trova le risposte ai dubbi sul gestionale di studi di Pilates o Yoga, oppure contattaci via email o Instagram",
+    type: "website",
+    url: "https://www.classi.fit/aiuto",
+  },
 };
 
 export default function Help() {
@@ -94,9 +93,9 @@ export default function Help() {
             <AccordionItem value="item-5">
               <AccordionTrigger>E se ho già un sito web?</AccordionTrigger>
               <AccordionContent>
-                Con il nostro Pacchetto Gestionale puoi comunque usufruire della
-                piattaforma di gestione e - se lo desideri - delle prenotazioni
-                online integrando il calendario Classifit nel tuo sito web.
+                Puoi comunque usufruire del nostro gestionale e - se lo desideri
+                - delle prenotazioni online integrando il calendario Classifit
+                nel tuo sito web già esistente.
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-6">
@@ -112,7 +111,7 @@ export default function Help() {
               <AccordionTrigger>Come posso iniziare?</AccordionTrigger>
               <AccordionContent>
                 Contattaci via&nbsp;
-                 <Link
+                <Link
                   href="mailto:classifit.studio@gmail.com"
                   className="text-primary hover:underline"
                 >

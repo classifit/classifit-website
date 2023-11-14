@@ -70,7 +70,6 @@ export default function Website() {
         bgColor2="bg-card"
         image2="/services/website/website-img-2.png"
         alt2="Sito web su misura per il tuo studio"
-        marginRight="lg:ml-[10rem]"
       />
     </>
   );
