@@ -15,19 +15,19 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.9,
     },
     {
-      url: 'https://www.classi.fit/servizi/calendario',
-      lastModified: new Date(),
-      changeFrequency: 'monthly',
-      priority: 0.9,
-    },
-    {
-      url: 'https://www.classi.fit/servizi/pacchetti',
+      url: 'https://www.classi.fit/servizi/gestionale',
       lastModified: new Date(),
       changeFrequency: 'monthly',
       priority: 0.9,
     },
     {
       url: 'https://www.classi.fit/servizi/sito-su-misura',
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.9,
+    },
+    {
+      url: 'https://www.classi.fit/servizi/supporto-tecnico',
       lastModified: new Date(),
       changeFrequency: 'monthly',
       priority: 0.9,
