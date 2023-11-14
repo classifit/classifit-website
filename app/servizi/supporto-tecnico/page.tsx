@@ -7,14 +7,14 @@ import ServiceCard from "@/components/ui/service-card";
 export const metadata: Metadata = {
   title: "Supporto tecnico · Gestionale per studio di Pilates",
   description:
-    "Potenzia la tua presenza online e distingui il tuo marchio con un sito web bello e funzionale, su misura per l'identità del tuo studio.",
+    "Lascia fare a noi: digitalizziamo o trasferiamo i tuoi dati attuali, e ti affianchiamo durante tutta l'implementazione dei nuovi servizi.",
   alternates: {
     canonical: "https://www.classi.fit/servizi/supporto-tecnico",
   },
   openGraph: {
     title: "Supporto tecnico · Gestionale per studio di Pilates",
     description:
-      "Potenzia la tua presenza online e distingui il tuo marchio con un sito web bello e funzionale, su misura per l'identità del tuo studio.",
+      "Lascia fare a noi: digitalizziamo o trasferiamo i tuoi dati attuali, e ti affianchiamo durante tutta l'implementazione dei nuovi servizi.",
     type: "website",
     url: "https://www.classi.fit/servizi/supporto-tecnico",
   },
