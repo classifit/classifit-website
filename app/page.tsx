@@ -7,14 +7,14 @@ import Portfolio from "@/components/sections/portfolio";
 
 export const metadata: Metadata = {
   title:
-    "Siti web, prenotazioni, gestionale per studio di Pilates · Classifit",
+    "Gestionale per studi di Pilates, prenotazioni, siti web · Classifit",
   description:
     "Come tuoi partner digitali, miglioriamo la gestione del tuo studio così che tu possa concentrarti su ciò che ami di più: insegnare e ispirare.",
   alternates: {
     canonical: 'https://www.classi.fit/'
   },
   openGraph: {
-    title: "Siti web, prenotazioni, gestionale per studio di Pilates · Classifit",
+    title: "Gestionale per studi di Pilates, prenotazioni, siti web · Classifit",
     description: "Come tuoi partner digitali, miglioriamo la gestione del tuo studio così che tu possa concentrarti su ciò che ami di più: insegnare e ispirare.",
     type: "website",
     url: "https://www.classi.fit/"
