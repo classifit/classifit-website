@@ -11,8 +11,8 @@ export default function Hero() {
         </h1>
         <div className="py-4" />
         <p className="lg:w-2/3">
-          Siti web su misura, prenotazioni online, gestionale per studi di
-          pilates. Come tuoi partner digitali, miglioriamo la gestione del tuo
+          Gestionale per studi di pilates, prenotazioni online, siti web su
+          misura. Come tuoi partner digitali, miglioriamo la gestione del tuo
           studio così che tu possa concentrarti su ciò che ami di più: insegnare
           e ispirare.
         </p>
