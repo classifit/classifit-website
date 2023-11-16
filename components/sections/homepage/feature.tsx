@@ -20,12 +20,12 @@ export default function Feature() {
         <div className="w-1/2">
           <Accordion type="single" collapsible defaultValue="item-1">
             <AccordionItem value="item-1" onClick={() => setActive("item-1")}>
-              <AccordionTrigger>Prenotazioni</AccordionTrigger>
+              <AccordionTrigger>Gestionale</AccordionTrigger>
               <AccordionContent>
-                Offri ai tuoi clienti la possibilità di prenotarsi alle lezioni
-                in completa autonomia attraverso un intuitivo e semplice sistema
-                di prenotazione. <br />
-                <Link href="/servizi/prenotazioni">
+                Tieni sotto controllo tutto ciò che riguarda il tuo studio con
+                il portale web che ti permette di gestire clienti, lezioni,
+                iscritti e pacchetti. <br />
+                <Link href="/servizi/gestionale">
                   <Button variant="link" size="zero" className="mt-6">
                     Scopri come <ArrowRightIcon className="ml-3 h-4 w-4" />
                   </Button>
@@ -33,12 +33,12 @@ export default function Feature() {
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-2" onClick={() => setActive("item-2")}>
-              <AccordionTrigger>Gestionale</AccordionTrigger>
+              <AccordionTrigger>Prenotazioni</AccordionTrigger>
               <AccordionContent>
-                Tieni sotto controllo tutto ciò che riguarda il tuo studio con
-                il portale web che ti permette di gestire clienti, lezioni,
-                iscritti e pacchetti. <br />
-                <Link href="/servizi/gestionale">
+                Offri ai tuoi clienti la possibilità di prenotarsi alle lezioni
+                in completa autonomia attraverso un intuitivo e semplice sistema
+                di prenotazione. <br />
+                <Link href="/servizi/prenotazioni">
                   <Button variant="link" size="zero" className="mt-6">
                     Scopri come <ArrowRightIcon className="ml-3 h-4 w-4" />
                   </Button>
@@ -94,10 +94,10 @@ export default function Feature() {
           >
             <div className="flex items-center justify-center h-full w-full">
               <Image
-                src="/services/booking/prenotazioni-cover.png"
+                src="/services/erp/erp-cover.png"
                 width="450"
                 height="630"
-                alt="Sistema di prenotazioni online per le lezioni del tuo studio"
+                alt="Tieni sotto controllo tutto ciò che riguarda il tuo studio con il portale web che ti permette di gestire clienti, lezioni, iscritti e pacchetti."
               />
             </div>
           </div>
@@ -108,10 +108,10 @@ export default function Feature() {
           >
             <div className="flex items-center justify-center h-full w-full">
               <Image
-                src="/services/erp/erp-cover.png"
+                src="/services/booking/prenotazioni-cover.png"
                 width="450"
                 height="630"
-                alt="Tieni sotto controllo tutto ciò che riguarda il tuo studio con il portale web che ti permette di gestire clienti, lezioni, iscritti e pacchetti."
+                alt="Sistema di prenotazioni online per le lezioni del tuo studio"
               />
             </div>
           </div>
@@ -163,29 +163,6 @@ export default function Feature() {
       <section className="block lg:hidden">
         <Accordion type="single" collapsible defaultValue="item-1">
           <AccordionItem value="item-1">
-            <AccordionTrigger>Prenotazioni</AccordionTrigger>
-            <AccordionContent>
-              Offri ai tuoi clienti la possibilità di prenotarsi alle lezioni in
-              completa autonomia attraverso un intuitivo e semplice sistema di
-              prenotazione.
-              <div className="py-6" />
-              <Link href="/servizi/prenotazioni">
-                <Button variant="default">
-                  Scopri come <ArrowRightIcon className="ml-3 h-4 w-4" />
-                </Button>
-              </Link>
-              <div className="py-6" />
-              <div className="bg-secondary flex items-center justify-center py-12 px-6">
-                <Image
-                  src="/services/booking/prenotazioni-cover.png"
-                  width="450"
-                  height="562"
-                  alt="Sistema di prenotazioni online per le lezioni del tuo studio"
-                />
-              </div>
-            </AccordionContent>
-          </AccordionItem>
-          <AccordionItem value="item-2">
             <AccordionTrigger>Gestionale</AccordionTrigger>
             <AccordionContent>
               Tieni sotto controllo tutto ciò che riguarda il tuo studio con il
@@ -198,12 +175,35 @@ export default function Feature() {
                 </Button>
               </Link>
               <div className="py-6" />
-              <div className="bg-[#6058E7] flex items-center justify-center py-12 px-6">
+              <div className="bg-secondary flex items-center justify-center py-12 px-6">
                 <Image
                   src="/services/erp/erp-cover.png"
                   width="450"
                   height="562"
                   alt="Tieni sotto controllo tutto ciò che riguarda il tuo studio con il portale web che ti permette di gestire clienti, lezioni, iscritti e pacchetti."
+                />
+              </div>
+            </AccordionContent>
+          </AccordionItem>
+          <AccordionItem value="item-2">
+            <AccordionTrigger>Prenotazioni</AccordionTrigger>
+            <AccordionContent>
+              Offri ai tuoi clienti la possibilità di prenotarsi alle lezioni in
+              completa autonomia attraverso un intuitivo e semplice sistema di
+              prenotazione.
+              <div className="py-6" />
+              <Link href="/servizi/prenotazioni">
+                <Button variant="default">
+                  Scopri come <ArrowRightIcon className="ml-3 h-4 w-4" />
+                </Button>
+              </Link>
+              <div className="py-6" />
+              <div className="bg-[#6058E7] flex items-center justify-center py-12 px-6">
+                <Image
+                  src="/services/booking/prenotazioni-cover.png"
+                  width="450"
+                  height="562"
+                  alt="Sistema di prenotazioni online per le lezioni del tuo studio"
                 />
               </div>
             </AccordionContent>

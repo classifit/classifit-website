@@ -27,7 +27,7 @@ export default function Bookings() {
         subtitle="Prenotazioni"
         title="Sistema di prenotazione online per i tuoi clienti"
         description="Offri la possibilità di prenotarsi alle tue lezioni in completa autonomia attraverso un intuitivo e semplice flusso di prenotazione."
-        bgColor="bg-secondary"
+        bgColor="bg-[#6058E7]"
         image="/services/booking/prenotazioni-cover.png"
       />
       <ServiceAbout

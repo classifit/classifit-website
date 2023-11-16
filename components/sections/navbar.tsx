@@ -104,16 +104,16 @@ export default function Navbar() {
                 <ChevronDownIcon className="ml-1 h-4 w-4" />
               </DropdownMenuTrigger>
               <DropdownMenuContent className="mt-1">
-                <Link href="/servizi/prenotazioni">
-                  <DropdownMenuItem className="group cursor-pointer">
-                    <TimerIcon className="mr-3 h-4 w-4 text-muted-foreground group-hover:text-accent-foreground" />
-                    Prenotazioni
-                  </DropdownMenuItem>
-                </Link>
                 <Link href="/servizi/gestionale">
                   <DropdownMenuItem className="group cursor-pointer">
                     <CardStackIcon className="mr-3 h-4 w-4 text-muted-foreground group-hover:text-accent-foreground" />
                     Gestionale
+                  </DropdownMenuItem>
+                </Link>
+                <Link href="/servizi/prenotazioni">
+                  <DropdownMenuItem className="group cursor-pointer">
+                    <TimerIcon className="mr-3 h-4 w-4 text-muted-foreground group-hover:text-accent-foreground" />
+                    Prenotazioni
                   </DropdownMenuItem>
                 </Link>
                 <Link href="/servizi/sito-su-misura">
@@ -265,18 +265,18 @@ export default function Navbar() {
                         <div className="flex flex-col gap-6 mt-20">
                           <SheetClose asChild>
                             <Link
-                              href="/servizi/prenotazioni"
-                              className="text-base"
-                            >
-                              Prenotazioni
-                            </Link>
-                          </SheetClose>
-                          <SheetClose asChild>
-                            <Link
                               href="/servizi/gestionale"
                               className="text-base"
                             >
                               Gestionale
+                            </Link>
+                          </SheetClose>
+                          <SheetClose asChild>
+                            <Link
+                              href="/servizi/prenotazioni"
+                              className="text-base"
+                            >
+                              Prenotazioni
                             </Link>
                           </SheetClose>
                           <SheetClose asChild>

@@ -39,11 +39,11 @@ export default function Footer() {
           </div>
           <div className="flex flex-col gap-6 mt-16 lg:mt-0">
             <p className="text-sm">Servizi</p>
-            <Link className="menu-link" href="/servizi/prenotazioni">
-              Prenotazioni
-            </Link>
             <Link className="menu-link" href="/servizi/gestionale">
               Gestionale
+            </Link>
+            <Link className="menu-link" href="/servizi/prenotazioni">
+              Prenotazioni
             </Link>
             <Link className="menu-link" href="/servizi/sito-su-misura">
               Sito su misura

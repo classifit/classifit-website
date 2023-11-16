@@ -27,12 +27,12 @@ export default function Erp() {
         subtitle="Gestionale"
         title="Gestione complessa - Resa semplice"
         description="Tieni sotto controllo tutto ciò che riguarda il tuo studio con il portale web che ti permette di gestire clienti, lezioni, iscritti e pacchetti."
-        bgColor="bg-[#6058E7]"
+        bgColor="bg-secondary"
         image="/services/erp/erp-cover.png"
       />
       <ServiceAbout
         subtitle="Il tuo portale web personale"
-        title="Organizza le tue lezioni, monitora gli iscritti alle lezioni e i relativi pacchetti attivi, tieni sotto controllo gli acquisti. Tutte le informazioni del tuo studio sono a portata di click."
+        title="Organizza le tue lezioni, monitora gli iscritti e i relativi pacchetti attivi, tieni sotto controllo gli acquisti. Tutte le informazioni del tuo studio sono a portata di click."
       />
       <div className="bg-light text-light-foreground">
         <div className="px-6 lg:px-12 max-w-[1280px] mx-auto pt-10 pb-24 lg:pb-36 grid grid-cols-12 gap-4">
