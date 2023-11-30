@@ -11,6 +11,8 @@ type Props = {
   cta2?: string;
   cta2Link?: string;
   img?: string;
+  imgBg?: string;
+  textBg?: string;
 };
 
 export default function TextAndImage(props: Props) {
@@ -19,7 +21,9 @@ export default function TextAndImage(props: Props) {
       <div className="lg:flex max-w-[1280px] px-6 lg:px-12 py-24 lg:py-[200px] mx-auto gap-60">
         <div className="w-full lg:w-1/2 flex items-center justify-center">
           <div
-            className={`bg-secondary lg:absolute w-full lg:w-1/2 h-full top-0 ${
+            className={`${
+              props.imgBg ? props.imgBg : "bg-secondary"
+            } lg:absolute w-full lg:w-1/2 h-full top-0 ${
               props.imgRight ? "right-0" : "left-0"
             } flex items-center justify-center`}
           >
