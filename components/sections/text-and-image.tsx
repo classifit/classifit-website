@@ -11,13 +11,20 @@ type Props = {
   cta2?: string;
   cta2Link?: string;
   img?: string;
+  imgWidth?: number;
+  imgHeight?: number;
   imgBg?: string;
   textBg?: string;
+  textColor?: string;
 };
 
 export default function TextAndImage(props: Props) {
   return (
-    <div className="bg-card text-dark relative">
+    <div
+      className={`${props.textBg ? props.textBg : "bg-card"} ${
+        props.textColor ? props.textColor : "text-dark"
+      } relative`}
+    >
       <div className="lg:flex max-w-[1280px] px-6 lg:px-12 py-24 lg:py-[200px] mx-auto gap-60">
         <div className="w-full lg:w-1/2 flex items-center justify-center">
           <div
@@ -30,8 +37,8 @@ export default function TextAndImage(props: Props) {
             {props.img ? (
               <Image
                 src={props.img}
-                width="418"
-                height="427"
+                width={`${props.imgWidth ? props.imgWidth : "418"}`}
+                height={`${props.imgHeight ? props.imgHeight : "427"}`}
                 alt="Gestionale e siti web per studi di pilates"
               />
             ) : (

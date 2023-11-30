@@ -4,6 +4,7 @@ import Hero from "@/components/sections/homepage/hero";
 import Packages from "@/components/sections/packages";
 import Portfolio from "@/components/sections/portfolio";
 import TextAndImage from "@/components/sections/text-and-image";
+import Guarantee from "@/components/sections/guarantee";
 
 export const metadata: Metadata = {
   title: "Gestionale per studi di Pilates, prenotazioni, siti web · Classifit",
@@ -35,11 +36,18 @@ export default function Home() {
         cta2="Come funziona per clienti"
         cta2Link="#"
         imgRight={false}
+        imgWidth={550}
       />
       <Feature />
       <Packages />
-      <Portfolio cta={true} />
       <TextAndImage
+        title="Lavoriamo a stretto contatto"
+        body="Siamo fantastici"
+        imgRight={false}
+      />
+      <Guarantee />
+      <Portfolio cta={true} />
+      {/* <TextAndImage
         title="È un piacere conoscerti"
         body="Siamo Federico e Chiara. Uno sviluppatore e una designer di Brescia
             che si incontrano e - quasi inevitabilmente - decidono di creare
@@ -47,8 +55,8 @@ export default function Home() {
             settore, il nostro obiettivo principale è portare valore,
             competenza, qualità e semplicità in ogni studio con cui abbiamo
             l’onore di collaborare."
-        imgRight={false}
-      />
+        imgRight
+      /> */}
     </>
   );
 }
