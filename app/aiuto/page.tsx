@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import About from "@/components/sections/about";
 import PageTitle from "@/components/sections/page-title";
 import Paragraph from "@/components/sections/paragraph";
 import {
@@ -9,6 +8,7 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import Link from "next/link";
+import TextAndImage from "@/components/sections/text-and-image";
 
 export const metadata: Metadata = {
   title: "Aiuto · Domande e risposte sul gestionale per studio di Pilates",
@@ -131,9 +131,10 @@ export default function Help() {
           </Accordion>
         </div>
       </div>
-      <About
+      <TextAndImage
         title="Hai ancora domande?"
         body="Siamo disponibili 24/24h per chiarire qualunque dubbio. Non esitare a contattarci tramite Instagram o email - Saremo felici di risponderti!"
+        imgRight={false}
       />
     </>
   );

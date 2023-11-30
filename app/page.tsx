@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
-import About from "@/components/sections/about";
 import Feature from "@/components/sections/homepage/feature";
 import Hero from "@/components/sections/homepage/hero";
 import Packages from "@/components/sections/packages";
 import Portfolio from "@/components/sections/portfolio";
+import TextAndImage from "@/components/sections/text-and-image";
 
 export const metadata: Metadata = {
   title:
@@ -28,7 +28,7 @@ export default function Home() {
       <Feature />
       <Packages />
       <Portfolio cta={true} />
-      <About
+      <TextAndImage
         title="È un piacere conoscerti"
         body="Siamo Federico e Chiara. Uno sviluppatore e una designer di Brescia
             che si incontrano e - quasi inevitabilmente - decidono di creare
@@ -36,6 +36,7 @@ export default function Home() {
             settore, il nostro obiettivo principale è portare valore,
             competenza, qualità e semplicità in ogni studio con cui abbiamo
             l’onore di collaborare."
+        imgRight={false}
       />
     </>
   );

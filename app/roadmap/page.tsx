@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import About from "@/components/sections/about";
 import PageTitle from "@/components/sections/page-title";
 import Paragraph from "@/components/sections/paragraph";
 import {
@@ -8,6 +7,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
+import TextAndImage from "@/components/sections/text-and-image";
 
 export const metadata: Metadata = {
   title: "Roadmap · Funzionalità del gestionale per studio di Pilates",
@@ -123,9 +123,10 @@ export default function Roadmap() {
           </Accordion>
         </div>
       </div>
-      <About
+      <TextAndImage
         title="Vuoi suggerire una funzionalità?"
         body="Vuoi far parte della realizzazione di Classifit? Scrivici su Instagram o via email per suggerirci funzionalità del gestionale che potrebbero esserti utili."
+        imgRight={false}
       />
     </>
   );

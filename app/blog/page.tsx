@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
-import About from "@/components/sections/about";
 import PageTitle from "@/components/sections/page-title";
 import Image from "next/image";
 import Link from "next/link";
+import TextAndImage from "@/components/sections/text-and-image";
 
 export const metadata: Metadata = {
   title: "Blog · Dietro le quinte del gestionale per studio di Pilates",
@@ -50,7 +50,7 @@ export default function Blog() {
           </div>
         </section>
       </div>
-      <About
+      <TextAndImage
         title="È un piacere conoscerti"
         body="Siamo Federico e Chiara. Uno sviluppatore e una designer di Brescia
             che si incontrano e - quasi inevitabilmente - decidono di creare
@@ -58,6 +58,7 @@ export default function Blog() {
             settore, il nostro obiettivo principale è portare valore,
             competenza, qualità e semplicità in ogni studio con cui abbiamo
             l’onore di collaborare."
+        imgRight={false}
       />
     </>
   );
