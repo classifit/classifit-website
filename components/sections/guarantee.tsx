@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Guarantee() {
   return (
     <div className="bg-dark text-dark-foreground">
-      <section>
+      <section className="pt-0">
         <div className="lg:flex items-center justify-between gap-12">
           <div className="w-full lg:w-4/5">
             <p className="font-medium text-4xl leading-tight">
