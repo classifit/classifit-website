@@ -13,6 +13,7 @@ export default function FeatureNew() {
       textColor: "text-dark",
       mutedColor: "text-muted-foreground",
       width: "w-full",
+      variant: "default"
     },
     {
       id: 2,
@@ -25,6 +26,7 @@ export default function FeatureNew() {
       textColor: "text-primary-foreground",
       mutedColor: "text-white/60",
       width: "w-full",
+      variant: "secondary"
     },
     {
       id: 3,
@@ -37,6 +39,7 @@ export default function FeatureNew() {
       textColor: "text-dark",
       mutedColor: "text-muted-foreground",
       width: "w-full",
+      variant: "default"
     },
     {
       id: 4,
@@ -48,6 +51,7 @@ export default function FeatureNew() {
       textColor: "text-dark-foreground",
       mutedColor: "text-white/60",
       width: "w-1/2",
+      variant: "default"
     },
     {
       id: 5,
@@ -59,6 +63,7 @@ export default function FeatureNew() {
       textColor: "text-dark",
       mutedColor: "text-dark/60",
       width: "w-1/2",
+      variant: "default"
     },
   ];
 

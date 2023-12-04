@@ -1,7 +1,8 @@
-import { Button } from "@/components/ui/button";
+import { Button, ButtonProps } from "@/components/ui/button";
 import { ArrowRightIcon } from "@radix-ui/react-icons";
 import Image from "next/image";
 import Link from "next/link";
+import { cva, type VariantProps } from "class-variance-authority"
 
 type Props = {
   title: string;
@@ -17,11 +18,11 @@ type Props = {
 export default function FeatureCard(props: Props) {
   return (
     <div
-      className={`${props.width} p-16 mb-4 ${props.bgColor} ${props.textColor}`}
+      className={`${props.width} p-16 mb-8 ${props.bgColor} ${props.textColor}`}
     >
       <div className="flex items-center justify-between gap-36">
         <div className={props.width === "w-full" ? "w-1/2" : ""}>
-          <h1 className="font-medium">{props.title}</h1>
+          <h2 className="font-medium">{props.title}</h2>
           <div className="py-2" />
           <p className={`${props.mutedColor}`}>{props.description}</p>
           <div className="py-8" />
